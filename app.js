@@ -378,7 +378,10 @@
   if(embedded){
     ['search-product'].forEach(id=>{$(id).innerHTML='<option value="">전체</option>'+productNames.map(p=>`<option>${p}</option>`).join('');});
     document.querySelectorAll('#customer-form select[name="product"],#quote-form select[name="product"]').forEach(el=>el.innerHTML=productNames.map(p=>`<option>${p}</option>`).join(''));
-    new ResizeObserver(()=>parent.postMessage({type:'crm-activity-height',height:document.documentElement.scrollHeight},location.origin)).observe(document.body);
+    // Measure content rather than the iframe viewport, which grows when its parent resizes it.
+    const reportContentHeight=()=>parent.postMessage({type:'crm-activity-height',height:Math.ceil(document.body.getBoundingClientRect().height)},location.origin);
+    new ResizeObserver(reportContentHeight).observe(document.body);
+    reportContentHeight();
     $('tab-forecast').addEventListener('click',()=>parent.postMessage({type:'crm-suite-route',route:'forecast-add'},location.origin));
   }
 })();
