@@ -188,7 +188,7 @@
       {date:'2026-09-25T10:00',title:'신규 도입 요구사항 확인',type:'TM',subtype:'상담',author:'user_1',result:'활동 완료',content:'현행 회계 업무와 조직 구성을 확인했습니다. 업무별 계정 권한과 초기 설정 지원이 필요합니다.'}
     ];
   }
-  function badgeClass(status) { return status === '진행' ? 'progress' : status === '완료' ? 'done' : 'pending'; }
+  function badgeClass(status) { return 'status-'+window.CRMStatus.tone(status,'customers'); }
   function renderCustomers() {
     const clean = s => s.replace(/[^0-9]/g, '');
     let list = customers.filter(c => (!applied.name || (c.name+' '+c.id).toLowerCase().includes(applied.name.toLowerCase())) && (!applied.business || clean(c.business).includes(clean(applied.business))) && (!applied.owner || c.owner === applied.owner) && (!applied.status || c.status === applied.status) && (!applied.product || c.product === applied.product) && (!applied.from || c.last >= applied.from) && (!applied.to || c.last <= applied.to));
@@ -205,7 +205,7 @@
   function renderHistory() {
     const list = [...records(selectedId)].sort((a,b) => b.date.localeCompare(a.date));
     $('history-count').textContent = list.length;
-    $('history-list').innerHTML = list.length ? list.map(a => `<article class="history-entry"><div class="history-date"><span>${escape(a.date.replace('T',' · '))}</span><span>${escape(a.author)}</span></div><h3>${escape(a.title)}</h3><p>${linkedContent(a.content)}</p><div class="history-tags"><span>${escape(a.type)}</span><span>${escape(a.subtype)}</span>${a.contact ? `<span>고객 담당자: ${escape(a.contact)}</span>` : ''}${a.result ? `<span>${escape(a.result)}</span>` : ''}${(a.products || []).map(p => `<span>${escape(p)}</span>`).join('')}</div>${a.followup ? `<div class="history-next">다음 행동 · ${escape((a.nextDate || '').replace('T',' '))} &nbsp; ${escape(a.nextTask)}</div>` : ''}${a.attachments?.length ? `<div class="history-attachments">${a.attachments.map(f => `<a href="#" aria-busy="true" data-download-file="${escape(f.id)}" data-filename="${escape(f.name)}"><svg><use href="#i-file"/></svg>${escape(f.name)} ↓</a>`).join('')}</div>` : ''}</article>`).join('') : '<div class="empty-state">아직 등록한 활동이 없어요.<br>첫 번째 상담 내용을 기록해보세요.</div>';
+    $('history-list').innerHTML = list.length ? list.map(a => `<article class="history-entry"><div class="history-date"><span>${escape(a.date.replace('T',' · '))}</span><span>${escape(a.author)}</span></div><h3>${escape(a.title)}</h3><p>${linkedContent(a.content)}</p><div class="history-tags"><span>${escape(a.type)}</span><span>${escape(a.subtype)}</span>${a.contact ? `<span>고객 담당자: ${escape(a.contact)}</span>` : ''}${a.result ? `${window.CRMStatus.render(a.result,'activities')}` : ''}${(a.products || []).map(p => `<span>${escape(p)}</span>`).join('')}</div>${a.followup ? `<div class="history-next">다음 행동 · ${escape((a.nextDate || '').replace('T',' '))} &nbsp; ${escape(a.nextTask)}</div>` : ''}${a.attachments?.length ? `<div class="history-attachments">${a.attachments.map(f => `<a href="#" aria-busy="true" data-download-file="${escape(f.id)}" data-filename="${escape(f.name)}"><svg><use href="#i-file"/></svg>${escape(f.name)} ↓</a>`).join('')}</div>` : ''}</article>`).join('') : '<div class="empty-state">아직 등록한 활동이 없어요.<br>첫 번째 상담 내용을 기록해보세요.</div>';
     $('history-list').querySelectorAll('[data-download-file]').forEach(link => {
       prepareFileLink(link);
       link.addEventListener('click',event => { if (link.dataset.available !== 'true') {event.preventDefault();toast('첨부 원본을 준비 중입니다. 파일이 보관되지 않았다면 다시 첨부해주세요.');} });

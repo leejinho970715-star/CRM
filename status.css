@@ -1,0 +1,10 @@
+/* Four quiet tones; identical semantics in the suite and activity iframe. */
+:root{--status-neutral-fg:#626873;--status-neutral-bg:#f2f3f5;--status-neutral-border:#e3e5e9;--status-active-fg:#4b6082;--status-active-bg:#eef2f7;--status-active-border:#dde5ef;--status-complete-fg:#486b5a;--status-complete-bg:#eff4f0;--status-complete-border:#dfe9e2;--status-attention-fg:#846836;--status-attention-bg:#f7f3ea;--status-attention-border:#ebe2cf}
+.state-badge,.badge{display:inline-flex;align-items:center;min-height:23px;padding:3px 7px;border:1px solid var(--status-neutral-border);border-radius:5px;font-size:11px;line-height:1.4;font-weight:550;white-space:nowrap;color:var(--status-neutral-fg);background:var(--status-neutral-bg);box-shadow:none;vertical-align:middle}
+.state-badge.status-neutral,.badge.status-neutral{color:var(--status-neutral-fg);background:var(--status-neutral-bg);border-color:var(--status-neutral-border)}
+.state-badge.status-active,.badge.status-active{color:var(--status-active-fg);background:var(--status-active-bg);border-color:var(--status-active-border)}
+.state-badge.status-complete,.badge.status-complete{color:var(--status-complete-fg);background:var(--status-complete-bg);border-color:var(--status-complete-border)}
+.state-badge.status-attention,.badge.status-attention{color:var(--status-attention-fg);background:var(--status-attention-bg);border-color:var(--status-attention-border)}
+.history-tags .state-badge{font-size:11px;padding:3px 7px;border-radius:5px}.board-column>h3 .state-badge{font-size:11px}
+.admin-badge,.proposal-badge,.count-pill{color:var(--status-neutral-fg);background:var(--status-neutral-bg);border:1px solid var(--status-neutral-border)}
+.task-check.done{color:var(--status-complete-fg);background:var(--status-complete-bg);border-color:var(--status-complete-border)}

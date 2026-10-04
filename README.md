@@ -9,6 +9,7 @@
 - [페이지별 As-is / To-be PDF — 49쪽](docs/CRM-Renewal-As-Is-To-Be.pdf)
 - [전체 화면 PNG 45장 ZIP](docs/CRM-PNG.zip): 단독 영업활동, 통합 영업활동, 나머지 43개 화면. 영업활동이 맨 앞입니다.
 - [페이지별 비교 원문](docs/AS-IS-TO-BE.md)
+- [상태 라벨 가이드](status-guide.html) · [상태 사전과 사용 원칙](STATUS-GUIDE.md)
 - [원본 화면 대응](PAGE-MAP.md), [디자인 규칙](DESIGN-SYSTEM.md), [검증 기록](VALIDATION.md)
 
 사용자 표시는 **사용자님**, 담당자·입력자는 **user_1~3**입니다. 고객명·코드·사업자번호를 포함한 배포 데이터는 가상 샘플입니다.
@@ -26,6 +27,7 @@ GitHub Pages는 **main 브랜치 / 루트 디렉터리**를 배포합니다. `.n
 | index.html / crm.html / suite.js / suite-data.js / suite.css | 44개 화면과 공통 메뉴·표·폼 |
 | activity.html / app.js / styles.css | 최초 영업활동 시안 및 로컬 저장 |
 | theme.css / responsive.css | Pretendard, 통일 디자인 토큰, 본문 너비에 따른 반응형 |
+| status.js / status.css / status-guide.html | 네 가지 상태 톤, 공통 상태 사전과 시각 가이드 |
 | assets/fonts | 공식 Pretendard 웹 글꼴과 OFL 라이선스 |
 | assets/favicon* / assets/og-image.png | 앱 아이콘과 1200×630 공유 이미지 |
 | docs/screens | 브라우저 전체 페이지 캡처 PNG와 검증 manifest |

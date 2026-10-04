@@ -1,0 +1,3622 @@
+{
+  "date": "2026-10-05",
+  "checks": 308,
+  "widths": [
+    320,
+    390,
+    600,
+    820,
+    1024,
+    1280,
+    1600
+  ],
+  "results": [
+    {
+      "requested": 320,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 390,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 600,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 820,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 1024,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1280,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1600,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    }
+  ],
+  "guide": [
+    {
+      "requested": 320,
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 390,
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 600,
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 820,
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 1024,
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1280,
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1600,
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    }
+  ],
+  "renderedLabels": [
+    {
+      "page": "home",
+      "labels": [
+        {
+          "bg": "rgb(247, 243, 234)",
+          "fg": "rgb(132, 104, 54)",
+          "text": "높음",
+          "tone": "attention"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "보통",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "보통",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "보통",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "샘플 분석",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "customers",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미진행",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        }
+      ]
+    },
+    {
+      "page": "nonprofits",
+      "labels": [
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "설립방침 수립",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "편성 완료",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "타당성 검토 준비",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "편성 예정",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "1차 협의",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "편성 완료",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "설립 승인",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "편성 예정",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "기관 설립",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "편성 완료",
+          "tone": "complete"
+        }
+      ]
+    },
+    {
+      "page": "news",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "샘플 기사",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "설립 · 신규 기회",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "예산 편성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "디지털 전환",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "contacts",
+      "labels": []
+    },
+    {
+      "page": "upload",
+      "labels": []
+    },
+    {
+      "page": "activity",
+      "labels": []
+    },
+    {
+      "page": "tasks",
+      "labels": [
+        {
+          "bg": "rgb(247, 243, 234)",
+          "fg": "rgb(132, 104, 54)",
+          "text": "높음",
+          "tone": "attention"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "보통",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "보통",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(247, 243, 234)",
+          "fg": "rgb(132, 104, 54)",
+          "text": "높음",
+          "tone": "attention"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "보통",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "보통",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(247, 243, 234)",
+          "fg": "rgb(132, 104, 54)",
+          "text": "높음",
+          "tone": "attention"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "보통",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "완료",
+          "tone": "complete"
+        }
+      ]
+    },
+    {
+      "page": "leads",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "홈페이지",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(247, 243, 234)",
+          "fg": "rgb(132, 104, 54)",
+          "text": "높음",
+          "tone": "attention"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "신규",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "마케팅",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "보통",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "접촉",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "수동",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "낮음",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "유효",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "홈페이지",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(247, 243, 234)",
+          "fg": "rgb(132, 104, 54)",
+          "text": "높음",
+          "tone": "attention"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "전환",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "마케팅",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "보통",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "신규",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "수동",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "낮음",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "접촉",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "홈페이지",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(247, 243, 234)",
+          "fg": "rgb(132, 104, 54)",
+          "text": "높음",
+          "tone": "attention"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "유효",
+          "tone": "active"
+        }
+      ]
+    },
+    {
+      "page": "quotes",
+      "labels": [
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "제안",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "검토",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "계약",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "제안",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "검토",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "계약",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "제안",
+          "tone": "active"
+        }
+      ]
+    },
+    {
+      "page": "marketing",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "신규",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "상담",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "신규",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "상담",
+          "tone": "active"
+        }
+      ]
+    },
+    {
+      "page": "yearly",
+      "labels": []
+    },
+    {
+      "page": "activity-detail",
+      "labels": [
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        }
+      ]
+    },
+    {
+      "page": "ai",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "2026.10.02 기준",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "샘플 기록 기반",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "work-report",
+      "labels": [
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "관심 확인",
+          "tone": "active"
+        }
+      ]
+    },
+    {
+      "page": "custom-reports",
+      "labels": []
+    },
+    {
+      "page": "ssl-master",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "ssl-purchase",
+      "labels": [
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "입고",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "입고",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "발주",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "발주",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "발주",
+          "tone": "active"
+        }
+      ]
+    },
+    {
+      "page": "ssl-delivery",
+      "labels": [
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "출고",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "출고",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "출고",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "출고",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "출고",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "출고",
+          "tone": "complete"
+        }
+      ]
+    },
+    {
+      "page": "ssl-expiration",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미확인",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미확인",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미확인",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미확인",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미확인",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미확인",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "forecast-add",
+      "labels": []
+    },
+    {
+      "page": "forecast-status",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미계약",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미계약",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미계약",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(239, 244, 240)",
+          "fg": "rgb(72, 107, 90)",
+          "text": "계약",
+          "tone": "complete"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미계약",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미계약",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미계약",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미계약",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "other-add",
+      "labels": []
+    },
+    {
+      "page": "other-status",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미계약",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미계약",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미계약",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미계약",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "admin",
+      "labels": []
+    },
+    {
+      "page": "members",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "재직",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "재직",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "재직",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "transfer",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미진행",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        },
+        {
+          "bg": "rgb(238, 242, 247)",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행",
+          "tone": "active"
+        }
+      ]
+    },
+    {
+      "page": "permissions",
+      "labels": []
+    },
+    {
+      "page": "departments",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "department-add",
+      "labels": []
+    },
+    {
+      "page": "goals",
+      "labels": []
+    },
+    {
+      "page": "manage-items",
+      "labels": []
+    },
+    {
+      "page": "institutions",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "acquisition",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "commercial-news",
+      "labels": []
+    },
+    {
+      "page": "nonprofit-keywords",
+      "labels": []
+    },
+    {
+      "page": "products",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "product-options",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "활성",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "options-upload",
+      "labels": []
+    },
+    {
+      "page": "marketing-types",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        },
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "사용",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "work-settings",
+      "labels": []
+    },
+    {
+      "page": "system",
+      "labels": []
+    },
+    {
+      "page": "migration",
+      "labels": [
+        {
+          "bg": "rgb(242, 243, 245)",
+          "fg": "rgb(98, 104, 115)",
+          "text": "제안 시안",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "page": "login",
+      "labels": []
+    }
+  ],
+  "activity": [
+    {
+      "requested": 320,
+      "labels": [
+        {
+          "cls": "badge status-neutral",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        }
+      ],
+      "overflow": false,
+      "width": 281
+    },
+    {
+      "requested": 390,
+      "labels": [
+        {
+          "cls": "badge status-neutral",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        }
+      ],
+      "overflow": false,
+      "width": 346
+    },
+    {
+      "requested": 600,
+      "labels": [
+        {
+          "cls": "badge status-neutral",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        }
+      ],
+      "overflow": false,
+      "width": 555
+    },
+    {
+      "requested": 820,
+      "labels": [
+        {
+          "cls": "badge status-neutral",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        }
+      ],
+      "overflow": false,
+      "width": 551
+    },
+    {
+      "requested": 1024,
+      "labels": [
+        {
+          "cls": "badge status-neutral",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        }
+      ],
+      "overflow": false,
+      "width": 755
+    },
+    {
+      "requested": 1280,
+      "labels": [
+        {
+          "cls": "badge status-neutral",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        }
+      ],
+      "overflow": false,
+      "width": 975
+    },
+    {
+      "requested": 1600,
+      "labels": [
+        {
+          "cls": "badge status-neutral",
+          "fg": "rgb(98, 104, 115)",
+          "text": "미진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        },
+        {
+          "cls": "badge status-active",
+          "fg": "rgb(75, 96, 130)",
+          "text": "진행"
+        }
+      ],
+      "overflow": false,
+      "width": 1295
+    }
+  ],
+  "mobileBoard": {
+    "viewport": 390,
+    "overflow": false,
+    "headerTones": [
+      "active",
+      "complete",
+      "neutral"
+    ]
+  }
+}
