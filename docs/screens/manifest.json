@@ -6,8 +6,7 @@
     "filename": "01-activity-original",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "영업활동 관리",
-      "height": 1366,
+      "height": 1448,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -20,7 +19,7 @@
     "filename": "02-activity",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1506,
+      "height": 1587,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -33,8 +32,7 @@
     "filename": "03-home",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "대시보드",
-      "height": 1511,
+      "height": 2375,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -47,8 +45,7 @@
     "filename": "04-customers",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "고객사 관리",
-      "height": 1156,
+      "height": 1164,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -61,8 +58,7 @@
     "filename": "05-nonprofits",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "비영리 관리",
-      "height": 942,
+      "height": 950,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -75,8 +71,7 @@
     "filename": "06-news",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "영리·비영리 뉴스",
-      "height": 1076,
+      "height": 1321,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -89,8 +84,7 @@
     "filename": "07-contacts",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "컨택 관리",
-      "height": 1199,
+      "height": 1207,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -103,8 +97,7 @@
     "filename": "08-upload",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "고객사 일괄업로드",
-      "height": 907,
+      "height": 937,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -117,8 +110,7 @@
     "filename": "09-tasks",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "오늘의 업무함",
-      "height": 1346,
+      "height": 1498,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -131,8 +123,7 @@
     "filename": "10-leads",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "통합 리드함",
-      "height": 1241,
+      "height": 1387,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -145,8 +136,7 @@
     "filename": "11-quotes",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "견적 현황",
-      "height": 1515,
+      "height": 1880,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -159,8 +149,7 @@
     "filename": "12-marketing",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "마케팅 활동",
-      "height": 1014,
+      "height": 1022,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -173,8 +162,7 @@
     "filename": "13-yearly",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "연간 영업현황",
-      "height": 1587,
+      "height": 1984,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -187,8 +175,7 @@
     "filename": "14-activity-detail",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "활동별 업체별 현황",
-      "height": 1587,
+      "height": 1984,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -201,8 +188,7 @@
     "filename": "15-ai",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "IONE AI",
-      "height": 1180,
+      "height": 1497,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -215,8 +201,7 @@
     "filename": "16-work-report",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "업무일지",
-      "height": 2157,
+      "height": 2554,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -229,7 +214,6 @@
     "filename": "17-custom-reports",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "사용자 정의 보고서",
       "height": 1133,
       "loaded": true,
       "overflow": false,
@@ -243,8 +227,7 @@
     "filename": "18-ssl-master",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "SSL 기초정보 관리",
-      "height": 730,
+      "height": 740,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -257,8 +240,7 @@
     "filename": "19-ssl-purchase",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "SSL 매입 관리",
-      "height": 942,
+      "height": 950,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -271,8 +253,7 @@
     "filename": "20-ssl-delivery",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "SSL 출고 관리",
-      "height": 1014,
+      "height": 1022,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -285,8 +266,7 @@
     "filename": "21-ssl-expiration",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "SSL 만료·갱신 관리",
-      "height": 1170,
+      "height": 1316,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -299,8 +279,7 @@
     "filename": "22-forecast-add",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "포캐스팅 등록",
-      "height": 1326,
+      "height": 1410,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -313,8 +292,7 @@
     "filename": "23-forecast-status",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "포캐스팅 현황",
-      "height": 1362,
+      "height": 1509,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -327,8 +305,7 @@
     "filename": "24-other-add",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "기타계약 포캐스팅 등록",
-      "height": 1326,
+      "height": 1410,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -341,8 +318,7 @@
     "filename": "25-other-status",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "기타계약 포캐스팅 현황",
-      "height": 1077,
+      "height": 1224,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -355,8 +331,7 @@
     "filename": "26-admin",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "관리자 대시보드",
-      "height": 2342,
+      "height": 2481,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -369,8 +344,7 @@
     "filename": "27-members",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "회원·담당업무 관리",
-      "height": 800,
+      "height": 808,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -383,8 +357,7 @@
     "filename": "28-transfer",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "고객사 담당자 이관",
-      "height": 1262,
+      "height": 1270,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -397,7 +370,6 @@
     "filename": "29-permissions",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "페이지 접근 권한",
       "height": 1115,
       "loaded": true,
       "overflow": false,
@@ -411,8 +383,7 @@
     "filename": "30-departments",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "부서 관리",
-      "height": 730,
+      "height": 737,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -425,7 +396,6 @@
     "filename": "31-department-add",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "부서 신규 등록",
       "height": 730,
       "loaded": true,
       "overflow": false,
@@ -439,7 +409,6 @@
     "filename": "32-goals",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "매출 목표 관리",
       "height": 730,
       "loaded": true,
       "overflow": false,
@@ -453,8 +422,7 @@
     "filename": "33-manage-items",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "관리항목 관리",
-      "height": 795,
+      "height": 974,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -467,8 +435,7 @@
     "filename": "34-institutions",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "기관유형 관리",
-      "height": 894,
+      "height": 902,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -481,8 +448,7 @@
     "filename": "35-acquisition",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "유입정보 관리",
-      "height": 822,
+      "height": 830,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -495,7 +461,6 @@
     "filename": "36-commercial-news",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "영리 뉴스 관리",
       "height": 730,
       "loaded": true,
       "overflow": false,
@@ -509,8 +474,7 @@
     "filename": "37-nonprofit-keywords",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "비영리 뉴스 키워드",
-      "height": 751,
+      "height": 759,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -523,8 +487,7 @@
     "filename": "38-products",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "품목 관리",
-      "height": 1156,
+      "height": 1164,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -537,8 +500,7 @@
     "filename": "39-product-options",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "품목옵션 관리",
-      "height": 1156,
+      "height": 1164,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -551,8 +513,7 @@
     "filename": "40-options-upload",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "품목옵션 일괄등록",
-      "height": 907,
+      "height": 937,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -565,8 +526,7 @@
     "filename": "41-marketing-types",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "마케팅 활동유형",
-      "height": 822,
+      "height": 830,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -579,7 +539,6 @@
     "filename": "42-work-settings",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "업무일지 운영 설정",
       "height": 730,
       "loaded": true,
       "overflow": false,
@@ -593,8 +552,7 @@
     "filename": "43-system",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "시스템·알림 설정",
-      "height": 933,
+      "height": 941,
       "loaded": true,
       "overflow": false,
       "width": 1265
@@ -607,7 +565,6 @@
     "filename": "44-migration",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "데이터 마이그레이션",
       "height": 730,
       "loaded": true,
       "overflow": false,
@@ -621,8 +578,7 @@
     "filename": "45-login",
     "qa": {
       "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "heading": "고객과 나눈 대화가다음 기회가 되는 곳.",
-      "height": 836,
+      "height": 908,
       "loaded": true,
       "overflow": false,
       "width": 1265

@@ -1,0 +1,2235 @@
+{
+  "date": "2026-10-05",
+  "checks": 308,
+  "widths": [
+    320,
+    390,
+    600,
+    820,
+    1024,
+    1280,
+    1600
+  ],
+  "note": "DOM 측정값. 로고의 투명 여백 클립 및 aria-hidden 입체 장식은 텍스트 검사에서 제외. 표·탭·고객 목록은 내부 스크롤 허용.",
+  "results": [
+    {
+      "requested": 320,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 320,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 305
+    },
+    {
+      "requested": 390,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 390,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 375
+    },
+    {
+      "requested": 600,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 585
+    },
+    {
+      "requested": 600,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 600,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 600
+    },
+    {
+      "requested": 820,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 820,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 1024,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 805
+    },
+    {
+      "requested": 1024,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1024,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 1009
+    },
+    {
+      "requested": 1280,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1280,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 1265
+    },
+    {
+      "requested": 1600,
+      "id": "home",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "customers",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "nonprofits",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "news",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "contacts",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "upload",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "activity",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "tasks",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "leads",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "quotes",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "marketing",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "yearly",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "activity-detail",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "ai",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "work-report",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "custom-reports",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "ssl-master",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "ssl-purchase",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "ssl-delivery",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "ssl-expiration",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "forecast-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "forecast-status",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "other-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "other-status",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "admin",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "members",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "transfer",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "permissions",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "departments",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "department-add",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "goals",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "manage-items",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "institutions",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "acquisition",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "commercial-news",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "nonprofit-keywords",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "products",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "product-options",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "options-upload",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "marketing-types",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "work-settings",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "system",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "migration",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    },
+    {
+      "requested": 1600,
+      "id": "login",
+      "issues": [],
+      "overflow": false,
+      "width": 1585
+    }
+  ],
+  "activityIframe": [
+    {
+      "viewport": 320,
+      "issues": [],
+      "overflow": false,
+      "width": 281
+    },
+    {
+      "viewport": 390,
+      "issues": [],
+      "overflow": false,
+      "width": 346
+    },
+    {
+      "viewport": 600,
+      "issues": [],
+      "overflow": false,
+      "width": 555
+    },
+    {
+      "viewport": 820,
+      "issues": [],
+      "overflow": false,
+      "width": 551
+    },
+    {
+      "viewport": 1024,
+      "issues": [],
+      "overflow": false,
+      "width": 755
+    },
+    {
+      "viewport": 1280,
+      "issues": [],
+      "overflow": false,
+      "width": 975
+    },
+    {
+      "viewport": 1600,
+      "issues": [],
+      "overflow": false,
+      "width": 1295
+    }
+  ],
+  "mobileInteractions": {
+    "viewport": 390,
+    "checked": [
+      "고객사 상세 패널",
+      "고객사 등록창 1열 배치",
+      "업무 보드",
+      "업무 달력"
+    ],
+    "horizontalOverflow": false,
+    "textOverflow": false
+  },
+  "exportScreens": {
+    "count": 45,
+    "width": 1280,
+    "height": 960,
+    "font": "Pretendard",
+    "allLoaded": true,
+    "horizontalOverflow": false
+  }
+}

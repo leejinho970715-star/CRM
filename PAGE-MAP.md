@@ -4,7 +4,7 @@
 
 | 화면 | 원본 경로 | 시안 | 개선 방향 |
 | --- | --- | --- | --- |
-| 대시보드 | /pages/member/dashboard/index.php | [보기](https://leejinho970715-star.github.io/CRM/#home) | 오늘 할 일·신규 리드·계약·갱신 요약을 우선하고, 고객 추천을 상세와 후속 업무로 연결 |
+| 대시보드 | /pages/member/dashboard/index.php | [보기](https://leejinho970715-star.github.io/CRM/#home) | 할 일·리드·계약·갱신을 요약하고 후속 업무로 연결. 겹친 입체 카드와 짧은 그림자를 절제해 사용하며, 본문 너비에 맞춰 요약 카드·폼·차트를 재배치 |
 | 고객사 관리 | /pages/member/customer/company_list.php | [보기](https://leejinho970715-star.github.io/CRM/#customers) | 기본·상세 조건 유지, 핵심 열 우선, 상세 패널에 고객 정보·이력·수정·활동 기록 묶기 |
 | 비영리 관리 | /pages/member/customer/nonprofit_management.php | [보기](https://leejinho970715-star.github.io/CRM/#nonprofits) | 설립 단계·예산 편성 시기·알림 주기를 별도 입력 묶음으로 유지 |
 | 영리·비영리 뉴스 | /pages/member/customer/nonprofit_news.php | [보기](https://leejinho970715-star.github.io/CRM/#news) | 연계 고객과 기회 유형, 관심 기사와 후속 업무를 함께 배치 |

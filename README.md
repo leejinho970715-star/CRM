@@ -2,7 +2,7 @@
 
 [전체 시안](https://leejinho970715-star.github.io/CRM/) · [영업활동 관리](https://leejinho970715-star.github.io/CRM/#activity) · [단독 영업활동 시안](https://leejinho970715-star.github.io/CRM/activity.html)
 
-44개 화면을 White / Neutral, Calm Density, Thin Border, Bento 구조와 Pretendard로 통일했습니다. 운영 CRM 42개 화면과 로그인의 기존 분석을 바탕으로 구현했고, 마이그레이션은 원본을 열지 않은 제안입니다. 실제 운영 CRM은 변경하지 않았습니다.
+44개 화면을 White / Neutral, Calm Density, Thin Border, Bento 구조와 Pretendard로 통일했습니다. 첨부 DOUZONE 로고와 절제된 3D 대시보드를 적용하고 320~1600px의 7개 폭에서 반응형을 검증했습니다. 운영 CRM 42개 화면과 로그인의 기존 분석을 바탕으로 구현했고, 마이그레이션은 원본을 열지 않은 제안입니다. 실제 운영 CRM은 변경하지 않았습니다.
 
 ## 결과물
 
@@ -25,7 +25,7 @@ GitHub Pages는 **main 브랜치 / 루트 디렉터리**를 배포합니다. `.n
 | --- | --- |
 | index.html / crm.html / suite.js / suite-data.js / suite.css | 44개 화면과 공통 메뉴·표·폼 |
 | activity.html / app.js / styles.css | 최초 영업활동 시안 및 로컬 저장 |
-| theme.css | 모든 화면의 Pretendard와 통일 디자인 토큰 |
+| theme.css / responsive.css | Pretendard, 통일 디자인 토큰, 본문 너비에 따른 반응형 |
 | assets/fonts | 공식 Pretendard 웹 글꼴과 OFL 라이선스 |
 | assets/favicon* / assets/og-image.png | 앱 아이콘과 1200×630 공유 이미지 |
 | docs/screens | 브라우저 전체 페이지 캡처 PNG와 검증 manifest |
