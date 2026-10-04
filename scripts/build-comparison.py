@@ -76,7 +76,7 @@ comparison=[dict(id=p['id'],title=p['title'],group=p['group'],source=p['source']
 markdown='# CRM 리뉴얼 · As-is / To-be\n\n2026-10-05 · 44개 화면 · Pretendard / White & Neutral / Calm Density / Thin Border / Bento\n\n기존 화면 구조 관찰과 구현한 시안의 비교입니다. 운영 기능의 실행 결과나 측정된 사용성 개선율을 의미하지 않습니다.\n\n'
 for p in comparison:
     markdown+=f"## {p['title']}\n\n- As-is: {p['as_is']}\n- To-be: {p['to_be']}\n- 주요 유지 항목: {', '.join(p['preserved']) or '기존 관리 대상과 조회·등록·수정 흐름'}\n- [시안 보기]({p['url']})\n\n"
-(DOCS/'AS-IS-TO-BE.md').write_text(markdown,encoding='utf8')
+(DOCS/'AS-IS-TO-BE.md').write_text(markdown.rstrip()+'\n',encoding='utf8')
 
 for name in ['Regular','Bold']:
     pdfmetrics.registerFont(TTFont('Pretendard'+name,str(OUT/'pdf/fonts'/('Pretendard-'+name+'.ttf'))))
@@ -108,7 +108,7 @@ def shot(id,x,y,w,h,crop=True):
 base(1,'DESIGN DIRECTION / 2026.10.05')
 text('고객에서 활동,',M,735,32,bold=True);text('다음 행동까지.',M,687,32,bold=True)
 text('IONE CRM 전체 리뉴얼',M,643,19,MUTED)
-para('44개 화면의 개선 전·후 비교와 공통 UI 규칙. 첨부한 공식 로고, 전체 반응형 보완, 대시보드의 절제된 3D 카드 표현과 네 가지 상태 라벨 기준을 반영한 최신 시안입니다.',M,597,CW)
+para('44개 화면의 개선 전·후 비교와 공통 UI 규칙. 공식 로고와 반응형, 절제된 3D 대시보드, 상태 라벨 기준에 더해 콘텐츠 박스 안의 탭 배치와 버튼 간격을 통일한 최신 시안입니다.',M,597,CW)
 card(M,230,CW,285);shot('home',M+8,238,CW-16,269)
 text('WHITE & NEUTRAL  /  CALM DENSITY  /  BENTO',M,190,10,BLUE,True)
 para('Pretendard · 얇은 1px Border · 흰색 카드 · 중립 배경 · 절제된 파란 강조',M,164,CW)
@@ -116,7 +116,7 @@ para('본 문서는 화면 구조와 UI 시안의 비교입니다. 수치로 측
 
 base(2,'COMMON DESIGN SYSTEM')
 text('전체 페이지를 묶는 5가지 규칙',M,754,24,bold=True)
-rules=[('01  White / Neutral','배경 #F7F7F8, 카드 #FFFFFF, 본문 #282A30. 색상보다 제목·간격·그룹으로 정보의 우선순위를 표현합니다.'),('02  Calm Density','본문 14px, 필터·입력 높이 40px, 카드 간격 18px. 긴 목록은 표 안에서 스크롤하고 등록은 목적별 입력 묶음으로 구성합니다.'),('03  Thin Border / Status','공통 경계 #E5E6E9, 1px 테두리. 상태 라벨은 뉴트럴(대기·종료), 블루 그레이(진행), 세이지(완료), 샌드(조치 필요)의 네 가지 톤과 동일한 의미 사전을 사용합니다.'),('04  Bento Structure','요약·필터·목록·입력·다음 행동을 역할별 카드로 묶습니다. 같은 필드 이름과 핵심 기능을 유지하면서 읽는 순서를 정리합니다.'),('05  Pretendard / Brand','첨부한 DOUZONE 로고를 원본 그대로 사용합니다. 웹과 PDF에 Pretendard를 적용하고 사용자님 및 user_1~3 표기를 유지합니다.')]
+rules=[('01  White / Neutral','배경 #F7F7F8, 카드 #FFFFFF, 본문 #282A30. 색상보다 제목·간격·그룹으로 정보의 우선순위를 표현합니다.'),('02  Calm Density','본문 14px, 입력 높이 40px, 카드 간격 18px. 일반 버튼 간격은 12px, 탭·보기 버튼은 8px로 통일하며 좁은 화면에서는 줄바꿈 또는 내부 스크롤을 제공합니다.'),('03  Thin Border / Status','공통 경계 #E5E6E9, 1px 테두리. 상태 라벨은 뉴트럴(대기·종료), 블루 그레이(진행), 세이지(완료), 샌드(조치 필요)의 네 가지 톤과 동일한 의미 사전을 사용합니다.'),('04  Bento Structure','요약·필터·목록·입력·다음 행동을 역할별 카드로 묶습니다. 탭은 해당 콘텐츠 박스 안에 배치하고, 상태 조회와 목록·보드·달력 선택을 별도 그룹으로 구분합니다.'),('05  Pretendard / Brand','첨부한 DOUZONE 로고를 원본 그대로 사용합니다. 웹과 PDF에 Pretendard를 적용하고 사용자님 및 user_1~3 표기를 유지합니다.')]
 y=705
 for title,body in rules:
     card(M,y-100,CW,100);text(title,M+18,y-28,13,BLUE,True);para(body,M+18,y-47,CW-36);y-=116

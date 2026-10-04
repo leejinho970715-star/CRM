@@ -27,6 +27,7 @@ GitHub Pages는 **main 브랜치 / 루트 디렉터리**를 배포합니다. `.n
 | index.html / crm.html / suite.js / suite-data.js / suite.css | 44개 화면과 공통 메뉴·표·폼 |
 | activity.html / app.js / styles.css | 최초 영업활동 시안 및 로컬 저장 |
 | theme.css / responsive.css | Pretendard, 통일 디자인 토큰, 본문 너비에 따른 반응형 |
+| interaction.css | 콘텐츠 박스 안의 탭, 보기 버튼 그룹, 공통 버튼 간격 |
 | status.js / status.css / status-guide.html | 네 가지 상태 톤, 공통 상태 사전과 시각 가이드 |
 | assets/fonts | 공식 Pretendard 웹 글꼴과 OFL 라이선스 |
 | assets/favicon* / assets/og-image.png | 앱 아이콘과 1200×630 공유 이미지 |

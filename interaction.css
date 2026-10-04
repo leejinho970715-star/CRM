@@ -1,0 +1,16 @@
+/* Navigation belongs to its content panel. Action groups have a consistent gap. */
+.panel-tabs{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px 24px;padding:14px 22px 0;background:#fff;border-bottom:1px solid var(--stroke);min-width:0}
+.panel-tabs .section-tabs{flex:1 1 340px;min-width:0;max-width:100%;padding:0;border:0;gap:8px;align-self:stretch;overflow-x:auto;scrollbar-width:thin}
+.section-tabs button,.section-tabs a,.day-tabs button,.content-tabs button{flex-shrink:0;min-height:44px;padding:12px 14px;background:transparent;border:0;border-bottom:2px solid transparent;border-radius:0;font-size:12px;line-height:1.5;font-weight:550;color:#717580;white-space:nowrap}
+.section-tabs button.active,.day-tabs button.active,.content-tabs button[aria-selected=true]{color:var(--brand);background:transparent;border-bottom-color:var(--brand);border-radius:0;font-weight:650}
+.section-tabs button:hover,.day-tabs button:hover,.content-tabs button:hover{color:var(--ink);background:#fafafa}
+.day-tabs,.content-tabs{gap:8px;padding:0 22px;min-width:0;border-bottom:1px solid var(--stroke);overflow-x:auto;flex-wrap:nowrap}
+.view-switch{display:flex;flex-wrap:wrap;gap:8px;padding:4px;margin-bottom:12px;background:#f7f7f8;border:1px solid var(--stroke);border-radius:8px;max-width:100%}
+.view-switch .suite-button{min-height:36px;padding:8px 12px;border-color:transparent;background:transparent;color:#717580}
+.view-switch .suite-button.soft{border-color:var(--stroke);background:#fff;color:var(--brand)}
+.tabbed-content{padding:22px;min-width:0}
+.button-group{display:flex;align-items:center;flex-wrap:wrap;gap:12px;min-width:0}.drawer-section .button-group{margin-top:20px}
+.page-head .page-actions,.heading-actions,.filter-actions,.table-toolbar>div,.form-actions,.form-actions>div,.drawer-actions,.dialog-actions,.dialog-footer,.form-footer>div,.login-support{gap:12px}
+.suite-button{padding-inline:16px}.suite-button.small{padding-inline:12px}.button{padding-inline:16px}
+@container workspace (max-width:680px){.panel-tabs{padding:12px 16px 0;gap:12px}.panel-tabs .section-tabs{flex-basis:100%}.view-switch{margin-bottom:12px}.tabbed-content{padding:16px}}
+@media(max-width:600px){.content-tabs,.day-tabs{padding-inline:16px;gap:8px}.section-tabs button,.day-tabs button,.content-tabs button{padding-inline:12px}.drawer-section .button-group{align-items:stretch}.button-group .suite-button{max-width:100%}.page-actions .suite-button,.heading-actions .button,.table-toolbar .suite-button{padding-inline:12px}.dialog-actions,.drawer-actions,.form-footer>div{gap:12px}}
