@@ -2231,5 +2231,13 @@
     "font": "Pretendard",
     "allLoaded": true,
     "horizontalOverflow": false
+  },
+  "mobileMenu": {
+    "viewport": 390,
+    "sidebarLeft": 0,
+    "logoRight": 229.2,
+    "logoLoaded": true,
+    "navigateTo": "activity",
+    "closesAfterNavigation": true
   }
 }

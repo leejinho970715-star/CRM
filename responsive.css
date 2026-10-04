@@ -36,5 +36,7 @@ input,select,textarea{max-width:100%;min-width:0}input[type=file]{height:auto;mi
 @media(max-width:360px){#suite-main{padding-inline:12px}.metric-strip{grid-template-columns:minmax(0,1fr)}.metric-card{padding:18px}.filter-actions .suite-button{flex:1 1 auto}.user-area .avatar{display:none}.global-header .brand{max-width:145px}.suite-topbar .topbar-breadcrumb{max-width:none}.detail-grid{grid-template-columns:minmax(0,1fr)}.suite-toast{min-width:0}.table-pager .pager-buttons{gap:3px}}
 @media(prefers-reduced-motion:reduce){.app-sidebar{transition:none}.depth-sheet,.depth-check{transition:none}}
 
+@media(max-width:760px){.app-sidebar.open{transform:translateX(0)}}
+
 .panel-body>.recommendation{margin-inline:0;width:100%}
 @media(max-width:600px){.suite-dialog .form-grid,.suite-dialog .form-grid.two,.suite-drawer .detail-grid{grid-template-columns:minmax(0,1fr)}}
