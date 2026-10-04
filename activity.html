@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>영업활동 관리 · CRM 리뉴얼 시안</title>
+  <link rel="stylesheet" href="styles.css?v=2.7">
+  <script src="app.js?v=2.7" defer></script>
+  <link rel="preload" href="assets/fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="theme.css?v=3.0">
+  <meta name="description" content="IONE CRM 리뉴얼 시안. 고객 관리, 영업활동, 후속 업무, 포캐스팅, 보고서와 관리자까지 44개 화면을 살펴보세요.">
+  <meta name="theme-color" content="#4263cd">
+  <link rel="canonical" href="https://leejinho970715-star.github.io/CRM/activity.html">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" sizes="180x180">
+  <link rel="manifest" href="site.webmanifest">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:site_name" content="IONE CRM">
+  <meta property="og:title" content="IONE CRM | 고객과 기회를 연결하는 워크스페이스">
+  <meta property="og:description" content="고객에서 활동, 다음 업무와 계약까지. 전체 CRM 리뉴얼 UI 시안을 확인하세요.">
+  <meta property="og:url" content="https://leejinho970715-star.github.io/CRM/activity.html">
+  <meta property="og:image" content="https://leejinho970715-star.github.io/CRM/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="IONE CRM 제목과 영업활동 관리 리뉴얼 화면">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="IONE CRM 리뉴얼 시안">
+  <meta name="twitter:description" content="고객에서 활동, 다음 업무와 계약까지 연결하는 44개 CRM 화면.">
+  <meta name="twitter:image" content="https://leejinho970715-star.github.io/CRM/assets/og-image.png">
+</head>
+<body>
+  <svg class="svg-library" aria-hidden="true"><defs>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3M16 5a3 3 0 0 1 0 6M18 15a5 5 0 0 1 3 5"/></symbol>
+    <symbol id="i-activity" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><rect x="9" y="2" width="6" height="4" rx="1"/><path d="m8 12 2 2 5-5M8 17h7"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 3v17h17M8 15l4-5 4 2 5-7M16 5h5v5"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9zM14 3v6h6M8 13h8M8 17h5"/></symbol>
+    <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="m9 3-1 3-3 1-2 3 2 2-1 4 3 2 3-1 2 4 4-2v-3l4-1 1-4-3-2V5l-4-2-2 2z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5zM20 2v4M18 4h4"/></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><path d="M4 7h16M4 17h16"/><circle cx="8" cy="7" r="2"/><circle cx="16" cy="17" r="2"/></symbol>
+    <symbol id="i-focus" viewBox="0 0 24 24"><path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5"/><rect x="8" y="8" width="8" height="8" rx="2"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  </defs></svg>
+  <header class="global-header">
+    <a class="brand" href="#" aria-label="DOUZONE 홈">D<span>OU</span>Z<span>O</span>NE<small>Business Partner · 아이원소프트뱅크</small></a>
+    <div class="workspace-tabs"><span>고객사 관리</span><span class="current">영업활동 관리</span></div>
+    <div class="user-area"><span class="prototype-tag">리뉴얼 시안</span><span class="avatar">사</span><span><b>사용자님</b></span></div>
+  </header>
+  <nav class="side-nav" aria-label="주 메뉴">
+    <button aria-label="홈" title="홈"><svg><use href="#i-grid"/></svg></button>
+    <button aria-label="고객사 관리" title="고객사 관리"><svg><use href="#i-users"/></svg></button>
+    <button class="active" aria-label="영업활동 관리" title="영업활동 관리" aria-current="page"><svg><use href="#i-activity"/></svg></button>
+    <button aria-label="영업 현황" title="영업 현황"><svg><use href="#i-chart"/></svg></button>
+    <button aria-label="문서 관리" title="문서 관리"><svg><use href="#i-file"/></svg></button>
+    <div class="nav-bottom"><button aria-label="설정" title="설정"><svg><use href="#i-settings"/></svg></button><span>IONE</span></div>
+  </nav>
+  <main>
+    <div class="page-heading"><div><div class="breadcrumb">CRM <span>/</span> 영업 관리</div><h1>영업활동 관리</h1><p>고객과 나눈 이야기를 기록하고, 다음 활동을 이어가세요.</p></div><div class="heading-actions"><button class="button" id="focus-button" aria-pressed="false"><svg><use href="#i-focus"/></svg>집중 입력</button><button class="button ai-button" id="ai-button" aria-expanded="false"><svg><use href="#i-spark"/></svg>IONE AI <span class="count-dot">5</span></button></div></div>
+    <section class="search-panel" aria-label="고객 검색 및 필터">
+      <form id="search-form"><div class="search-field"><svg><use href="#i-search"/></svg><input id="search-name" aria-label="거래처명 또는 코드" placeholder="거래처명 또는 코드 검색"></div><input id="search-business" aria-label="사업자등록번호" placeholder="사업자등록번호"><select id="search-owner" aria-label="영업담당자"><option value="">영업담당자 전체</option><option>user_1</option><option>user_2</option><option>user_3</option></select><button type="button" class="button" id="detail-filter" aria-expanded="false" aria-controls="extra-filters"><svg><use href="#i-filter"/></svg>상세 필터<span id="filter-count" hidden>0</span><svg class="chevron"><use href="#i-chevron"/></svg></button><button class="button primary" type="submit">조회</button><button class="text-button" type="button" id="reset-filter">초기화</button>
+        <div id="extra-filters" hidden><label>영업진행상태<select id="search-status"><option value="">전체</option><option>미진행</option><option>진행</option><option>이월</option><option>계약완료</option><option>영업종료</option></select></label><label>현재제품<select id="search-product"><option value="">전체</option><option>WEHAGO</option><option>iCUBE</option><option>Smart A</option></select></label><label>최근 활동 시작일<input type="date" id="search-from"></label><label>최근 활동 종료일<input type="date" id="search-to"></label></div>
+      </form>
+      <div class="applied-filters" id="applied-filters" hidden></div>
+    </section>
+    <div class="work-area">
+      <aside class="customer-panel" aria-label="고객사 목록"><div class="list-heading"><h2>고객사 <span id="customer-count">10</span></h2><button class="icon-button" id="add-customer" aria-label="고객사 추가" title="고객사 추가"><svg><use href="#i-plus"/></svg></button></div><div class="list-sort"><span>고객을 선택해 기록하세요</span><select id="sort-order" aria-label="고객사 정렬"><option value="recent">최신순</option><option value="name">고객사명순</option></select></div><div id="customer-list"></div><nav class="pagination" id="customer-pagination" aria-label="고객 목록 페이지"></nav><div class="list-end">샘플 고객 데이터 · 실제 CRM 미연결</div></aside>
+      <section class="detail-panel" aria-label="선택 고객 활동 관리">
+        <div class="customer-summary"><div class="summary-title"><div class="customer-monogram" id="customer-initial">포</div><div><div class="customer-title-row"><h2 id="selected-name">샘플 고객사 02</h2><span class="badge progress" id="selected-status">진행</span></div><div class="customer-meta"><span id="selected-code">DEMO002</span><span id="selected-business">000-00-00002</span></div></div></div><div class="summary-facts"><div><span>영업담당자</span><strong id="selected-owner">user_1</strong></div><div><span>현재제품</span><strong id="selected-product">WEHAGO</strong></div></div></div>
+        <div class="content-tabs" role="tablist" aria-label="고객 활동 메뉴"><button id="tab-register" role="tab" aria-selected="true" aria-controls="panel-register" data-tab="register">활동 등록</button><button id="tab-history" role="tab" aria-selected="false" aria-controls="panel-history" data-tab="history">활동 이력 <span id="history-count">3</span></button><button id="tab-quote" role="tab" aria-selected="false" aria-controls="panel-quote" data-tab="quote">AI 견적서</button><button id="tab-forecast" role="tab" aria-selected="false" aria-controls="panel-forecast" data-tab="forecast">포캐스팅</button></div>
+        <div id="panel-register" class="tab-panel" role="tabpanel" aria-labelledby="tab-register">
+          <form id="activity-form"><div class="form-body"><div class="section-heading"><div class="section-number">01</div><h3>기본 정보</h3><span class="required-note"><span>*</span> 필수 입력</span></div><div class="field-grid"><label>고객사 담당자<input name="contact" placeholder="이름 또는 직책" autocomplete="off"></label><label>입력자<select name="author"><option>user_1</option><option>user_2</option><option>user_3</option></select></label><label>활동일 <span class="required">*</span><input name="date" type="datetime-local" value="2026-10-02T10:21" required></label><label>활동 유형 <span class="required">*</span><select name="type" required><option>TM</option><option>메일</option><option>방문</option></select></label><label>상세 유형<select name="subtype"><option>제안서</option><option>견적</option><option>상담</option><option>심화PT</option><option>TM(in)</option><option>TM(out)</option><option>유지보수</option><option>추가계약</option></select></label><div class="product-picker"><span class="field-label" id="products-label">품목 선택</span><button type="button" class="product-trigger" id="product-trigger" aria-expanded="false" aria-controls="product-options" aria-labelledby="products-label product-summary"><span id="product-summary">품목을 선택하세요</span><svg><use href="#i-chevron"/></svg></button><div id="product-options" hidden><input id="product-search" aria-label="품목 검색" placeholder="품목 검색"><div id="product-checklist"></div><div class="product-picker-footer"><span>여러 품목을 선택할 수 있어요</span><button type="button" class="text-button" id="product-done">완료</button></div></div></div></div>
+          <div class="section-heading record-heading"><div class="section-number">02</div><h3>활동 내용</h3></div><label class="full-field">제목 <span class="required">*</span><input name="title" placeholder="예: WEHAGO 도입 제안 및 후속 미팅 협의" maxlength="100" required></label><label class="full-field description-field">상담 내용 <span class="required">*</span><textarea name="content" id="activity-content" placeholder="상담한 내용, 고객의 요청사항, 전달한 자료를 기록하세요." maxlength="5000" required></textarea></label><div class="textarea-bottom"><span>아마란스 메일 링크를 붙여넣으면 짧은 라벨로 표시됩니다.</span><span><span id="content-length">0</span> / 5,000</span></div><div id="mail-link-preview" class="mail-links" hidden></div>
+          <div class="attachment-area"><div class="attachment-heading"><span class="field-label">첨부파일</span><span id="attachment-count">선택한 파일 없음</span></div><div id="file-dropzone" class="file-dropzone"><svg><use href="#i-file"/></svg><span>파일을 끌어 놓거나</span><button class="text-button" id="choose-files" type="button">파일 선택</button><input id="file-input" type="file" multiple hidden></div><div id="file-list"></div></div>
+          <div class="section-heading record-heading"><div class="section-number">03</div><h3>처리 결과 · 다음 행동</h3></div><div class="outcome-grid"><label>처리 결과<select name="result"><option value="">미선택</option><option>연결됨</option><option>부재/미응답</option><option>관심 확인</option><option>견적 전달</option><option>미팅 확정</option><option>계약 성사</option><option>실주</option><option>기타</option></select></label><label>다음 행동<input name="nextTask" placeholder="예: 견적 확인 전화"></label><label>다음 행동 기한<input name="nextDate" type="datetime-local"></label></div></div>
+          <div class="form-footer"><span id="draft-state"><span class="small-dot"></span>새 활동 작성 중</span><div><button class="button" type="button" id="draft-button">임시 저장</button><button class="button primary" type="submit"><svg><use href="#i-check"/></svg>활동 저장</button></div></div></form>
+        </div>
+        <div id="panel-history" class="tab-panel" role="tabpanel" aria-labelledby="tab-history" hidden><div class="history-toolbar"><div><h3>활동 이력</h3><p>이 고객과 주고받은 기록을 한곳에서 확인하세요.</p></div><button class="button" id="new-activity"><svg><use href="#i-plus"/></svg>활동 등록</button></div><div id="history-list"></div></div>
+        <div id="panel-quote" class="tab-panel" role="tabpanel" aria-labelledby="tab-quote" hidden><div class="secondary-content"><div class="section-heading"><svg class="accent-icon"><use href="#i-spark"/></svg><h3>AI 견적서 등록</h3></div><p>상담한 제품과 조건을 모아 견적 초안을 준비하세요.</p><form id="quote-form"><div class="field-grid two"><label>제안 제품<select name="product"><option>WEHAGO</option><option>iCUBE</option><option>Smart A</option></select></label><label>사용 인원<input name="people" type="number" min="1" value="20" required></label></div><label class="full-field">요청사항<textarea name="requirements" placeholder="필요한 모듈, 도입 일정, 계약 조건 등을 입력하세요." required></textarea></label><button class="button primary" type="submit"><svg><use href="#i-spark"/></svg>견적 초안 준비</button></form><div class="quote-preview" id="quote-preview" hidden></div></div></div>
+        <div id="panel-forecast" class="tab-panel" role="tabpanel" aria-labelledby="tab-forecast" hidden><div class="secondary-content"><h3>포캐스팅</h3><p>이 고객의 예상 계약 정보와 진행 상황을 기록하세요.</p><form id="forecast-form"><div class="field-grid two"><label>예상 계약금액 (원)<input type="number" name="amount" min="0" step="1000" placeholder="금액 입력" required></label><label>예상 계약일<input name="date" type="date" required></label><label>계약 가능성<select name="chance"><option>25% · 초기 상담</option><option selected>50% · 제안 검토</option><option>75% · 조건 협의</option><option>90% · 계약 예정</option></select></label><label>진행 단계<select name="stage"><option>상담</option><option selected>제안</option><option>협상</option><option>계약</option></select></label></div><label class="full-field">메모<textarea name="memo" placeholder="계약에 영향을 주는 사항을 기록하세요."></textarea></label><button class="button primary" type="submit">포캐스팅 저장</button></form></div></div>
+      </section>
+    </div>
+  </main>
+  <aside id="ai-panel" class="ai-panel" aria-label="IONE AI 영업 브리핑" hidden><div class="ai-panel-heading"><div><svg><use href="#i-spark"/></svg><h2>IONE AI</h2><span>영업 브리핑</span></div><button class="icon-button" id="close-ai" aria-label="AI 패널 닫기"><svg><use href="#i-close"/></svg></button></div><div class="ai-panel-body"><span class="eyebrow">09.28 — 10.04 · 이번 주</span><h3>다음 연락을 준비할 고객</h3><p>계약 일정부터 확인할 고객 5곳이 있어요.</p><div id="ai-recommendations"></div><div class="ai-note"><svg><use href="#i-clock"/></svg>CRM 기록 기준 · 10.02 09:54</div><span class="sample-label">추천 내용은 UI 검토용 샘플입니다.</span></div></aside>
+  <dialog id="customer-dialog"><form id="customer-form"><div class="dialog-heading"><h2>고객사 추가</h2><button type="button" class="icon-button" id="close-customer" aria-label="닫기"><svg><use href="#i-close"/></svg></button></div><p>새 고객을 등록하고 활동을 기록하세요.</p><label>고객사명 <span class="required">*</span><input name="name" required maxlength="60"></label><label>거래처코드 <span class="required">*</span><input name="code" required maxlength="30" placeholder="예: HT23427"></label><label>사업자등록번호 <span class="required">*</span><input name="business" required pattern="[0-9]{3}-?[0-9]{2}-?[0-9]{5}" placeholder="000-00-00000"></label><div class="field-grid two"><label>영업담당자<select name="owner"><option>user_1</option><option>user_2</option><option>user_3</option></select></label><label>현재제품<select name="product"><option>WEHAGO</option><option>iCUBE</option><option>Smart A</option></select></label></div><div class="dialog-footer"><button type="button" class="button" id="cancel-customer">취소</button><button type="submit" class="button primary">고객사 추가</button></div></form></dialog>
+  <dialog id="unsaved-dialog"><div class="dialog-heading"><h2>작성 중인 활동이 있어요</h2></div><p>다른 고객으로 이동하기 전에 현재 내용을 처리해주세요.</p><div class="dialog-footer"><button class="button" id="stay-customer">계속 작성</button><button class="button" id="discard-customer">내용 삭제 후 이동</button><button class="button primary" id="save-move">임시 저장 후 이동</button></div></dialog>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

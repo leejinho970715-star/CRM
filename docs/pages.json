@@ -1,0 +1,4029 @@
+[
+  {
+    "id": "home",
+    "title": "대시보드",
+    "group": "워크스페이스",
+    "icon": "home",
+    "kind": "home",
+    "description": "오늘의 실행과 다음 영업 기회를 한눈에 확인하세요.",
+    "source": "/pages/member/dashboard/index.php",
+    "filters": [
+      {
+        "key": "scope",
+        "label": "조회 범위",
+        "type": "select",
+        "options": [
+          "개인",
+          "팀",
+          "전체"
+        ],
+        "required": false
+      },
+      {
+        "key": "inactive",
+        "label": "미활동 기준",
+        "type": "select",
+        "options": [
+          "7일 이상",
+          "14일 이상",
+          "30일 이상",
+          "45일 이상",
+          "60일 이상",
+          "90일 이상",
+          "120일 이상",
+          "180일 이상",
+          "365일 이상"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "status",
+        "label": "영업상태",
+        "type": "select",
+        "options": [
+          "전체",
+          "미진행",
+          "진행",
+          "이월",
+          "계약완료",
+          "영업종료"
+        ],
+        "required": false
+      },
+      {
+        "key": "clientType",
+        "label": "고객유형",
+        "type": "select",
+        "options": [
+          "전체",
+          "신규",
+          "유지보수 체결",
+          "유지보수 미체결"
+        ],
+        "required": false
+      },
+      {
+        "key": "product",
+        "label": "제품",
+        "type": "select",
+        "options": [
+          "전체",
+          "Amaranth10",
+          "Amaranth10 Cloud",
+          "Bizbox Alpha",
+          "Bizbox Alpha Cloud",
+          "ERP 10",
+          "iCUBE",
+          "iCUBE G20",
+          "iU",
+          "OmniEsol",
+          "PMS",
+          "SI(개발)",
+          "Smart A",
+          "Smart A Cloud",
+          "WEHAGO",
+          "WEHAGO T"
+        ],
+        "required": false
+      }
+    ],
+    "improvement": "오늘 할 일·신규 리드·계약·갱신 요약을 우선하고, 고객 추천을 상세와 후속 업무로 연결"
+  },
+  {
+    "id": "customers",
+    "title": "고객사 관리",
+    "group": "고객 관리",
+    "icon": "users",
+    "kind": "list",
+    "entity": "customers",
+    "description": "고객 정보와 담당자, 영업 이력을 한곳에서 관리하세요.",
+    "source": "/pages/member/customer/company_list.php",
+    "filters": [
+      {
+        "key": "q",
+        "label": "거래처명·코드 검색",
+        "type": "search",
+        "required": false
+      },
+      {
+        "key": "business",
+        "label": "사업자등록번호",
+        "type": "text",
+        "required": false
+      },
+      {
+        "key": "owner",
+        "label": "영업담당자",
+        "type": "select",
+        "options": [
+          "전체",
+          "user_1",
+          "user_2",
+          "user_3"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "clientType",
+        "label": "거래처유형",
+        "type": "select",
+        "options": [
+          "전체",
+          "유지보수 체결",
+          "유지보수 미체결",
+          "신규"
+        ],
+        "required": false
+      },
+      {
+        "key": "institution",
+        "label": "기관유형",
+        "type": "select",
+        "options": [
+          "전체",
+          "일반기업",
+          "비영리법인",
+          "비영리단체",
+          "공공기관",
+          "학교·교육기관",
+          "기타"
+        ],
+        "required": false
+      },
+      {
+        "key": "product",
+        "label": "제품",
+        "type": "select",
+        "options": [
+          "전체",
+          "Amaranth10",
+          "Amaranth10 Cloud",
+          "Bizbox Alpha",
+          "Bizbox Alpha Cloud",
+          "ERP 10",
+          "iCUBE",
+          "iCUBE G20",
+          "iU",
+          "OmniEsol",
+          "PMS",
+          "SI(개발)",
+          "Smart A",
+          "Smart A Cloud",
+          "WEHAGO",
+          "WEHAGO T"
+        ],
+        "required": false
+      },
+      {
+        "key": "team",
+        "label": "팀",
+        "type": "select",
+        "options": [
+          "전체",
+          "전략사업본부",
+          "마케팅본부"
+        ],
+        "required": false
+      },
+      {
+        "key": "custom2",
+        "label": "관리항목2",
+        "type": "text",
+        "required": false
+      },
+      {
+        "key": "custom3",
+        "label": "관리항목3",
+        "type": "text",
+        "required": false
+      },
+      {
+        "key": "market",
+        "label": "상장시장",
+        "type": "select",
+        "options": [
+          "전체",
+          "코스피",
+          "코스닥",
+          "코넥스",
+          "기타"
+        ],
+        "required": false
+      },
+      {
+        "key": "listed",
+        "label": "상장상태",
+        "type": "select",
+        "options": [
+          "전체",
+          "상장",
+          "비상장",
+          "미확인"
+        ],
+        "required": false
+      }
+    ],
+    "columns": [
+      "고객사",
+      "사업자등록번호",
+      "기관유형",
+      "현재제품",
+      "영업담당자",
+      "영업진행상태",
+      "최근 활동",
+      "거래처유형",
+      "연락처",
+      "이메일",
+      "주소",
+      "이전제품",
+      "사용모듈",
+      "소스출처",
+      "인입경로",
+      "팀",
+      "관리항목2",
+      "관리항목3"
+    ],
+    "form": [
+      {
+        "title": "고객 기본 정보",
+        "fields": [
+          {
+            "key": "name",
+            "label": "고객사명",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "business",
+            "label": "사업자등록번호",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "clientType",
+            "label": "거래처유형",
+            "type": "select",
+            "options": [
+              "신규",
+              "유지보수 체결",
+              "유지보수 미체결"
+            ],
+            "required": true
+          },
+          {
+            "key": "institution",
+            "label": "기관유형",
+            "type": "select",
+            "options": [
+              "일반기업",
+              "비영리법인",
+              "비영리단체",
+              "공공기관",
+              "학교·교육기관",
+              "기타"
+            ],
+            "required": true
+          },
+          {
+            "key": "owner",
+            "label": "영업담당자",
+            "type": "select",
+            "options": [
+              "user_1",
+              "user_2",
+              "user_3"
+            ],
+            "required": true
+          },
+          {
+            "key": "status",
+            "label": "영업진행상태",
+            "type": "select",
+            "options": [
+              "미진행",
+              "진행",
+              "이월",
+              "계약완료",
+              "영업종료"
+            ],
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "유입 · 사용 제품",
+        "fields": [
+          {
+            "key": "source",
+            "label": "소스출처",
+            "type": "select",
+            "options": [
+              "마케팅",
+              "영업부"
+            ],
+            "required": true
+          },
+          {
+            "key": "channel",
+            "label": "인입경로",
+            "type": "select",
+            "options": [
+              "홈페이지",
+              "전화",
+              "소개",
+              "방문",
+              "캠페인",
+              "기타"
+            ],
+            "required": true
+          },
+          {
+            "key": "products",
+            "label": "현재제품",
+            "type": "multi",
+            "options": [
+              "Amaranth10",
+              "Amaranth10 Cloud",
+              "Bizbox Alpha",
+              "Bizbox Alpha Cloud",
+              "ERP 10",
+              "iCUBE",
+              "iCUBE G20",
+              "iU",
+              "OmniEsol",
+              "PMS",
+              "SI(개발)",
+              "Smart A",
+              "Smart A Cloud",
+              "WEHAGO",
+              "WEHAGO T"
+            ],
+            "required": false
+          },
+          {
+            "key": "previousProducts",
+            "label": "이전제품",
+            "type": "multi",
+            "options": [
+              "Amaranth10",
+              "Amaranth10 Cloud",
+              "Bizbox Alpha",
+              "Bizbox Alpha Cloud",
+              "ERP 10",
+              "iCUBE",
+              "iCUBE G20",
+              "iU",
+              "OmniEsol",
+              "PMS",
+              "SI(개발)",
+              "Smart A",
+              "Smart A Cloud",
+              "WEHAGO",
+              "WEHAGO T"
+            ],
+            "required": false
+          },
+          {
+            "key": "modules",
+            "label": "사용모듈",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "newsEnabled",
+            "label": "뉴스 스크래핑",
+            "type": "select",
+            "options": [
+              "ON · 수집함",
+              "OFF · 수집 안 함"
+            ],
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "연락 · 관리 정보",
+        "fields": [
+          {
+            "key": "contact",
+            "label": "메인 담당자",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "phone",
+            "label": "연락처",
+            "type": "tel",
+            "required": false
+          },
+          {
+            "key": "email",
+            "label": "이메일",
+            "type": "email",
+            "required": false
+          },
+          {
+            "key": "address",
+            "label": "주소",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "custom1",
+            "label": "팀",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "custom2",
+            "label": "관리항목2",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "custom3",
+            "label": "관리항목3",
+            "type": "text",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "고객사 추가",
+    "improvement": "기본·상세 조건 유지, 핵심 열 우선, 상세 패널에 고객 정보·이력·수정·활동 기록 묶기"
+  },
+  {
+    "id": "nonprofits",
+    "title": "비영리 관리",
+    "group": "고객 관리",
+    "icon": "users",
+    "kind": "list",
+    "entity": "nonprofits",
+    "description": "설립 단계와 예산 편성 일정을 고객 기록과 함께 확인하세요.",
+    "source": "/pages/member/customer/nonprofit_management.php",
+    "filters": [
+      {
+        "key": "q",
+        "label": "고객사·코드·내용 검색",
+        "type": "search",
+        "required": false
+      },
+      {
+        "key": "owner",
+        "label": "담당자",
+        "type": "select",
+        "options": [
+          "전체",
+          "user_1",
+          "user_2",
+          "user_3"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "stage",
+        "label": "설립단계",
+        "type": "select",
+        "options": [
+          "전체",
+          "설립방침 수립",
+          "타당성 검토 준비",
+          "1차 협의",
+          "타당성 검토 시행",
+          "2차 협의",
+          "설립 승인",
+          "기관 설립"
+        ],
+        "required": false
+      },
+      {
+        "key": "budget",
+        "label": "예산편성여부",
+        "type": "select",
+        "options": [
+          "전체",
+          "미편성",
+          "편성 예정",
+          "편성 완료"
+        ],
+        "required": false
+      },
+      {
+        "key": "establishmentMonth",
+        "label": "설립시기",
+        "type": "month",
+        "required": false
+      },
+      {
+        "key": "product",
+        "label": "제품",
+        "type": "select",
+        "options": [
+          "전체",
+          "Amaranth10",
+          "Amaranth10 Cloud",
+          "Bizbox Alpha",
+          "Bizbox Alpha Cloud",
+          "ERP 10",
+          "iCUBE",
+          "iCUBE G20",
+          "iU",
+          "OmniEsol",
+          "PMS",
+          "SI(개발)",
+          "Smart A",
+          "Smart A Cloud",
+          "WEHAGO",
+          "WEHAGO T"
+        ],
+        "required": false
+      }
+    ],
+    "columns": [
+      "기관명",
+      "설립단계",
+      "설립시기",
+      "예산편성여부",
+      "예산편성시기",
+      "영업담당자",
+      "알림주기",
+      "기관유형",
+      "연계 뉴스",
+      "최근 활동",
+      "거래처유형",
+      "소스출처",
+      "인입경로",
+      "사업자등록번호"
+    ],
+    "form": [
+      {
+        "title": "고객 기본 정보",
+        "fields": [
+          {
+            "key": "name",
+            "label": "고객사명",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "business",
+            "label": "사업자등록번호",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "clientType",
+            "label": "거래처유형",
+            "type": "select",
+            "options": [
+              "신규",
+              "유지보수 체결",
+              "유지보수 미체결"
+            ],
+            "required": true
+          },
+          {
+            "key": "institution",
+            "label": "기관유형",
+            "type": "select",
+            "options": [
+              "일반기업",
+              "비영리법인",
+              "비영리단체",
+              "공공기관",
+              "학교·교육기관",
+              "기타"
+            ],
+            "required": true
+          },
+          {
+            "key": "owner",
+            "label": "영업담당자",
+            "type": "select",
+            "options": [
+              "user_1",
+              "user_2",
+              "user_3"
+            ],
+            "required": true
+          },
+          {
+            "key": "status",
+            "label": "영업진행상태",
+            "type": "select",
+            "options": [
+              "미진행",
+              "진행",
+              "이월",
+              "계약완료",
+              "영업종료"
+            ],
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "유입 · 사용 제품",
+        "fields": [
+          {
+            "key": "source",
+            "label": "소스출처",
+            "type": "select",
+            "options": [
+              "마케팅",
+              "영업부"
+            ],
+            "required": true
+          },
+          {
+            "key": "channel",
+            "label": "인입경로",
+            "type": "select",
+            "options": [
+              "홈페이지",
+              "전화",
+              "소개",
+              "방문",
+              "캠페인",
+              "기타"
+            ],
+            "required": true
+          },
+          {
+            "key": "products",
+            "label": "현재제품",
+            "type": "multi",
+            "options": [
+              "Amaranth10",
+              "Amaranth10 Cloud",
+              "Bizbox Alpha",
+              "Bizbox Alpha Cloud",
+              "ERP 10",
+              "iCUBE",
+              "iCUBE G20",
+              "iU",
+              "OmniEsol",
+              "PMS",
+              "SI(개발)",
+              "Smart A",
+              "Smart A Cloud",
+              "WEHAGO",
+              "WEHAGO T"
+            ],
+            "required": false
+          },
+          {
+            "key": "previousProducts",
+            "label": "이전제품",
+            "type": "multi",
+            "options": [
+              "Amaranth10",
+              "Amaranth10 Cloud",
+              "Bizbox Alpha",
+              "Bizbox Alpha Cloud",
+              "ERP 10",
+              "iCUBE",
+              "iCUBE G20",
+              "iU",
+              "OmniEsol",
+              "PMS",
+              "SI(개발)",
+              "Smart A",
+              "Smart A Cloud",
+              "WEHAGO",
+              "WEHAGO T"
+            ],
+            "required": false
+          },
+          {
+            "key": "modules",
+            "label": "사용모듈",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "newsEnabled",
+            "label": "뉴스 스크래핑",
+            "type": "select",
+            "options": [
+              "ON · 수집함",
+              "OFF · 수집 안 함"
+            ],
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "연락 · 관리 정보",
+        "fields": [
+          {
+            "key": "contact",
+            "label": "메인 담당자",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "phone",
+            "label": "연락처",
+            "type": "tel",
+            "required": false
+          },
+          {
+            "key": "email",
+            "label": "이메일",
+            "type": "email",
+            "required": false
+          },
+          {
+            "key": "address",
+            "label": "주소",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "custom1",
+            "label": "팀",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "custom2",
+            "label": "관리항목2",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "custom3",
+            "label": "관리항목3",
+            "type": "text",
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "설립 · 예산 관리",
+        "fields": [
+          {
+            "key": "stage",
+            "label": "설립단계",
+            "type": "select",
+            "options": [
+              "설립방침 수립",
+              "타당성 검토 준비",
+              "1차 협의",
+              "타당성 검토 시행",
+              "2차 협의",
+              "설립 승인",
+              "기관 설립"
+            ],
+            "required": true
+          },
+          {
+            "key": "establishmentMonth",
+            "label": "설립시기",
+            "type": "month",
+            "required": false
+          },
+          {
+            "key": "budget",
+            "label": "예산편성여부",
+            "type": "select",
+            "options": [
+              "미편성",
+              "편성 예정",
+              "편성 완료"
+            ],
+            "required": true
+          },
+          {
+            "key": "budgetMonth",
+            "label": "예산편성시기",
+            "type": "month",
+            "required": false
+          },
+          {
+            "key": "reminderDays",
+            "label": "알림주기 (일)",
+            "type": "number",
+            "options": null,
+            "required": true
+          }
+        ]
+      }
+    ],
+    "primary": "기관 등록",
+    "improvement": "설립 단계·예산 편성 시기·알림 주기를 별도 입력 묶음으로 유지"
+  },
+  {
+    "id": "news",
+    "title": "영리·비영리 뉴스",
+    "group": "고객 관리",
+    "icon": "file",
+    "kind": "news",
+    "description": "고객과 연결된 소식에서 새로운 영업 기회를 찾으세요.",
+    "source": "/pages/member/customer/nonprofit_news.php",
+    "filters": [
+      {
+        "key": "q",
+        "label": "기사 제목·내용·언론사",
+        "type": "search",
+        "required": false
+      },
+      {
+        "key": "source",
+        "label": "뉴스 출처",
+        "type": "select",
+        "options": [
+          "전체",
+          "NAVER",
+          "Google"
+        ],
+        "required": false
+      },
+      {
+        "key": "scope",
+        "label": "조회 범위",
+        "type": "select",
+        "options": [
+          "전체 고객사",
+          "내 담당 고객사",
+          "관심 고객사"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "company",
+        "label": "연계 고객사",
+        "type": "select",
+        "options": [
+          "전체"
+        ],
+        "required": false
+      },
+      {
+        "key": "from",
+        "label": "시작일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "to",
+        "label": "종료일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "sort",
+        "label": "정렬",
+        "type": "select",
+        "options": [
+          "최신순",
+          "오래된순",
+          "중요 리드순"
+        ],
+        "required": false
+      },
+      {
+        "key": "unread",
+        "label": "미확인만",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "key": "important",
+        "label": "중요 리드만",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "key": "group",
+        "label": "기사 묶기",
+        "type": "checkbox",
+        "required": false
+      }
+    ],
+    "improvement": "연계 고객과 기회 유형, 관심 기사와 후속 업무를 함께 배치"
+  },
+  {
+    "id": "contacts",
+    "title": "컨택 관리",
+    "group": "고객 관리",
+    "icon": "users",
+    "kind": "list",
+    "entity": "contacts",
+    "description": "고객사 담당자와 연락 이력, 이직 정보를 연결해 관리하세요.",
+    "source": "/pages/member/contact/contact_main.php",
+    "filters": [
+      {
+        "key": "q",
+        "label": "담당자·회사명 검색",
+        "type": "search",
+        "required": false
+      },
+      {
+        "key": "phone",
+        "label": "연락처",
+        "type": "text",
+        "required": false
+      },
+      {
+        "key": "email",
+        "label": "이메일",
+        "type": "text",
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "contact",
+        "label": "담당자 이름",
+        "type": "text",
+        "required": false
+      },
+      {
+        "key": "company",
+        "label": "회사명",
+        "type": "text",
+        "required": false
+      },
+      {
+        "key": "business",
+        "label": "사업자번호",
+        "type": "text",
+        "required": false
+      }
+    ],
+    "columns": [
+      "담당자명",
+      "회사명",
+      "부서",
+      "직책",
+      "연락처",
+      "이메일",
+      "메인 담당자",
+      "담당자코드",
+      "사업자번호",
+      "재직 상태"
+    ],
+    "form": [
+      {
+        "title": "소속 · 담당자 정보",
+        "fields": [
+          {
+            "key": "company",
+            "label": "회사명",
+            "type": "select",
+            "options": [],
+            "required": true
+          },
+          {
+            "key": "name",
+            "label": "담당자명",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "department",
+            "label": "부서",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "position",
+            "label": "직책",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "phone",
+            "label": "연락처",
+            "type": "tel",
+            "required": false
+          },
+          {
+            "key": "email",
+            "label": "이메일",
+            "type": "email",
+            "required": false
+          },
+          {
+            "key": "primary",
+            "label": "메인 담당자",
+            "type": "checkbox",
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "연락 관리",
+        "fields": [
+          {
+            "key": "memo",
+            "label": "비고",
+            "type": "textarea",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "담당자 추가",
+    "improvement": "넓은 행 내 편집을 상세 패널로 옮기고 소속·연락·이직·퇴사·메일 후속관리 연결"
+  },
+  {
+    "id": "upload",
+    "title": "고객사 일괄업로드",
+    "group": "고객 관리",
+    "icon": "file",
+    "kind": "upload",
+    "entity": "customers",
+    "description": "파일 선택부터 검증, 반영 결과까지 단계별로 확인하세요.",
+    "source": "/pages/member/customer/company_excel_upload.php",
+    "improvement": "파일→항목→검증→결과 4단계로 정리하고 오류 행을 반영 전 확인"
+  },
+  {
+    "id": "activity",
+    "title": "영업활동 관리",
+    "group": "영업 실행",
+    "icon": "activity",
+    "kind": "activity",
+    "description": "상담 내용을 기록하고 다음 행동으로 연결하세요.",
+    "source": "/pages/member/activity/activity_register.php",
+    "improvement": "고객 선택→기본 정보→내용→처리 결과·다음 행동을 연결; 실제 유형/처리 결과/제품 선택지 보완"
+  },
+  {
+    "id": "tasks",
+    "title": "오늘의 업무함",
+    "group": "영업 실행",
+    "icon": "clock",
+    "kind": "tasks",
+    "entity": "tasks",
+    "description": "지금 해야 할 일부터 완료한 활동까지 빠짐없이 관리하세요.",
+    "source": "/pages/member/sales/task_board.php",
+    "filters": [
+      {
+        "key": "q",
+        "label": "업무·고객사 검색",
+        "type": "search",
+        "required": false
+      },
+      {
+        "key": "status",
+        "label": "상태",
+        "type": "select",
+        "options": [
+          "전체",
+          "진행",
+          "완료",
+          "취소"
+        ],
+        "required": false
+      },
+      {
+        "key": "range",
+        "label": "기한",
+        "type": "select",
+        "options": [
+          "전체",
+          "기한 경과",
+          "오늘",
+          "7일 내",
+          "오늘 완료"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "scope",
+        "label": "조회 범위",
+        "type": "select",
+        "options": [
+          "내 업무",
+          "전체 업무"
+        ],
+        "required": false
+      },
+      {
+        "key": "owner",
+        "label": "담당자",
+        "type": "select",
+        "options": [
+          "전체",
+          "user_1",
+          "user_2",
+          "user_3"
+        ],
+        "required": false
+      }
+    ],
+    "columns": [
+      "업무",
+      "고객사",
+      "마감일시",
+      "우선순위",
+      "유형",
+      "담당자",
+      "상태"
+    ],
+    "form": [
+      {
+        "title": "업무 정보",
+        "fields": [
+          {
+            "key": "name",
+            "label": "업무 제목",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "type",
+            "label": "유형",
+            "type": "select",
+            "options": [
+              "후속 연락",
+              "상담",
+              "자료 전달",
+              "계약 확인",
+              "일반 업무"
+            ],
+            "required": false
+          },
+          {
+            "key": "priority",
+            "label": "우선순위",
+            "type": "select",
+            "options": [
+              "보통",
+              "높음",
+              "긴급",
+              "낮음"
+            ],
+            "required": false
+          },
+          {
+            "key": "due",
+            "label": "마감일시",
+            "type": "datetime-local",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "owner",
+            "label": "담당자",
+            "type": "select",
+            "options": [
+              "user_1",
+              "user_2",
+              "user_3"
+            ],
+            "required": true
+          },
+          {
+            "key": "company",
+            "label": "고객사",
+            "type": "select",
+            "options": [],
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "설명",
+        "fields": [
+          {
+            "key": "content",
+            "label": "업무 설명",
+            "type": "textarea",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "새 업무",
+    "improvement": "기한 경과·오늘·예정·완료와 목록·보드·달력 전환, 필요한 때 등록 폼 열기"
+  },
+  {
+    "id": "leads",
+    "title": "통합 리드함",
+    "group": "영업 실행",
+    "icon": "users",
+    "kind": "list",
+    "entity": "leads",
+    "description": "새로운 문의를 배정하고 첫 연락을 업무로 연결하세요.",
+    "source": "/pages/member/sales/lead_inbox.php",
+    "filters": [
+      {
+        "key": "q",
+        "label": "회사·담당자·문의 검색",
+        "type": "search",
+        "required": false
+      },
+      {
+        "key": "status",
+        "label": "상태",
+        "type": "select",
+        "options": [
+          "전체",
+          "신규",
+          "접촉",
+          "유효",
+          "전환",
+          "제외",
+          "중복"
+        ],
+        "required": false
+      },
+      {
+        "key": "source",
+        "label": "유입",
+        "type": "select",
+        "options": [
+          "전체",
+          "홈페이지",
+          "마케팅",
+          "수동"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "scope",
+        "label": "조회 범위",
+        "type": "select",
+        "options": [
+          "전체 리드",
+          "내 리드"
+        ],
+        "required": false
+      },
+      {
+        "key": "owner",
+        "label": "담당자",
+        "type": "select",
+        "options": [
+          "전체",
+          "미배정",
+          "user_1",
+          "user_2",
+          "user_3"
+        ],
+        "required": false
+      },
+      {
+        "key": "priority",
+        "label": "우선순위",
+        "type": "select",
+        "options": [
+          "전체",
+          "긴급",
+          "높음",
+          "보통",
+          "낮음"
+        ],
+        "required": false
+      }
+    ],
+    "columns": [
+      "회사/담당자",
+      "유입일시",
+      "유입",
+      "우선순위",
+      "상태",
+      "담당자",
+      "응답기한",
+      "연락처",
+      "이메일",
+      "문의내용"
+    ],
+    "form": [
+      {
+        "title": "고객 정보",
+        "fields": [
+          {
+            "key": "company",
+            "label": "회사명",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "contact",
+            "label": "담당자명",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "phone",
+            "label": "연락처",
+            "type": "tel",
+            "required": false
+          },
+          {
+            "key": "email",
+            "label": "이메일",
+            "type": "email",
+            "required": false
+          },
+          {
+            "key": "owner",
+            "label": "담당 영업사원",
+            "type": "select",
+            "options": [
+              "미배정",
+              "user_1",
+              "user_2",
+              "user_3"
+            ],
+            "required": false
+          },
+          {
+            "key": "priority",
+            "label": "우선순위",
+            "type": "select",
+            "options": [
+              "보통",
+              "긴급",
+              "높음",
+              "낮음"
+            ],
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "문의 · 진행",
+        "fields": [
+          {
+            "key": "content",
+            "label": "문의내용",
+            "type": "textarea",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "source",
+            "label": "유입",
+            "type": "select",
+            "options": [
+              "수동",
+              "홈페이지",
+              "마케팅"
+            ],
+            "required": false
+          },
+          {
+            "key": "status",
+            "label": "상태",
+            "type": "select",
+            "options": [
+              "신규",
+              "접촉",
+              "유효",
+              "전환",
+              "제외",
+              "중복"
+            ],
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "리드 등록",
+    "improvement": "문의·배정·우선순위·응답기한을 비교하고 첫 연락 업무 생성"
+  },
+  {
+    "id": "quotes",
+    "title": "견적 현황",
+    "group": "영업 실행",
+    "icon": "file",
+    "kind": "analytics-list",
+    "entity": "quotes",
+    "description": "제안 금액과 고객 반응을 함께 확인하고 후속 상담을 이어가세요.",
+    "source": "/pages/member/activity/quote_status.php",
+    "filters": [
+      {
+        "key": "from",
+        "label": "시작일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "to",
+        "label": "종료일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "owner",
+        "label": "담당자",
+        "type": "select",
+        "options": [
+          "전체",
+          "user_1",
+          "user_2",
+          "user_3"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "q",
+        "label": "통합검색",
+        "type": "search",
+        "required": false
+      },
+      {
+        "key": "type",
+        "label": "접촉유형",
+        "type": "select",
+        "options": [
+          "전체",
+          "TM",
+          "메일",
+          "방문"
+        ],
+        "required": false
+      },
+      {
+        "key": "status",
+        "label": "상태",
+        "type": "select",
+        "options": [
+          "전체",
+          "제안",
+          "검토",
+          "계약",
+          "실주"
+        ],
+        "required": false
+      },
+      {
+        "key": "sort",
+        "label": "정렬",
+        "type": "select",
+        "options": [
+          "최신순",
+          "금액 높은순",
+          "고객사명순"
+        ],
+        "required": false
+      }
+    ],
+    "columns": [
+      "거래처",
+      "견적일시",
+      "제품",
+      "견적총액",
+      "상태",
+      "담당자",
+      "고객사 담당자",
+      "접촉유형",
+      "제목 / 내용",
+      "라이선스",
+      "교육비",
+      "첨부"
+    ],
+    "form": [
+      {
+        "title": "고객 · 견적",
+        "fields": [
+          {
+            "key": "company",
+            "label": "거래처",
+            "type": "select",
+            "options": [],
+            "required": true
+          },
+          {
+            "key": "owner",
+            "label": "담당자",
+            "type": "select",
+            "options": [
+              "user_1",
+              "user_2",
+              "user_3"
+            ],
+            "required": false
+          },
+          {
+            "key": "contact",
+            "label": "고객사 담당자",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "date",
+            "label": "견적일시",
+            "type": "datetime-local",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "type",
+            "label": "접촉유형",
+            "type": "select",
+            "options": [
+              "TM",
+              "메일",
+              "방문"
+            ],
+            "required": false
+          },
+          {
+            "key": "products",
+            "label": "제품",
+            "type": "multi",
+            "options": [
+              "Amaranth10",
+              "Amaranth10 Cloud",
+              "Bizbox Alpha",
+              "Bizbox Alpha Cloud",
+              "ERP 10",
+              "iCUBE",
+              "iCUBE G20",
+              "iU",
+              "OmniEsol",
+              "PMS",
+              "SI(개발)",
+              "Smart A",
+              "Smart A Cloud",
+              "WEHAGO",
+              "WEHAGO T"
+            ],
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "금액 · 내용",
+        "fields": [
+          {
+            "key": "license",
+            "label": "라이선스 (원)",
+            "type": "number",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "education",
+            "label": "교육비 (원)",
+            "type": "number",
+            "required": false
+          },
+          {
+            "key": "status",
+            "label": "상태",
+            "type": "select",
+            "options": [
+              "제안",
+              "검토",
+              "계약",
+              "실주"
+            ],
+            "required": false
+          },
+          {
+            "key": "name",
+            "label": "제목",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "content",
+            "label": "내용",
+            "type": "textarea",
+            "required": false
+          },
+          {
+            "key": "attachments",
+            "label": "견적서 첨부",
+            "type": "file",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "견적 등록",
+    "improvement": "금액·제품·상태 요약과 상세 상담/첨부를 연결"
+  },
+  {
+    "id": "marketing",
+    "title": "마케팅 활동",
+    "group": "영업 실행",
+    "icon": "activity",
+    "kind": "list",
+    "entity": "marketing",
+    "description": "신규 고객의 반응과 마케팅 활동을 영업 기록으로 연결하세요.",
+    "source": "/pages/member/marketing/marketing_activity_register.php",
+    "filters": [
+      {
+        "key": "q",
+        "label": "거래처·코드·내용 검색",
+        "type": "search",
+        "required": false
+      },
+      {
+        "key": "source",
+        "label": "소스출처",
+        "type": "select",
+        "options": [
+          "전체",
+          "마케팅",
+          "영업부"
+        ],
+        "required": false
+      },
+      {
+        "key": "owner",
+        "label": "입력자",
+        "type": "select",
+        "options": [
+          "전체",
+          "user_1",
+          "user_2",
+          "user_3"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "from",
+        "label": "시작일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "to",
+        "label": "종료일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "customerType",
+        "label": "고객 구분",
+        "type": "select",
+        "options": [
+          "전체",
+          "기존 고객",
+          "신규 고객"
+        ],
+        "required": false
+      },
+      {
+        "key": "channel",
+        "label": "마케팅 채널",
+        "type": "select",
+        "options": [
+          "전체",
+          "메일",
+          "전화",
+          "온라인",
+          "행사"
+        ],
+        "required": false
+      },
+      {
+        "key": "type",
+        "label": "활동 유형",
+        "type": "select",
+        "options": [
+          "전체",
+          "캠페인",
+          "홍보",
+          "상담",
+          "자료 전달"
+        ],
+        "required": false
+      }
+    ],
+    "columns": [
+      "대상 고객",
+      "활동일",
+      "마케팅 채널",
+      "활동 유형",
+      "리드 단계",
+      "리드 점수",
+      "입력자",
+      "제목",
+      "연계 영업활동",
+      "관심 품목"
+    ],
+    "form": [
+      {
+        "title": "대상 고객",
+        "fields": [
+          {
+            "key": "customerType",
+            "label": "고객 구분",
+            "type": "select",
+            "options": [
+              "기존 고객",
+              "신규 고객"
+            ],
+            "required": false
+          },
+          {
+            "key": "company",
+            "label": "기존 고객사",
+            "type": "select",
+            "options": [],
+            "required": false
+          },
+          {
+            "key": "newCompany",
+            "label": "신규 회사명",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "business",
+            "label": "신규 사업자번호",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "contact",
+            "label": "신규 담당자",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "phone",
+            "label": "신규 연락처",
+            "type": "tel",
+            "required": false
+          },
+          {
+            "key": "email",
+            "label": "신규 이메일",
+            "type": "email",
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "활동 정보",
+        "fields": [
+          {
+            "key": "owner",
+            "label": "입력자",
+            "type": "select",
+            "options": [
+              "user_1",
+              "user_2",
+              "user_3"
+            ],
+            "required": false
+          },
+          {
+            "key": "channel",
+            "label": "마케팅 채널",
+            "type": "select",
+            "options": [
+              "메일",
+              "전화",
+              "온라인",
+              "행사"
+            ],
+            "required": false
+          },
+          {
+            "key": "type",
+            "label": "활동 유형",
+            "type": "select",
+            "options": [
+              "캠페인",
+              "홍보",
+              "상담",
+              "자료 전달"
+            ],
+            "required": false
+          },
+          {
+            "key": "date",
+            "label": "활동일",
+            "type": "datetime-local",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "name",
+            "label": "제목",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "products",
+            "label": "관심 품목",
+            "type": "multi",
+            "options": [
+              "Amaranth10",
+              "Amaranth10 Cloud",
+              "Bizbox Alpha",
+              "Bizbox Alpha Cloud",
+              "ERP 10",
+              "iCUBE",
+              "iCUBE G20",
+              "iU",
+              "OmniEsol",
+              "PMS",
+              "SI(개발)",
+              "Smart A",
+              "Smart A Cloud",
+              "WEHAGO",
+              "WEHAGO T"
+            ],
+            "required": false
+          },
+          {
+            "key": "linkedActivity",
+            "label": "연계 영업활동",
+            "type": "select",
+            "options": [
+              "미연계",
+              "도입 제안 상담",
+              "제품 시연"
+            ],
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "내용 · 리드",
+        "fields": [
+          {
+            "key": "content",
+            "label": "활동 내용",
+            "type": "textarea",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "stage",
+            "label": "리드 단계",
+            "type": "select",
+            "options": [
+              "신규",
+              "관심",
+              "상담",
+              "유효",
+              "전환"
+            ],
+            "required": false
+          },
+          {
+            "key": "score",
+            "label": "리드 점수 (0–100)",
+            "type": "number",
+            "required": false
+          },
+          {
+            "key": "attachments",
+            "label": "첨부파일",
+            "type": "file",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "마케팅 활동 등록",
+    "improvement": "기존/신규 대상, 활동 정보, 내용·리드 단계/점수로 입력 묶기"
+  },
+  {
+    "id": "yearly",
+    "title": "연간 영업현황",
+    "group": "분석 · 보고",
+    "icon": "chart",
+    "kind": "analytics-list",
+    "entity": "activities",
+    "description": "활동 추이와 담당자별 성과를 같은 기준으로 비교하세요.",
+    "source": "/pages/member/activity/activity_year.php?year=2026",
+    "filters": [
+      {
+        "key": "year",
+        "label": "연도",
+        "type": "select",
+        "options": [
+          "2026",
+          "2025",
+          "2024"
+        ],
+        "required": false
+      },
+      {
+        "key": "from",
+        "label": "시작일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "to",
+        "label": "종료일",
+        "type": "date",
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "owner",
+        "label": "영업담당자",
+        "type": "select",
+        "options": [
+          "전체",
+          "user_1",
+          "user_2",
+          "user_3"
+        ],
+        "required": false
+      },
+      {
+        "key": "type",
+        "label": "활동유형",
+        "type": "select",
+        "options": [
+          "전체",
+          "TM",
+          "메일",
+          "방문",
+          "견적"
+        ],
+        "required": false
+      },
+      {
+        "key": "subtype",
+        "label": "상세유형",
+        "type": "select",
+        "options": [
+          "전체",
+          "제안서",
+          "견적",
+          "상담",
+          "심화PT",
+          "TM(in)",
+          "TM(out)",
+          "유지보수",
+          "추가계약"
+        ],
+        "required": false
+      },
+      {
+        "key": "mine",
+        "label": "나만 보기",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "key": "all",
+        "label": "전체 목록 보기",
+        "type": "checkbox",
+        "required": false
+      }
+    ],
+    "columns": [
+      "고객사",
+      "활동일시",
+      "담당자",
+      "활동명",
+      "활동유형",
+      "상세유형",
+      "리드타임"
+    ],
+    "improvement": "기간·담당자·유형 조건, 집계 요약, 추이 그래프와 원본 목록을 같은 기준으로 표시"
+  },
+  {
+    "id": "activity-detail",
+    "title": "활동별 업체별 현황",
+    "group": "분석 · 보고",
+    "icon": "chart",
+    "kind": "analytics-list",
+    "entity": "activities",
+    "description": "활동 유형과 거래처별 기록을 필터로 좁혀 확인하세요.",
+    "source": "/pages/member/activity/activity_detail_status.php",
+    "filters": [
+      {
+        "key": "from",
+        "label": "시작일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "to",
+        "label": "종료일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "owner",
+        "label": "담당자",
+        "type": "select",
+        "options": [
+          "전체",
+          "user_1",
+          "user_2",
+          "user_3"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "type",
+        "label": "활동유형",
+        "type": "select",
+        "options": [
+          "전체",
+          "TM",
+          "메일",
+          "방문",
+          "견적"
+        ],
+        "required": false
+      },
+      {
+        "key": "subtype",
+        "label": "세부유형",
+        "type": "select",
+        "options": [
+          "전체",
+          "제안서",
+          "견적",
+          "상담",
+          "심화PT",
+          "TM(in)",
+          "TM(out)",
+          "유지보수",
+          "추가계약"
+        ],
+        "required": false
+      },
+      {
+        "key": "status",
+        "label": "상태",
+        "type": "select",
+        "options": [
+          "전체",
+          "연결됨",
+          "부재/미응답",
+          "관심 확인",
+          "견적 전달",
+          "미팅 확정",
+          "계약 성사",
+          "실주",
+          "기타"
+        ],
+        "required": false
+      },
+      {
+        "key": "forecastOnly",
+        "label": "포캐스팅 등록업체만",
+        "type": "checkbox",
+        "required": false
+      }
+    ],
+    "columns": [
+      "거래처",
+      "활동일시",
+      "담당자",
+      "유형",
+      "세부유형",
+      "제목",
+      "상태",
+      "라이선스",
+      "교육비",
+      "총액"
+    ],
+    "improvement": "활동 유형·거래처·상태 필터로 좁히고 상세 상담/금액 확인"
+  },
+  {
+    "id": "ai",
+    "title": "IONE AI",
+    "group": "분석 · 보고",
+    "icon": "spark",
+    "kind": "ai",
+    "description": "고객 기록을 바탕으로 다음 상담의 우선순위를 확인하세요.",
+    "source": "/pages/member/activity/ione_ai.php",
+    "filters": [
+      {
+        "key": "from",
+        "label": "시작일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "to",
+        "label": "종료일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "scope",
+        "label": "범위",
+        "type": "select",
+        "options": [
+          "개인",
+          "팀",
+          "전체"
+        ],
+        "required": false
+      }
+    ],
+    "improvement": "기록 근거와 우선 고객을 전용 화면에서 확인하고 후속 업무로 연결"
+  },
+  {
+    "id": "work-report",
+    "title": "업무일지",
+    "group": "분석 · 보고",
+    "icon": "file",
+    "kind": "work-report",
+    "entity": "activities",
+    "columns": [
+      "고객사",
+      "활동일시",
+      "담당자",
+      "활동명",
+      "유형",
+      "상태",
+      "총액"
+    ],
+    "description": "활동 기록과 포캐스팅을 모아 하루의 업무를 정리하세요.",
+    "source": "/pages/member/report/work_report.php",
+    "filters": [
+      {
+        "key": "from",
+        "label": "시작일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "to",
+        "label": "종료일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "owner",
+        "label": "담당자",
+        "type": "select",
+        "options": [
+          "전체",
+          "user_1",
+          "user_2",
+          "user_3"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "q",
+        "label": "제목·내용 검색",
+        "type": "search",
+        "required": false
+      },
+      {
+        "key": "type",
+        "label": "영업활동",
+        "type": "select",
+        "options": [
+          "전체",
+          "TM",
+          "메일",
+          "방문",
+          "견적"
+        ],
+        "required": false
+      },
+      {
+        "key": "subtype",
+        "label": "세부활동",
+        "type": "select",
+        "options": [
+          "전체",
+          "제안서",
+          "상담",
+          "심화PT",
+          "유지보수",
+          "추가계약"
+        ],
+        "required": false
+      },
+      {
+        "key": "basis",
+        "label": "금액 유형",
+        "type": "select",
+        "options": [
+          "라이선스",
+          "교육비",
+          "총액"
+        ],
+        "required": false
+      }
+    ],
+    "improvement": "활동 내역과 담당자별 일지 메모를 함께 보여주고 선보고 초안 제공"
+  },
+  {
+    "id": "custom-reports",
+    "title": "사용자 정의 보고서",
+    "group": "분석 · 보고",
+    "icon": "chart",
+    "kind": "report-builder",
+    "description": "분석 기준을 선택하고 결과를 바로 확인하세요.",
+    "source": "/pages/member/report/custom_reports.php",
+    "improvement": "구성 패널+실시간 집계 결과, 월별 교차 표, 저장한 보고서 불러오기"
+  },
+  {
+    "id": "ssl-master",
+    "title": "SSL 기초정보 관리",
+    "group": "SSL · 계약",
+    "icon": "shield",
+    "kind": "master",
+    "description": "매입처, 인증서 품목, 갱신주기를 같은 기준으로 관리하세요.",
+    "source": "/pages/member/contract/ssl_master.php",
+    "improvement": "품목·공급사·갱신주기를 같은 관리 규칙의 탭으로 정리"
+  },
+  {
+    "id": "ssl-purchase",
+    "title": "SSL 매입 관리",
+    "group": "SSL · 계약",
+    "icon": "shield",
+    "kind": "list",
+    "entity": "sslPurchase",
+    "description": "발주 정보를 등록하고 품목별 매입 금액을 확인하세요.",
+    "source": "/pages/member/contract/ssl_purchase.php",
+    "filters": [
+      {
+        "key": "from",
+        "label": "시작일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "to",
+        "label": "종료일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "supplier",
+        "label": "매입처",
+        "type": "select",
+        "options": [
+          "전체",
+          "파트너 A",
+          "파트너 B"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "q",
+        "label": "발주명·번호·고객사 검색",
+        "type": "search",
+        "required": false
+      },
+      {
+        "key": "status",
+        "label": "진행상태",
+        "type": "select",
+        "options": [
+          "전체",
+          "발주",
+          "입고",
+          "취소"
+        ],
+        "required": false
+      }
+    ],
+    "columns": [
+      "발주명",
+      "발주번호",
+      "발주일",
+      "매입처",
+      "합계액",
+      "진행상태",
+      "납기예정일",
+      "발주 품목",
+      "공급가액",
+      "부가세"
+    ],
+    "form": [
+      {
+        "title": "발주 정보",
+        "fields": [
+          {
+            "key": "name",
+            "label": "발주명",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "supplier",
+            "label": "매입처",
+            "type": "select",
+            "options": [
+              "파트너 A",
+              "파트너 B"
+            ],
+            "required": true
+          },
+          {
+            "key": "date",
+            "label": "발주일",
+            "type": "date",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "deliveryDate",
+            "label": "납기예정일",
+            "type": "date",
+            "required": false
+          },
+          {
+            "key": "content",
+            "label": "발주 메모",
+            "type": "textarea",
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "품목별 발주",
+        "fields": [
+          {
+            "key": "items",
+            "label": "발주 품목",
+            "type": "line-items",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "발주 등록",
+    "improvement": "발주 기본 정보와 품목별 수량·단가·부가세 합계를 한 폼으로 묶기"
+  },
+  {
+    "id": "ssl-delivery",
+    "title": "SSL 출고 관리",
+    "group": "SSL · 계약",
+    "icon": "shield",
+    "kind": "list",
+    "entity": "sslDelivery",
+    "description": "설치·출고 상태와 인증서 정보를 고객별로 확인하세요.",
+    "source": "/pages/member/contract/ssl_delivery.php",
+    "filters": [
+      {
+        "key": "from",
+        "label": "설치 시작일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "to",
+        "label": "설치 종료일",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "supplier",
+        "label": "매입처",
+        "type": "select",
+        "options": [
+          "전체",
+          "파트너 A",
+          "파트너 B"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "expiration",
+        "label": "만료구분",
+        "type": "select",
+        "options": [
+          "전체",
+          "유효",
+          "30일 내 만료",
+          "만료"
+        ],
+        "required": false
+      },
+      {
+        "key": "q",
+        "label": "고객사·도메인·인증서 검색",
+        "type": "search",
+        "required": false
+      }
+    ],
+    "columns": [
+      "고객사",
+      "SSL 품목",
+      "설치일",
+      "만료일",
+      "잔여일",
+      "출고상태",
+      "영업담당자",
+      "발주번호",
+      "발주명",
+      "매입처",
+      "도메인 용도",
+      "수량",
+      "출고 금액",
+      "인증서번호",
+      "출고 메모",
+      "만료상태"
+    ],
+    "form": [
+      {
+        "title": "설치 · 인증서 정보",
+        "fields": [
+          {
+            "key": "company",
+            "label": "고객사",
+            "type": "select",
+            "options": [],
+            "required": false
+          },
+          {
+            "key": "date",
+            "label": "설치일",
+            "type": "date",
+            "required": false
+          },
+          {
+            "key": "expirationDate",
+            "label": "만료일",
+            "type": "date",
+            "required": false
+          },
+          {
+            "key": "certificate",
+            "label": "인증서번호",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "status",
+            "label": "출고상태",
+            "type": "select",
+            "options": [
+              "출고",
+              "반품"
+            ],
+            "required": false
+          },
+          {
+            "key": "content",
+            "label": "출고 메모",
+            "type": "textarea",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "출고 정보 등록",
+    "improvement": "설치·출고·도메인·인증서 정보를 고객 맥락과 상세 패널에 연결"
+  },
+  {
+    "id": "ssl-expiration",
+    "title": "SSL 만료·갱신 관리",
+    "group": "SSL · 계약",
+    "icon": "shield",
+    "kind": "list",
+    "entity": "sslExpiration",
+    "description": "다가오는 만료와 갱신 대상을 먼저 확인하세요.",
+    "source": "/pages/member/contract/ssl_expiration.php",
+    "filters": [
+      {
+        "key": "range",
+        "label": "알림구간",
+        "type": "select",
+        "options": [
+          "전체",
+          "만료",
+          "7일 내",
+          "30일 내",
+          "90일 내"
+        ],
+        "required": false
+      },
+      {
+        "key": "supplier",
+        "label": "매입처",
+        "type": "select",
+        "options": [
+          "전체",
+          "파트너 A",
+          "파트너 B"
+        ],
+        "required": false
+      },
+      {
+        "key": "q",
+        "label": "고객사·도메인 검색",
+        "type": "search",
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "status",
+        "label": "알림상태",
+        "type": "select",
+        "options": [
+          "전체",
+          "미확인",
+          "확인"
+        ],
+        "required": false
+      },
+      {
+        "key": "basis",
+        "label": "관리 기준",
+        "type": "select",
+        "options": [
+          "인증서 만료",
+          "갱신 예정"
+        ],
+        "required": false
+      }
+    ],
+    "columns": [
+      "고객사",
+      "도메인 용도",
+      "만료일",
+      "잔여일",
+      "알림구간",
+      "알림상태",
+      "영업담당자",
+      "갱신예정일",
+      "매입처",
+      "SSL 품목",
+      "갱신주기",
+      "발주번호",
+      "발주명",
+      "수량",
+      "인증서번호"
+    ],
+    "primary": "갱신 대상 확인",
+    "improvement": "만료일·잔여일·알림 구간 우선 노출, 갱신 폼과 확인 상태 연결"
+  },
+  {
+    "id": "forecast-add",
+    "title": "포캐스팅 등록",
+    "group": "포캐스팅",
+    "icon": "chart",
+    "kind": "form",
+    "entity": "forecasts",
+    "description": "고객, 예상 금액과 계약 일정을 함께 기록하세요.",
+    "source": "/pages/member/forecast/forecast_add.php",
+    "form": [
+      {
+        "title": "고객 · 계약 정보",
+        "fields": [
+          {
+            "key": "company",
+            "label": "고객사",
+            "type": "select",
+            "options": [],
+            "required": true
+          },
+          {
+            "key": "owner",
+            "label": "영업담당자",
+            "type": "select",
+            "options": [
+              "user_1",
+              "user_2",
+              "user_3"
+            ],
+            "required": true
+          },
+          {
+            "key": "dealType",
+            "label": "계약 형태",
+            "type": "select",
+            "options": [
+              "신규",
+              "업셀",
+              "추가"
+            ],
+            "required": true
+          },
+          {
+            "key": "products",
+            "label": "품목",
+            "type": "multi",
+            "options": [
+              "Amaranth10",
+              "Amaranth10 Cloud",
+              "Bizbox Alpha",
+              "Bizbox Alpha Cloud",
+              "ERP 10",
+              "iCUBE",
+              "iCUBE G20",
+              "iU",
+              "OmniEsol",
+              "PMS",
+              "SI(개발)",
+              "Smart A",
+              "Smart A Cloud",
+              "WEHAGO",
+              "WEHAGO T"
+            ],
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "금액 · 예정 일정",
+        "fields": [
+          {
+            "key": "license",
+            "label": "라이선스 금액 (원)",
+            "type": "number",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "education",
+            "label": "교육비 (원)",
+            "type": "number",
+            "required": false
+          },
+          {
+            "key": "forecastMonth",
+            "label": "포캐스팅 예정월",
+            "type": "month",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "invoiceDate",
+            "label": "계약 예정일",
+            "type": "date",
+            "required": false
+          },
+          {
+            "key": "status",
+            "label": "계약 여부",
+            "type": "select",
+            "options": [
+              "미계약",
+              "계약"
+            ],
+            "required": false
+          },
+          {
+            "key": "contractMonth",
+            "label": "계약월",
+            "type": "month",
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "이월 관리",
+        "fields": [
+          {
+            "key": "carryoverMonth",
+            "label": "이월 대상월",
+            "type": "month",
+            "required": false
+          },
+          {
+            "key": "carryoverReason",
+            "label": "이월 사유",
+            "type": "textarea",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "improvement": "고객·계약/금액·일정/이월 정보로 입력 묶기, 라이선스+교육비 자동 합계"
+  },
+  {
+    "id": "forecast-status",
+    "title": "포캐스팅 현황",
+    "group": "포캐스팅",
+    "icon": "chart",
+    "kind": "forecast",
+    "entity": "forecasts",
+    "description": "계약 예정과 이월, 목표 달성 현황을 같은 화면에서 확인하세요.",
+    "source": "/pages/member/forecast/forecast_status.php",
+    "filters": [
+      {
+        "key": "fromMonth",
+        "label": "시작월",
+        "type": "month",
+        "required": false
+      },
+      {
+        "key": "toMonth",
+        "label": "종료월",
+        "type": "month",
+        "required": false
+      },
+      {
+        "key": "owner",
+        "label": "담당자",
+        "type": "select",
+        "options": [
+          "전체",
+          "user_1",
+          "user_2",
+          "user_3"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "period",
+        "label": "빠른 선택",
+        "type": "select",
+        "options": [
+          "이번 달",
+          "최근 3개월",
+          "올해",
+          "직접 선택"
+        ],
+        "required": false
+      },
+      {
+        "key": "basis",
+        "label": "표시 기준",
+        "type": "select",
+        "options": [
+          "라이선스",
+          "교육비",
+          "총액"
+        ],
+        "required": false
+      },
+      {
+        "key": "team",
+        "label": "팀",
+        "type": "select",
+        "options": [
+          "전체",
+          "전략사업본부",
+          "마케팅본부"
+        ],
+        "required": false
+      },
+      {
+        "key": "contractFrom",
+        "label": "계약 예정일 시작",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "contractTo",
+        "label": "계약 예정일 종료",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "status",
+        "label": "계약 여부",
+        "type": "select",
+        "options": [
+          "전체",
+          "미계약",
+          "계약"
+        ],
+        "required": false
+      },
+      {
+        "key": "dealType",
+        "label": "형태",
+        "type": "select",
+        "options": [
+          "전체",
+          "신규",
+          "업셀",
+          "추가"
+        ],
+        "required": false
+      }
+    ],
+    "columns": [
+      "거래처",
+      "담당자",
+      "라이선스",
+      "교육비",
+      "총액",
+      "계약예정일",
+      "계약여부",
+      "계약 형태",
+      "포캐스팅 예정월",
+      "이월원월",
+      "이월사유",
+      "대체"
+    ],
+    "form": [
+      {
+        "title": "고객 · 계약 정보",
+        "fields": [
+          {
+            "key": "company",
+            "label": "고객사",
+            "type": "select",
+            "options": [],
+            "required": true
+          },
+          {
+            "key": "owner",
+            "label": "영업담당자",
+            "type": "select",
+            "options": [
+              "user_1",
+              "user_2",
+              "user_3"
+            ],
+            "required": true
+          },
+          {
+            "key": "dealType",
+            "label": "계약 형태",
+            "type": "select",
+            "options": [
+              "신규",
+              "업셀",
+              "추가"
+            ],
+            "required": true
+          },
+          {
+            "key": "products",
+            "label": "품목",
+            "type": "multi",
+            "options": [
+              "Amaranth10",
+              "Amaranth10 Cloud",
+              "Bizbox Alpha",
+              "Bizbox Alpha Cloud",
+              "ERP 10",
+              "iCUBE",
+              "iCUBE G20",
+              "iU",
+              "OmniEsol",
+              "PMS",
+              "SI(개발)",
+              "Smart A",
+              "Smart A Cloud",
+              "WEHAGO",
+              "WEHAGO T"
+            ],
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "금액 · 예정 일정",
+        "fields": [
+          {
+            "key": "license",
+            "label": "라이선스 금액 (원)",
+            "type": "number",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "education",
+            "label": "교육비 (원)",
+            "type": "number",
+            "required": false
+          },
+          {
+            "key": "forecastMonth",
+            "label": "포캐스팅 예정월",
+            "type": "month",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "invoiceDate",
+            "label": "계약 예정일",
+            "type": "date",
+            "required": false
+          },
+          {
+            "key": "status",
+            "label": "계약 여부",
+            "type": "select",
+            "options": [
+              "미계약",
+              "계약"
+            ],
+            "required": false
+          },
+          {
+            "key": "contractMonth",
+            "label": "계약월",
+            "type": "month",
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "이월 관리",
+        "fields": [
+          {
+            "key": "carryoverMonth",
+            "label": "이월 대상월",
+            "type": "month",
+            "required": false
+          },
+          {
+            "key": "carryoverReason",
+            "label": "이월 사유",
+            "type": "textarea",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "포캐스팅 등록",
+    "improvement": "반복 월별 표를 한 목록+기간 필터+전체/이월/달성 탭으로 통합"
+  },
+  {
+    "id": "other-add",
+    "title": "기타계약 포캐스팅 등록",
+    "group": "포캐스팅",
+    "icon": "chart",
+    "kind": "form",
+    "entity": "otherForecasts",
+    "description": "기타계약의 예상 금액과 계약 일정을 기록하세요.",
+    "source": "/pages/member/other_contract/forecast_add_other.php",
+    "form": [
+      {
+        "title": "고객 · 계약 정보",
+        "fields": [
+          {
+            "key": "company",
+            "label": "고객사",
+            "type": "select",
+            "options": [],
+            "required": true
+          },
+          {
+            "key": "owner",
+            "label": "영업담당자",
+            "type": "select",
+            "options": [
+              "user_1",
+              "user_2",
+              "user_3"
+            ],
+            "required": true
+          },
+          {
+            "key": "dealType",
+            "label": "계약 형태",
+            "type": "select",
+            "options": [
+              "신규",
+              "업셀",
+              "추가"
+            ],
+            "required": true
+          },
+          {
+            "key": "products",
+            "label": "품목",
+            "type": "multi",
+            "options": [
+              "Amaranth10",
+              "Amaranth10 Cloud",
+              "Bizbox Alpha",
+              "Bizbox Alpha Cloud",
+              "ERP 10",
+              "iCUBE",
+              "iCUBE G20",
+              "iU",
+              "OmniEsol",
+              "PMS",
+              "SI(개발)",
+              "Smart A",
+              "Smart A Cloud",
+              "WEHAGO",
+              "WEHAGO T"
+            ],
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "금액 · 예정 일정",
+        "fields": [
+          {
+            "key": "license",
+            "label": "라이선스 금액 (원)",
+            "type": "number",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "education",
+            "label": "교육비 (원)",
+            "type": "number",
+            "required": false
+          },
+          {
+            "key": "forecastMonth",
+            "label": "포캐스팅 예정월",
+            "type": "month",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "invoiceDate",
+            "label": "계약 예정일",
+            "type": "date",
+            "required": false
+          },
+          {
+            "key": "status",
+            "label": "계약 여부",
+            "type": "select",
+            "options": [
+              "미계약",
+              "계약"
+            ],
+            "required": false
+          },
+          {
+            "key": "contractMonth",
+            "label": "계약월",
+            "type": "month",
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "이월 관리",
+        "fields": [
+          {
+            "key": "carryoverMonth",
+            "label": "이월 대상월",
+            "type": "month",
+            "required": false
+          },
+          {
+            "key": "carryoverReason",
+            "label": "이월 사유",
+            "type": "textarea",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "improvement": "포캐스팅과 같은 입력 규칙을 기타계약에 적용"
+  },
+  {
+    "id": "other-status",
+    "title": "기타계약 포캐스팅 현황",
+    "group": "포캐스팅",
+    "icon": "chart",
+    "kind": "forecast",
+    "entity": "otherForecasts",
+    "description": "기타계약의 계약 예정과 이월 현황을 확인하세요.",
+    "source": "/pages/member/other_contract/forecast_status_other.php",
+    "filters": [
+      {
+        "key": "fromMonth",
+        "label": "시작월",
+        "type": "month",
+        "required": false
+      },
+      {
+        "key": "toMonth",
+        "label": "종료월",
+        "type": "month",
+        "required": false
+      },
+      {
+        "key": "owner",
+        "label": "담당자",
+        "type": "select",
+        "options": [
+          "전체",
+          "user_1",
+          "user_2",
+          "user_3"
+        ],
+        "required": false
+      }
+    ],
+    "extra": [
+      {
+        "key": "period",
+        "label": "빠른 선택",
+        "type": "select",
+        "options": [
+          "이번 달",
+          "최근 3개월",
+          "올해",
+          "직접 선택"
+        ],
+        "required": false
+      },
+      {
+        "key": "basis",
+        "label": "표시 기준",
+        "type": "select",
+        "options": [
+          "라이선스",
+          "교육비",
+          "총액"
+        ],
+        "required": false
+      },
+      {
+        "key": "team",
+        "label": "팀",
+        "type": "select",
+        "options": [
+          "전체",
+          "전략사업본부",
+          "마케팅본부"
+        ],
+        "required": false
+      },
+      {
+        "key": "contractFrom",
+        "label": "계약 예정일 시작",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "contractTo",
+        "label": "계약 예정일 종료",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "status",
+        "label": "계약 여부",
+        "type": "select",
+        "options": [
+          "전체",
+          "미계약",
+          "계약"
+        ],
+        "required": false
+      },
+      {
+        "key": "dealType",
+        "label": "형태",
+        "type": "select",
+        "options": [
+          "전체",
+          "신규",
+          "업셀",
+          "추가"
+        ],
+        "required": false
+      }
+    ],
+    "columns": [
+      "거래처",
+      "담당자",
+      "라이선스",
+      "교육비",
+      "총액",
+      "계약예정일",
+      "계약여부",
+      "계약 형태",
+      "포캐스팅 예정월",
+      "이월원월",
+      "이월사유",
+      "대체"
+    ],
+    "form": [
+      {
+        "title": "고객 · 계약 정보",
+        "fields": [
+          {
+            "key": "company",
+            "label": "고객사",
+            "type": "select",
+            "options": [],
+            "required": true
+          },
+          {
+            "key": "owner",
+            "label": "영업담당자",
+            "type": "select",
+            "options": [
+              "user_1",
+              "user_2",
+              "user_3"
+            ],
+            "required": true
+          },
+          {
+            "key": "dealType",
+            "label": "계약 형태",
+            "type": "select",
+            "options": [
+              "신규",
+              "업셀",
+              "추가"
+            ],
+            "required": true
+          },
+          {
+            "key": "products",
+            "label": "품목",
+            "type": "multi",
+            "options": [
+              "Amaranth10",
+              "Amaranth10 Cloud",
+              "Bizbox Alpha",
+              "Bizbox Alpha Cloud",
+              "ERP 10",
+              "iCUBE",
+              "iCUBE G20",
+              "iU",
+              "OmniEsol",
+              "PMS",
+              "SI(개발)",
+              "Smart A",
+              "Smart A Cloud",
+              "WEHAGO",
+              "WEHAGO T"
+            ],
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "금액 · 예정 일정",
+        "fields": [
+          {
+            "key": "license",
+            "label": "라이선스 금액 (원)",
+            "type": "number",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "education",
+            "label": "교육비 (원)",
+            "type": "number",
+            "required": false
+          },
+          {
+            "key": "forecastMonth",
+            "label": "포캐스팅 예정월",
+            "type": "month",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "invoiceDate",
+            "label": "계약 예정일",
+            "type": "date",
+            "required": false
+          },
+          {
+            "key": "status",
+            "label": "계약 여부",
+            "type": "select",
+            "options": [
+              "미계약",
+              "계약"
+            ],
+            "required": false
+          },
+          {
+            "key": "contractMonth",
+            "label": "계약월",
+            "type": "month",
+            "required": false
+          }
+        ]
+      },
+      {
+        "title": "이월 관리",
+        "fields": [
+          {
+            "key": "carryoverMonth",
+            "label": "이월 대상월",
+            "type": "month",
+            "required": false
+          },
+          {
+            "key": "carryoverReason",
+            "label": "이월 사유",
+            "type": "textarea",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "기타계약 등록",
+    "improvement": "계약 예정·이월·달성 현황을 같은 기준으로 비교"
+  },
+  {
+    "id": "admin",
+    "title": "관리자 대시보드",
+    "group": "관리자",
+    "icon": "settings",
+    "kind": "admin",
+    "description": "운영 설정과 기준정보를 업무별로 찾아 관리하세요.",
+    "source": "/pages/admin/dashboard.php",
+    "improvement": "계정·조직/기준정보/운영 설정으로 관리자 메뉴를 목적별 분류"
+  },
+  {
+    "id": "members",
+    "title": "회원·담당업무 관리",
+    "group": "계정 · 조직",
+    "admin": true,
+    "kind": "list",
+    "entity": "members",
+    "description": "회원 정보와 담당 업무, 재직 상태를 함께 확인하세요.",
+    "source": "/pages/admin/members.php",
+    "filters": [
+      {
+        "key": "q",
+        "label": "이름·로그인 ID 검색",
+        "type": "search",
+        "required": false
+      }
+    ],
+    "columns": [
+      "이름",
+      "로그인 ID",
+      "직급",
+      "부서",
+      "권한",
+      "담당업무",
+      "재직 상태",
+      "퇴사일"
+    ],
+    "form": [
+      {
+        "title": "회원 정보",
+        "fields": [
+          {
+            "key": "name",
+            "label": "이름",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "loginId",
+            "label": "로그인 ID",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "position",
+            "label": "직급",
+            "type": "text",
+            "required": false
+          },
+          {
+            "key": "department",
+            "label": "부서",
+            "type": "select",
+            "options": [
+              "전략사업본부",
+              "마케팅본부"
+            ],
+            "required": false
+          },
+          {
+            "key": "role",
+            "label": "권한",
+            "type": "select",
+            "options": [
+              "사용자",
+              "관리자"
+            ],
+            "required": false
+          },
+          {
+            "key": "work",
+            "label": "담당업무",
+            "type": "select",
+            "options": [
+              "영업",
+              "마케팅",
+              "운영"
+            ],
+            "required": false
+          },
+          {
+            "key": "retirementDate",
+            "label": "퇴사일",
+            "type": "date",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "담당업무 관리",
+    "improvement": "회원 정보·담당 업무·재직 상태를 통합하고 업무별 설정 패널 제공"
+  },
+  {
+    "id": "transfer",
+    "title": "고객사 담당자 이관",
+    "group": "계정 · 조직",
+    "admin": true,
+    "kind": "transfer",
+    "entity": "customers",
+    "description": "대상 고객과 변경 전·후 담당자를 비교하고 이관하세요.",
+    "source": "/pages/admin/company_sales_rep_transfer.php",
+    "filters": [
+      {
+        "key": "owner",
+        "label": "기존 담당자",
+        "type": "select",
+        "options": [
+          "전체",
+          "미배정",
+          "user_1",
+          "user_2",
+          "user_3"
+        ],
+        "required": false
+      },
+      {
+        "key": "q",
+        "label": "고객사 검색",
+        "type": "search",
+        "required": false
+      }
+    ],
+    "columns": [
+      "고객사",
+      "사업자등록번호",
+      "고객코드",
+      "거래처유형",
+      "영업상태",
+      "현재 담당자",
+      "새 담당자"
+    ],
+    "improvement": "대상 고객 선택과 변경 전·후 담당자 비교를 하나의 화면에 배치"
+  },
+  {
+    "id": "permissions",
+    "title": "페이지 접근 권한",
+    "group": "계정 · 조직",
+    "admin": true,
+    "kind": "permissions",
+    "description": "페이지와 사용자 권한을 하나의 관리 흐름으로 정리하세요.",
+    "source": "/pages/admin/roles.php",
+    "improvement": "역할 선택과 페이지 목록을 같은 권한 설정 흐름으로 정리"
+  },
+  {
+    "id": "departments",
+    "title": "부서 관리",
+    "group": "계정 · 조직",
+    "admin": true,
+    "kind": "list",
+    "entity": "departments",
+    "description": "부서와 소속 인원을 한눈에 확인하세요.",
+    "source": "/pages/admin/departments.php",
+    "filters": [
+      {
+        "key": "q",
+        "label": "부서 검색",
+        "type": "search",
+        "required": false
+      }
+    ],
+    "columns": [
+      "부서명",
+      "소속 회원",
+      "등록일",
+      "상태"
+    ],
+    "form": [
+      {
+        "title": "부서 정보",
+        "fields": [
+          {
+            "key": "name",
+            "label": "부서명",
+            "type": "text",
+            "options": null,
+            "required": true
+          }
+        ]
+      }
+    ],
+    "primary": "부서 등록",
+    "improvement": "부서와 소속 인원을 표에서 비교, 등록은 필요할 때 열기"
+  },
+  {
+    "id": "department-add",
+    "title": "부서 신규 등록",
+    "group": "계정 · 조직",
+    "admin": true,
+    "kind": "form",
+    "entity": "departments",
+    "description": "새 부서를 등록하고 조직 목록으로 연결하세요.",
+    "source": "/pages/admin/department_add.php",
+    "form": [
+      {
+        "title": "부서 정보",
+        "fields": [
+          {
+            "key": "name",
+            "label": "부서명",
+            "type": "text",
+            "options": null,
+            "required": true
+          }
+        ]
+      }
+    ],
+    "improvement": "부서 등록 후 관리 목록으로 연결"
+  },
+  {
+    "id": "goals",
+    "title": "매출 목표 관리",
+    "group": "계정 · 조직",
+    "admin": true,
+    "kind": "goals",
+    "description": "사원별 월 목표와 연간 합계를 함께 확인하세요.",
+    "source": "/pages/admin/goal/goal_list.php",
+    "improvement": "사원별 월 목표 입력과 자동 연간 합계, 연도 전환 제공"
+  },
+  {
+    "id": "manage-items",
+    "title": "관리항목 관리",
+    "group": "기준정보",
+    "admin": true,
+    "kind": "manage-items",
+    "description": "고객 관리에 사용하는 항목 이름과 선택값을 관리하세요.",
+    "source": "/pages/admin/manage_items.php",
+    "improvement": "관리 항목 이름과 선택값을 한 입력 화면으로 정리"
+  },
+  {
+    "id": "institutions",
+    "title": "기관유형 관리",
+    "group": "기준정보",
+    "admin": true,
+    "kind": "list",
+    "entity": "institutions",
+    "description": "기관유형별 사용 현황을 확인하고 선택 항목을 관리하세요.",
+    "source": "/pages/admin/institution_types.php",
+    "columns": [
+      "기관유형명",
+      "사용 고객사",
+      "상태"
+    ],
+    "form": [
+      {
+        "title": "기관유형",
+        "fields": [
+          {
+            "key": "name",
+            "label": "기관유형명",
+            "type": "text",
+            "options": null,
+            "required": true
+          }
+        ]
+      }
+    ],
+    "primary": "기관유형 추가",
+    "improvement": "기관유형별 사용 현황과 선택 항목 관리"
+  },
+  {
+    "id": "acquisition",
+    "title": "유입정보 관리",
+    "group": "기준정보",
+    "admin": true,
+    "kind": "list",
+    "entity": "acquisition",
+    "description": "소스출처와 인입경로의 연결 관계를 정리하세요.",
+    "source": "/pages/admin/company_acquisition_options.php",
+    "columns": [
+      "항목명",
+      "소스출처",
+      "유형",
+      "상태"
+    ],
+    "form": [
+      {
+        "title": "유입정보",
+        "fields": [
+          {
+            "key": "name",
+            "label": "항목명",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "type",
+            "label": "유형",
+            "type": "select",
+            "options": [
+              "소스출처",
+              "인입경로"
+            ],
+            "required": false
+          },
+          {
+            "key": "source",
+            "label": "상위 소스출처",
+            "type": "select",
+            "options": [
+              "마케팅",
+              "영업부"
+            ],
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "항목 추가",
+    "improvement": "소스출처·인입경로의 상위 관계를 명확하게 표시"
+  },
+  {
+    "id": "commercial-news",
+    "title": "영리 뉴스 관리",
+    "group": "기준정보",
+    "admin": true,
+    "kind": "list",
+    "entity": "commercialKeywords",
+    "description": "수집 대상과 검색 키워드를 구분해 관리하세요.",
+    "source": "/pages/admin/commercial_news_keywords.php",
+    "columns": [
+      "키워드",
+      "노출 순서",
+      "수집 사용",
+      "연결 기사",
+      "연결 기관"
+    ],
+    "form": [
+      {
+        "title": "수집 키워드",
+        "fields": [
+          {
+            "key": "name",
+            "label": "키워드",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "order",
+            "label": "노출 순서",
+            "type": "number",
+            "required": false
+          },
+          {
+            "key": "enabled",
+            "label": "수집 사용",
+            "type": "checkbox",
+            "required": false
+          },
+          {
+            "key": "type",
+            "label": "키워드 유형",
+            "type": "select",
+            "options": [
+              "일반 키워드",
+              "고객사 연계 키워드"
+            ],
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "키워드 추가",
+    "improvement": "수집 사용·노출 순서·키워드 구분을 같은 관리 목록으로 정리"
+  },
+  {
+    "id": "nonprofit-keywords",
+    "title": "비영리 뉴스 키워드",
+    "group": "기준정보",
+    "admin": true,
+    "kind": "list",
+    "entity": "nonprofitKeywords",
+    "description": "기관 설립·예산 소식을 찾는 키워드를 관리하세요.",
+    "source": "/pages/admin/nonprofit_news_keywords.php",
+    "columns": [
+      "키워드",
+      "노출 순서",
+      "수집 사용",
+      "연결 기사",
+      "연결 기관"
+    ],
+    "form": [
+      {
+        "title": "수집 키워드",
+        "fields": [
+          {
+            "key": "name",
+            "label": "키워드",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "order",
+            "label": "노출 순서",
+            "type": "number",
+            "required": false
+          },
+          {
+            "key": "enabled",
+            "label": "수집 사용",
+            "type": "checkbox",
+            "required": false
+          },
+          {
+            "key": "type",
+            "label": "키워드 유형",
+            "type": "select",
+            "options": [
+              "일반 키워드",
+              "고객사 연계 키워드"
+            ],
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "키워드 추가",
+    "improvement": "기관 설립·예산 키워드와 수집 상태 관리"
+  },
+  {
+    "id": "products",
+    "title": "품목 관리",
+    "group": "기준정보",
+    "admin": true,
+    "kind": "list",
+    "entity": "products",
+    "description": "판매 품목과 코드를 확인하고 활성 상태를 관리하세요.",
+    "source": "/pages/admin/products.php",
+    "filters": [
+      {
+        "key": "q",
+        "label": "품목명·코드 검색",
+        "type": "search",
+        "required": false
+      }
+    ],
+    "columns": [
+      "품목명",
+      "품목코드",
+      "상태",
+      "옵션 수"
+    ],
+    "form": [
+      {
+        "title": "품목 정보",
+        "fields": [
+          {
+            "key": "name",
+            "label": "품목명",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "code",
+            "label": "품목코드",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "status",
+            "label": "상태",
+            "type": "select",
+            "options": [
+              "활성",
+              "비활성"
+            ],
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "품목 추가",
+    "improvement": "품목명·코드·활성 상태와 옵션 수를 비교"
+  },
+  {
+    "id": "product-options",
+    "title": "품목옵션 관리",
+    "group": "기준정보",
+    "admin": true,
+    "kind": "list",
+    "entity": "productOptions",
+    "description": "품목별 옵션과 코드를 연결해 관리하세요.",
+    "source": "/pages/admin/product_options.php",
+    "filters": [
+      {
+        "key": "product",
+        "label": "품목",
+        "type": "select",
+        "options": [
+          "전체",
+          "Amaranth10",
+          "Amaranth10 Cloud",
+          "Bizbox Alpha",
+          "Bizbox Alpha Cloud",
+          "ERP 10",
+          "iCUBE",
+          "iCUBE G20",
+          "iU",
+          "OmniEsol",
+          "PMS",
+          "SI(개발)",
+          "Smart A",
+          "Smart A Cloud",
+          "WEHAGO",
+          "WEHAGO T"
+        ],
+        "required": false
+      },
+      {
+        "key": "q",
+        "label": "옵션명·코드 검색",
+        "type": "search",
+        "required": false
+      }
+    ],
+    "columns": [
+      "옵션명",
+      "품목",
+      "옵션코드",
+      "상태"
+    ],
+    "form": [
+      {
+        "title": "옵션 정보",
+        "fields": [
+          {
+            "key": "product",
+            "label": "품목",
+            "type": "select",
+            "options": [
+              "Amaranth10",
+              "Amaranth10 Cloud",
+              "Bizbox Alpha",
+              "Bizbox Alpha Cloud",
+              "ERP 10",
+              "iCUBE",
+              "iCUBE G20",
+              "iU",
+              "OmniEsol",
+              "PMS",
+              "SI(개발)",
+              "Smart A",
+              "Smart A Cloud",
+              "WEHAGO",
+              "WEHAGO T"
+            ],
+            "required": true
+          },
+          {
+            "key": "name",
+            "label": "옵션명",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "code",
+            "label": "옵션코드",
+            "type": "text",
+            "options": null,
+            "required": true
+          },
+          {
+            "key": "status",
+            "label": "상태",
+            "type": "select",
+            "options": [
+              "활성",
+              "비활성"
+            ],
+            "required": false
+          }
+        ]
+      }
+    ],
+    "primary": "옵션 추가",
+    "improvement": "제품별 옵션·코드·활성 상태를 연결"
+  },
+  {
+    "id": "options-upload",
+    "title": "품목옵션 일괄등록",
+    "group": "기준정보",
+    "admin": true,
+    "kind": "upload",
+    "entity": "productOptions",
+    "description": "옵션 파일을 검증하고 반영 대상을 확인하세요.",
+    "source": "/pages/admin/product_options_upload.php",
+    "improvement": "옵션 파일의 선택·검증·반영 결과를 단계별 제공"
+  },
+  {
+    "id": "marketing-types",
+    "title": "마케팅 활동유형",
+    "group": "운영 설정",
+    "admin": true,
+    "kind": "list",
+    "entity": "marketingTypes",
+    "description": "마케팅 활동에 사용하는 공통 선택 항목을 관리하세요.",
+    "source": "/pages/admin/marketing_activity_options.php",
+    "columns": [
+      "활동유형명",
+      "상태",
+      "등록일"
+    ],
+    "form": [
+      {
+        "title": "활동유형",
+        "fields": [
+          {
+            "key": "name",
+            "label": "활동유형명",
+            "type": "text",
+            "options": null,
+            "required": true
+          }
+        ]
+      }
+    ],
+    "primary": "활동유형 추가",
+    "improvement": "활동유형의 등록·수정·사용 상태를 같은 목록 규칙으로 관리"
+  },
+  {
+    "id": "work-settings",
+    "title": "업무일지 운영 설정",
+    "group": "운영 설정",
+    "admin": true,
+    "kind": "work-settings",
+    "description": "업무일지에 표시할 인원과 선보고 수신 대상을 구분하세요.",
+    "source": "/pages/admin/work_report.php",
+    "improvement": "업무일지 표시 대상과 선보고 수신 대상을 구분"
+  },
+  {
+    "id": "system",
+    "title": "시스템·알림 설정",
+    "group": "운영 설정",
+    "admin": true,
+    "kind": "settings",
+    "description": "브랜드 이미지와 업무 알림 수신 정보를 관리하세요.",
+    "source": "/pages/admin/settings.php",
+    "improvement": "브랜드/로그인 이미지 미리보기와 알림 수신 정보를 구분"
+  },
+  {
+    "id": "migration",
+    "title": "데이터 마이그레이션",
+    "group": "운영 설정",
+    "admin": true,
+    "kind": "migration",
+    "description": "이전 대상과 검증 결과를 단계별로 확인하는 제안 화면입니다.",
+    "source": "/pages/admin/migrate_clients.php",
+    "proposed": true,
+    "improvement": "원본 미열람: 샘플 중복·필수값 검증만 보여주는 별도 제안"
+  },
+  {
+    "id": "login",
+    "title": "로그인",
+    "group": "운영 설정",
+    "admin": true,
+    "kind": "login",
+    "description": "",
+    "source": "/pages/auth/login/login.php",
+    "improvement": "브랜드와 인증 영역 분리, 지속 레이블, 찾기·가입 보조 흐름 정리"
+  }
+]

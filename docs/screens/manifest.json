@@ -1,0 +1,631 @@
+[
+  {
+    "id": "activity-original",
+    "title": "영업활동 관리 · 단독 시안",
+    "url": "http://127.0.0.1:8938/activity.html",
+    "filename": "01-activity-original",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "영업활동 관리",
+      "height": 1366,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "activity",
+    "title": "영업활동 관리",
+    "url": "http://127.0.0.1:8938/index.html#activity",
+    "filename": "02-activity",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "height": 1506,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "home",
+    "title": "대시보드",
+    "url": "http://127.0.0.1:8938/index.html#home",
+    "filename": "03-home",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "대시보드",
+      "height": 1511,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "customers",
+    "title": "고객사 관리",
+    "url": "http://127.0.0.1:8938/index.html#customers",
+    "filename": "04-customers",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "고객사 관리",
+      "height": 1156,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "nonprofits",
+    "title": "비영리 관리",
+    "url": "http://127.0.0.1:8938/index.html#nonprofits",
+    "filename": "05-nonprofits",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "비영리 관리",
+      "height": 942,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "news",
+    "title": "영리·비영리 뉴스",
+    "url": "http://127.0.0.1:8938/index.html#news",
+    "filename": "06-news",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "영리·비영리 뉴스",
+      "height": 1076,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "contacts",
+    "title": "컨택 관리",
+    "url": "http://127.0.0.1:8938/index.html#contacts",
+    "filename": "07-contacts",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "컨택 관리",
+      "height": 1199,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "upload",
+    "title": "고객사 일괄업로드",
+    "url": "http://127.0.0.1:8938/index.html#upload",
+    "filename": "08-upload",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "고객사 일괄업로드",
+      "height": 907,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "tasks",
+    "title": "오늘의 업무함",
+    "url": "http://127.0.0.1:8938/index.html#tasks",
+    "filename": "09-tasks",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "오늘의 업무함",
+      "height": 1346,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "leads",
+    "title": "통합 리드함",
+    "url": "http://127.0.0.1:8938/index.html#leads",
+    "filename": "10-leads",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "통합 리드함",
+      "height": 1241,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "quotes",
+    "title": "견적 현황",
+    "url": "http://127.0.0.1:8938/index.html#quotes",
+    "filename": "11-quotes",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "견적 현황",
+      "height": 1515,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "marketing",
+    "title": "마케팅 활동",
+    "url": "http://127.0.0.1:8938/index.html#marketing",
+    "filename": "12-marketing",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "마케팅 활동",
+      "height": 1014,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "yearly",
+    "title": "연간 영업현황",
+    "url": "http://127.0.0.1:8938/index.html#yearly",
+    "filename": "13-yearly",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "연간 영업현황",
+      "height": 1587,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "activity-detail",
+    "title": "활동별 업체별 현황",
+    "url": "http://127.0.0.1:8938/index.html#activity-detail",
+    "filename": "14-activity-detail",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "활동별 업체별 현황",
+      "height": 1587,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "ai",
+    "title": "IONE AI",
+    "url": "http://127.0.0.1:8938/index.html#ai",
+    "filename": "15-ai",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "IONE AI",
+      "height": 1180,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "work-report",
+    "title": "업무일지",
+    "url": "http://127.0.0.1:8938/index.html#work-report",
+    "filename": "16-work-report",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "업무일지",
+      "height": 2157,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "custom-reports",
+    "title": "사용자 정의 보고서",
+    "url": "http://127.0.0.1:8938/index.html#custom-reports",
+    "filename": "17-custom-reports",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "사용자 정의 보고서",
+      "height": 1133,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "ssl-master",
+    "title": "SSL 기초정보 관리",
+    "url": "http://127.0.0.1:8938/index.html#ssl-master",
+    "filename": "18-ssl-master",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "SSL 기초정보 관리",
+      "height": 730,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "ssl-purchase",
+    "title": "SSL 매입 관리",
+    "url": "http://127.0.0.1:8938/index.html#ssl-purchase",
+    "filename": "19-ssl-purchase",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "SSL 매입 관리",
+      "height": 942,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "ssl-delivery",
+    "title": "SSL 출고 관리",
+    "url": "http://127.0.0.1:8938/index.html#ssl-delivery",
+    "filename": "20-ssl-delivery",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "SSL 출고 관리",
+      "height": 1014,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "ssl-expiration",
+    "title": "SSL 만료·갱신 관리",
+    "url": "http://127.0.0.1:8938/index.html#ssl-expiration",
+    "filename": "21-ssl-expiration",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "SSL 만료·갱신 관리",
+      "height": 1170,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "forecast-add",
+    "title": "포캐스팅 등록",
+    "url": "http://127.0.0.1:8938/index.html#forecast-add",
+    "filename": "22-forecast-add",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "포캐스팅 등록",
+      "height": 1326,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "forecast-status",
+    "title": "포캐스팅 현황",
+    "url": "http://127.0.0.1:8938/index.html#forecast-status",
+    "filename": "23-forecast-status",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "포캐스팅 현황",
+      "height": 1362,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "other-add",
+    "title": "기타계약 포캐스팅 등록",
+    "url": "http://127.0.0.1:8938/index.html#other-add",
+    "filename": "24-other-add",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "기타계약 포캐스팅 등록",
+      "height": 1326,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "other-status",
+    "title": "기타계약 포캐스팅 현황",
+    "url": "http://127.0.0.1:8938/index.html#other-status",
+    "filename": "25-other-status",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "기타계약 포캐스팅 현황",
+      "height": 1077,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "admin",
+    "title": "관리자 대시보드",
+    "url": "http://127.0.0.1:8938/index.html#admin",
+    "filename": "26-admin",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "관리자 대시보드",
+      "height": 2342,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "members",
+    "title": "회원·담당업무 관리",
+    "url": "http://127.0.0.1:8938/index.html#members",
+    "filename": "27-members",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "회원·담당업무 관리",
+      "height": 800,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "transfer",
+    "title": "고객사 담당자 이관",
+    "url": "http://127.0.0.1:8938/index.html#transfer",
+    "filename": "28-transfer",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "고객사 담당자 이관",
+      "height": 1262,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "permissions",
+    "title": "페이지 접근 권한",
+    "url": "http://127.0.0.1:8938/index.html#permissions",
+    "filename": "29-permissions",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "페이지 접근 권한",
+      "height": 1115,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "departments",
+    "title": "부서 관리",
+    "url": "http://127.0.0.1:8938/index.html#departments",
+    "filename": "30-departments",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "부서 관리",
+      "height": 730,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "department-add",
+    "title": "부서 신규 등록",
+    "url": "http://127.0.0.1:8938/index.html#department-add",
+    "filename": "31-department-add",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "부서 신규 등록",
+      "height": 730,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "goals",
+    "title": "매출 목표 관리",
+    "url": "http://127.0.0.1:8938/index.html#goals",
+    "filename": "32-goals",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "매출 목표 관리",
+      "height": 730,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "manage-items",
+    "title": "관리항목 관리",
+    "url": "http://127.0.0.1:8938/index.html#manage-items",
+    "filename": "33-manage-items",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "관리항목 관리",
+      "height": 795,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "institutions",
+    "title": "기관유형 관리",
+    "url": "http://127.0.0.1:8938/index.html#institutions",
+    "filename": "34-institutions",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "기관유형 관리",
+      "height": 894,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "acquisition",
+    "title": "유입정보 관리",
+    "url": "http://127.0.0.1:8938/index.html#acquisition",
+    "filename": "35-acquisition",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "유입정보 관리",
+      "height": 822,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "commercial-news",
+    "title": "영리 뉴스 관리",
+    "url": "http://127.0.0.1:8938/index.html#commercial-news",
+    "filename": "36-commercial-news",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "영리 뉴스 관리",
+      "height": 730,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "nonprofit-keywords",
+    "title": "비영리 뉴스 키워드",
+    "url": "http://127.0.0.1:8938/index.html#nonprofit-keywords",
+    "filename": "37-nonprofit-keywords",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "비영리 뉴스 키워드",
+      "height": 751,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "products",
+    "title": "품목 관리",
+    "url": "http://127.0.0.1:8938/index.html#products",
+    "filename": "38-products",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "품목 관리",
+      "height": 1156,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "product-options",
+    "title": "품목옵션 관리",
+    "url": "http://127.0.0.1:8938/index.html#product-options",
+    "filename": "39-product-options",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "품목옵션 관리",
+      "height": 1156,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "options-upload",
+    "title": "품목옵션 일괄등록",
+    "url": "http://127.0.0.1:8938/index.html#options-upload",
+    "filename": "40-options-upload",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "품목옵션 일괄등록",
+      "height": 907,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "marketing-types",
+    "title": "마케팅 활동유형",
+    "url": "http://127.0.0.1:8938/index.html#marketing-types",
+    "filename": "41-marketing-types",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "마케팅 활동유형",
+      "height": 822,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "work-settings",
+    "title": "업무일지 운영 설정",
+    "url": "http://127.0.0.1:8938/index.html#work-settings",
+    "filename": "42-work-settings",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "업무일지 운영 설정",
+      "height": 730,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "system",
+    "title": "시스템·알림 설정",
+    "url": "http://127.0.0.1:8938/index.html#system",
+    "filename": "43-system",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "시스템·알림 설정",
+      "height": 933,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "migration",
+    "title": "데이터 마이그레이션",
+    "url": "http://127.0.0.1:8938/index.html#migration",
+    "filename": "44-migration",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "데이터 마이그레이션",
+      "height": 730,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  },
+  {
+    "id": "login",
+    "title": "로그인",
+    "url": "http://127.0.0.1:8938/index.html#login",
+    "filename": "45-login",
+    "qa": {
+      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
+      "heading": "고객과 나눈 대화가다음 기회가 되는 곳.",
+      "height": 836,
+      "loaded": true,
+      "overflow": false,
+      "width": 1265
+    }
+  }
+]
