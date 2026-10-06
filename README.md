@@ -2,7 +2,7 @@
 
 [전체 시안](https://leejinho970715-star.github.io/CRM/) · [영업활동 관리](https://leejinho970715-star.github.io/CRM/#activity) · [단독 영업활동 시안](https://leejinho970715-star.github.io/CRM/activity.html)
 
-v5.5: 첨부 CRM UI Design System v1.0의 브랜드·타입·간격·입력·표 규격을 44개 화면에 적용했습니다. 낮은 글자 대비, 강한 상태 색상과 일률적인 여백은 조정했습니다. White / Neutral, Calm Density, Thin Border, Bento와 Pretendard, 첨부 DOUZONE 로고 및 절제된 3D 대시보드는 유지했습니다. 320~1920px의 8개 폭에서 전체 페이지와 영업활동 내부 화면을 검증했습니다. 운영 CRM은 변경하지 않았습니다.
+v5.6: 첨부 CRM UI Design System v1.0의 브랜드·타입·간격·입력·표 규격을 44개 화면에 적용했습니다. 낮은 글자 대비, 강한 상태 색상과 일률적인 여백은 조정했습니다. White / Neutral, Calm Density, Thin Border, Bento와 Pretendard, 첨부 DOUZONE 로고 및 절제된 3D 대시보드는 유지했습니다. 320~1920px의 8개 폭에서 전체 페이지와 영업활동 내부 화면을 검증했습니다. 운영 CRM은 변경하지 않았습니다.
 
 ## 결과물
 

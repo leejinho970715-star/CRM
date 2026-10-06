@@ -20,7 +20,7 @@ const metadata = canonical => `
   <meta property="og:title" content="IONE CRM | 고객과 기회를 연결하는 워크스페이스">
   <meta property="og:description" content="고객에서 활동, 다음 업무와 계약까지. 전체 CRM 리뉴얼 UI 시안을 확인하세요.">
   <meta property="og:url" content="${canonical}">
-  <meta property="og:image" content="${url}assets/og-image-v5.5.png">
+  <meta property="og:image" content="${url}assets/og-image-v5.6.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:type" content="image/png">
@@ -28,7 +28,7 @@ const metadata = canonical => `
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="IONE CRM 리뉴얼 시안">
   <meta name="twitter:description" content="고객에서 활동, 다음 업무와 계약까지 연결하는 44개 CRM 화면.">
-  <meta name="twitter:image" content="${url}assets/og-image-v5.5.png">`;
+  <meta name="twitter:image" content="${url}assets/og-image-v5.6.png">`;
 function setHead(html, canonical) {
   const description = html.indexOf('<meta name="description"');
   if (description !== -1) html = html.slice(0, description) + html.slice(html.indexOf('</head>', description));

@@ -167,7 +167,7 @@ tbody tr:hover { background: var(--color-background-hover); }
 input:focus,select:focus,textarea:focus { outline-color: var(--color-accent); border-color: var(--color-accent); }
 input[type=checkbox],input[type=radio] { accent-color: var(--color-accent); }
 button:focus-visible,a:focus-visible,summary:focus-visible,.table-scroll:focus-visible { outline-color: var(--color-accent); }
-.section-tabs button.active,.day-tabs button.active,.content-tabs button[aria-selected=true] { color: var(--color-accent); border-bottom-color: var(--color-accent); }
+.section-tabs button.active,.section-tabs a.active,.day-tabs button.active,.content-tabs button[aria-selected=true] { color: var(--ink); border-bottom-color: var(--color-primary); }
 .customer-row.selected { background: var(--color-accent-soft); }
 .customer-row.selected .row-name,.section-number { color: var(--color-accent); }
 .section-number { background: var(--color-accent-soft); }
@@ -195,6 +195,8 @@ button:focus-visible,a:focus-visible,summary:focus-visible,.table-scroll:focus-v
 .workspace-tabs .current,.count-dot,#filter-count,.applied-filters,
 .customer-summary .eyebrow,.ai-panel .eyebrow,.ai-recommendation button,
 .text-button:hover,.history-attachments a:hover,#focus-button[aria-pressed=true] { color: var(--ink); }
+.accent-icon,.side-nav button.active,.icon-button:hover,.ai-panel-heading svg { color: var(--color-primary); }
+.workspace-tabs .current { border-bottom-color: var(--color-primary); }
 .suite-button.filled,.button.primary,
 .suite-button.filled:hover,.button.primary:hover { color: var(--color-primary-ink); }
 .suite-button.danger { color: var(--color-error-text); }

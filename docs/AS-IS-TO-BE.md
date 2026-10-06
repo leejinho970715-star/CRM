@@ -1,4 +1,4 @@
-# CRM v5.5 · 페이지별 UX As-is / To-be
+# CRM v5.6 · 페이지별 UX As-is / To-be
 
 2026-10-06 · 44개 페이지 · 88개 비교 항목 · 50개 탭·연결 화면 비교 부록
 
@@ -15,7 +15,7 @@
 | 입력 순서 | 좁은 기본 정보 칸에 제목·결과·후속 업무·품목·첨부가 길게 이어짐. | 기본 정보 → 활동 내용 → 처리 결과·다음 행동으로 구분. 첨부는 상담 내용 가까이 배치. | 관련 항목을 함께 찾고, 상담 기록에서 후속 업무로 자연스럽게 이어서 작성하도록 설계. |
 | 고객·저장 맥락 | 고객 정보 표와 하단 등록 버튼으로 대상 고객·완료 동작을 확인. | 회사 아이콘으로 고객 요약 표시. 선택선 대신 배경으로 구분하고 저장 버튼 분리. | 작성 대상과 다음 동작을 계속 확인하도록 설계. 탭의 카드 내부 배치는 기존 구조를 유지한 부분. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#activity) · [기존 페이지](https://ione119.co.kr/pages/member/activity/activity_register.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#activity) · [기존 페이지](https://ione119.co.kr/pages/member/activity/activity_register.php)
 
 ## 대시보드
 
@@ -24,7 +24,7 @@
 | 실행 우선 요약 | 오늘의 업무·고객 관리·최근 활동·지표·지도·추천이 세로로 이어짐. | 업무·영업·계약 요약을 상단에 모으고 관련 목록·실행 영역으로 연결. | 첫 화면에서 무엇부터 확인할지 판단하고 실제 처리 화면으로 이어지도록 설계. |
 | 정보 위계 | 영업 요약과 고객 추천 등 여러 정보를 한 진입 화면에서 확인. | 카드별 위계·입체 장식 정리. 바로가기 제목·설명 시작점과 화살표 위치 통일. | 업무 정보의 읽는 순서를 명확하게 하고 장식이 데이터와 경쟁하지 않도록 조절. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#home) · [기존 페이지](https://ione119.co.kr/pages/member/dashboard/index.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#home) · [기존 페이지](https://ione119.co.kr/pages/member/dashboard/index.php)
 
 ## 고객사 관리
 
@@ -33,7 +33,7 @@
 | 목록과 상세 | 많은 고객 정보 열과 상세·등록·수정 경로를 제공. | 핵심 열을 우선 표시하고 추가 열 선택·상세 패널로 정보 분리. | 목록에서는 고객을 비교하고 상세에서는 한 고객의 맥락을 확인하도록 설계. |
 | 후속 업무 연결 | 검색 조건, 고객 정보와 관련 영업활동을 각각 확인. | 기본·상세 필터를 유지하고 상세에 정보·이력·수정·활동 기록을 묶음. | 고객을 찾은 뒤 정보를 다시 탐색하는 부담을 줄이려는 구성. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#customers) · [기존 페이지](https://ione119.co.kr/pages/member/customer/company_list.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#customers) · [기존 페이지](https://ione119.co.kr/pages/member/customer/company_list.php)
 
 ## 비영리 관리
 
@@ -42,7 +42,7 @@
 | 설립·예산 정보 | 고객 정보와 설립·예산·알림 관련 항목을 함께 관리. | 설립 단계·예산 편성 시기·알림 주기를 독립된 입력 묶음으로 배치. | 기관별 영업 시점에 필요한 항목을 빠뜨리지 않고 함께 확인하도록 설계. |
 | 목록의 우선순위 | 기관 정보와 여러 관리 조건을 목록에서 조회. | 설립·예산 관련 핵심 열을 먼저 비교하고 나머지는 상세로 연결. | 기관의 현재 상황과 담당 업무를 같은 맥락에서 판단하도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#nonprofits) · [기존 페이지](https://ione119.co.kr/pages/member/customer/nonprofit_management.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#nonprofits) · [기존 페이지](https://ione119.co.kr/pages/member/customer/nonprofit_management.php)
 
 ## 영리·비영리 뉴스
 
@@ -51,7 +51,7 @@
 | 기사와 고객 | 영리·비영리 뉴스 조회 및 고객 연결 조건을 제공. | 기사에 연계 고객과 기회 유형을 함께 배치. | 뉴스의 영업 의미를 파악하는 데 필요한 고객 맥락을 같은 화면에서 제공. |
 | 관심과 후속 업무 | 기사 목록을 조회하고 고객 연결 내용을 확인. | 관심 기사와 후속 업무로 이어지는 동작을 기사 가까이에 배치. | 정보 확인이 고객 접촉 준비로 이어지도록 설계. 수집·발송은 서버 연결 대상. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#news) · [기존 페이지](https://ione119.co.kr/pages/member/customer/nonprofit_news.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#news) · [기존 페이지](https://ione119.co.kr/pages/member/customer/nonprofit_news.php)
 
 ## 컨택 관리
 
@@ -60,7 +60,7 @@
 | 편집 영역 | 넓은 연락처 목록의 행 안에 여러 편집 요소가 함께 있음. | 핵심 연락 정보를 목록에 남기고 편집은 상세 패널로 이동. | 비교와 편집의 목적을 구분해 목록의 읽기 흐름을 유지하도록 설계. |
 | 담당자 맥락 | 소속·연락처·재직 관련 항목을 여러 열에서 확인. | 소속·연락·이직·퇴사 정보와 메일 후속 동작을 연결. | 잘못된 연락 대상이나 오래된 소속 정보가 있는지 함께 확인하도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#contacts) · [기존 페이지](https://ione119.co.kr/pages/member/contact/contact_main.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#contacts) · [기존 페이지](https://ione119.co.kr/pages/member/contact/contact_main.php)
 
 ## 고객사 일괄업로드
 
@@ -69,7 +69,7 @@
 | 진행 단계 | 파일 선택·열 매핑·데이터 반영으로 업로드를 진행. | 파일 → 항목 → 검증 → 결과의 네 단계로 표시. | 현재 단계와 다음에 필요한 작업을 알아볼 수 있도록 설계. |
 | 반영 전 확인 | 업로드 파일과 매핑할 항목을 지정하는 구조. | 반영 전에 필수값·오류 행의 샘플 검증 결과를 표시. | 잘못된 자료를 확인할 기회를 제공. 실제 서버 검증과 반영 규칙은 별도 연결 필요. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#upload) · [기존 페이지](https://ione119.co.kr/pages/member/customer/company_excel_upload.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#upload) · [기존 페이지](https://ione119.co.kr/pages/member/customer/company_excel_upload.php)
 
 ## 오늘의 업무함
 
@@ -78,7 +78,7 @@
 | 업무의 기한 | 업무 등록과 기한·상태별 목록 조회를 제공. | 기한 경과·오늘·예정·완료로 구분하고 보기 방식을 별도 그룹으로 배치. | 업무 상태와 표시 방식을 혼동하지 않고 처리 대상을 좁히도록 설계. |
 | 조회와 등록 | 새 업무 등록 영역과 업무 목록이 함께 표시됨. | 필요할 때 등록 폼을 열고 목록·보드·달력으로 같은 업무를 확인. | 목록을 확인할 공간을 확보하면서 사용 목적에 맞는 보기 방식을 제공. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#tasks) · [기존 페이지](https://ione119.co.kr/pages/member/sales/task_board.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#tasks) · [기존 페이지](https://ione119.co.kr/pages/member/sales/task_board.php)
 
 ## 통합 리드함
 
@@ -87,7 +87,7 @@
 | 응답 우선순위 | 문의 고객·배정 담당자·진행 상태를 목록에서 관리. | 문의·배정·우선순위·응답기한을 같은 행에서 비교. | 어떤 문의에 먼저 응답할지 판단할 정보를 가까이 배치. |
 | 첫 연락 연결 | 문의 내용과 고객 정보·연락처를 확인. | 리드 상세에서 문의를 확인하고 첫 연락 업무를 생성하는 경로 제공. | 문의 확인 이후의 다음 동작을 명확하게 제시. 실제 업무 저장은 서버 연결 대상. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#leads) · [기존 페이지](https://ione119.co.kr/pages/member/sales/lead_inbox.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#leads) · [기존 페이지](https://ione119.co.kr/pages/member/sales/lead_inbox.php)
 
 ## 견적 현황
 
@@ -96,7 +96,7 @@
 | 견적 비교 | 고객·담당자·제품 조건과 견적 활동을 목록으로 조회. | 금액·제품·상태 요약을 먼저 표시하고 조건과 상세를 연결. | 견적의 핵심 차이를 목록에서 판단하고 필요한 상담 맥락으로 이동하도록 설계. |
 | 상세 맥락 | 견적 내역에 상담·금액·첨부 관련 정보가 함께 있음. | 상세에서 상담 내용·금액·첨부를 함께 확인. | 견적 수치만 보고 판단하지 않도록 관련 설명과 자료를 가까이 배치. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#quotes) · [기존 페이지](https://ione119.co.kr/pages/member/activity/quote_status.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#quotes) · [기존 페이지](https://ione119.co.kr/pages/member/activity/quote_status.php)
 
 ## 마케팅 활동
 
@@ -105,7 +105,7 @@
 | 입력 묶음 | 대상 고객·마케팅 활동·내용·리드 관련 값을 입력. | 대상 고객 / 활동 정보 / 내용·리드의 세 묶음으로 구분. | 누구에게 무엇을 했고 어떤 반응이 있었는지 순서대로 작성하도록 설계. |
 | 대상 구분 | 고객과 마케팅 유형·리드 항목을 함께 지정. | 기존·신규 대상을 구분하고 단계·점수를 활동 맥락에 연결. | 대상 선택과 결과 기록의 관계를 명확하게 보여주도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#marketing) · [기존 페이지](https://ione119.co.kr/pages/member/marketing/marketing_activity_register.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#marketing) · [기존 페이지](https://ione119.co.kr/pages/member/marketing/marketing_activity_register.php)
 
 ## 연간 영업현황
 
@@ -114,7 +114,7 @@
 | 집계의 기준 | 기간·담당자·활동 조건에 따른 집계와 상세 목록을 제공. | 조건·요약·추이·목록을 같은 조회 기준으로 표시. | 보고 있는 수치가 어떤 조건에서 나온 것인지 함께 이해하도록 설계. |
 | 요약과 원본 | 영업 집계 및 상세 활동 내역을 조회. | 요약 수치에서 추이와 관련 활동 목록을 이어서 확인. | 큰 흐름을 파악한 뒤 상세 내역을 확인하는 검토 순서를 지원. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#yearly) · [기존 페이지](https://ione119.co.kr/pages/member/activity/activity_year.php?year=2026)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#yearly) · [기존 페이지](https://ione119.co.kr/pages/member/activity/activity_year.php?year=2026)
 
 ## 활동별 업체별 현황
 
@@ -123,7 +123,7 @@
 | 조회 범위 | 활동 유형·업체별 영업 내역과 관련 금액을 조회. | 활동 유형·거래처·상태 조건으로 좁힌 목록을 제공. | 찾고 있는 활동의 조건과 조회 결과를 가까이 배치. |
 | 상담과 금액 | 활동 내용과 관련 금액 항목을 확인. | 상세 상담·라이선스·교육비·총액을 연결해 확인. | 활동의 의미와 금액을 같은 맥락에서 판단하도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#activity-detail) · [기존 페이지](https://ione119.co.kr/pages/member/activity/activity_detail_status.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#activity-detail) · [기존 페이지](https://ione119.co.kr/pages/member/activity/activity_detail_status.php)
 
 ## IONE AI
 
@@ -132,7 +132,7 @@
 | 추천의 맥락 | 영업 기록을 바탕으로 추천·분석을 확인하는 전용 영역. | 추천 고객과 기록 근거를 함께 보여주는 전용 화면으로 정리. | 추천을 그대로 따르기 전에 왜 제시됐는지 확인할 수 있도록 설계. |
 | 후속 업무 | 추천·분석 정보를 조회. | 우선 고객 확인에서 후속 업무 준비로 이어지는 동작 제공. | 분석 확인 이후의 실행 경로를 명확하게 표시. 실제 AI 생성·품질 검증은 별도 대상. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#ai) · [기존 페이지](https://ione119.co.kr/pages/member/activity/ione_ai.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#ai) · [기존 페이지](https://ione119.co.kr/pages/member/activity/ione_ai.php)
 
 ## 업무일지
 
@@ -141,7 +141,7 @@
 | 기록과 보고 | 활동 내역과 여러 보고 항목을 작성·조회. | 담당자별 활동 내역과 일지 메모를 함께 표시. | 기록을 참고하며 보고를 작성하도록 정보 사이의 거리를 줄이려는 구성. |
 | 선보고 초안 | 일지·이슈·미수행 등 보고 항목과 선보고 경로를 제공. | 조회한 활동과 메모를 바탕으로 선보고 초안을 구성. | 보고를 작성할 출발점을 제공. 초안은 검토 대상이며 실제 메시지 발송은 연결되지 않음. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#work-report) · [기존 페이지](https://ione119.co.kr/pages/member/report/work_report.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#work-report) · [기존 페이지](https://ione119.co.kr/pages/member/report/work_report.php)
 
 ## 사용자 정의 보고서
 
@@ -150,7 +150,7 @@
 | 구성과 결과 | 보고 대상·그룹·집계 기준을 선택해 보고서를 구성. | 구성 패널과 샘플 집계 결과를 나란히 제공. | 조건을 바꾸었을 때 결과가 어떻게 달라지는지 알아보도록 설계. |
 | 반복 보고 | 선택한 기준에 따라 보고서를 생성·조회. | 월별 교차 표와 저장한 보고서 불러오기 제공. | 반복해서 쓰는 구성의 재사용을 지원. 실제 집계·저장 규칙은 서버 연결 필요. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#custom-reports) · [기존 페이지](https://ione119.co.kr/pages/member/report/custom_reports.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#custom-reports) · [기존 페이지](https://ione119.co.kr/pages/member/report/custom_reports.php)
 
 ## SSL 기초정보 관리
 
@@ -159,7 +159,7 @@
 | 기준정보의 구분 | SSL 품목·공급사·갱신 관련 기준정보를 관리. | 같은 관리 카드 안에서 품목·공급사·갱신주기를 탭으로 구분. | 관리 대상이 달라도 조회·등록 동작의 위치를 일관되게 제공. |
 | 공통 관리 동작 | 대상별 기준정보 항목을 각각 관리. | 동일한 목록·상태·등록 규칙을 반복 사용. | 관리 대상마다 조작 방식을 다시 익히는 부담을 줄이려는 구성. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#ssl-master) · [기존 페이지](https://ione119.co.kr/pages/member/contract/ssl_master.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#ssl-master) · [기존 페이지](https://ione119.co.kr/pages/member/contract/ssl_master.php)
 
 ## SSL 매입 관리
 
@@ -168,7 +168,7 @@
 | 발주와 품목 | 발주 정보와 품목별 수량·단가·세액을 입력. | 발주 기본 정보와 품목별 발주를 하나의 폼 안에서 구분. | 한 발주에 속하는 정보임을 유지하면서 작성 순서를 명확하게 표시. |
 | 합계 확인 | 품목별 금액과 발주 합계 관련 항목을 관리. | 수량·단가·부가세와 합계를 같은 입력 흐름에서 확인. | 입력한 값과 총액의 관계를 확인하도록 설계. 실제 세금·반올림 규칙은 별도 확정 필요. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#ssl-purchase) · [기존 페이지](https://ione119.co.kr/pages/member/contract/ssl_purchase.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#ssl-purchase) · [기존 페이지](https://ione119.co.kr/pages/member/contract/ssl_purchase.php)
 
 ## SSL 출고 관리
 
@@ -177,7 +177,7 @@
 | 출고 맥락 | 출고·설치·고객·도메인·인증서 정보를 관리. | 고객 목록에서 설치·출고·도메인·인증서 상세로 연결. | 한 고객의 인증서와 처리 상태를 함께 알아보도록 설계. |
 | 핵심 열 | 인증서 관련 여러 항목을 목록과 입력 영역에서 확인. | 주요 일정·상태를 목록에서 비교하고 나머지는 상세에서 확인. | 비교할 정보와 개별 확인 정보를 구분해 넓은 표의 부담을 줄이려는 구성. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#ssl-delivery) · [기존 페이지](https://ione119.co.kr/pages/member/contract/ssl_delivery.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#ssl-delivery) · [기존 페이지](https://ione119.co.kr/pages/member/contract/ssl_delivery.php)
 
 ## SSL 만료·갱신 관리
 
@@ -186,7 +186,7 @@
 | 갱신 우선순위 | 만료 정보·갱신 대상·알림 조건을 조회. | 만료일·잔여일·알림 구간을 먼저 표시. | 어떤 인증서를 먼저 확인할지 판단할 정보를 우선 제공. |
 | 확인에서 갱신 | 만료·갱신·알림 관련 항목을 관리. | 확인 상태와 갱신 폼을 목록의 상세 흐름에 연결. | 만료 확인 이후의 조치로 이어지도록 설계. 알림 발송과 실갱신은 연결 대상. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#ssl-expiration) · [기존 페이지](https://ione119.co.kr/pages/member/contract/ssl_expiration.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#ssl-expiration) · [기존 페이지](https://ione119.co.kr/pages/member/contract/ssl_expiration.php)
 
 ## 포캐스팅 등록
 
@@ -195,7 +195,7 @@
 | 계약 입력 순서 | 고객·제품·비용·예정일·이월 항목을 등록. | 고객·계약 / 금액·일정 / 이월 관리로 입력을 묶음. | 어떤 계약인지, 얼마인지, 언제인지 순서대로 기록하도록 설계. |
 | 금액과 이월 | 라이선스·교육비 및 이월 관련 값을 입력. | 라이선스+교육비 합계를 표시하고 이월 정보를 별도 묶음으로 구분. | 금액 구성과 이월 사유를 서로 다른 판단 정보로 확인하도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#forecast-add) · [기존 페이지](https://ione119.co.kr/pages/member/forecast/forecast_add.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#forecast-add) · [기존 페이지](https://ione119.co.kr/pages/member/forecast/forecast_add.php)
 
 ## 포캐스팅 현황
 
@@ -204,7 +204,7 @@
 | 월별 반복 | 월별 예상 계약·이월·달성 관련 표가 반복됨. | 하나의 목록과 기간 필터, 전체·이월·달성 탭으로 통합. | 여러 표를 오가며 비교하는 대신 같은 구조에서 조건을 바꿔 확인하도록 설계. |
 | 비교 기준 | 월별 계약 및 이월·달성 항목을 확인. | 같은 열과 조회 조건으로 계약 상태를 비교. | 기간과 상태에 따른 결과의 차이를 이해하도록 기준을 일관되게 제공. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#forecast-status) · [기존 페이지](https://ione119.co.kr/pages/member/forecast/forecast_status.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#forecast-status) · [기존 페이지](https://ione119.co.kr/pages/member/forecast/forecast_status.php)
 
 ## 기타계약 포캐스팅 등록
 
@@ -213,7 +213,7 @@
 | 일관된 입력 | 기타 계약의 고객·금액·일정·이월 정보를 등록. | 포캐스팅과 같은 고객·계약 / 금액·일정 / 이월 입력 규칙 적용. | 계약 종류가 바뀌어도 작성 방식을 다시 익히지 않도록 설계. |
 | 정보 묶음 | 계약 관련 여러 항목을 한 등록 화면에서 입력. | 기본 정보와 금액·일정·이월을 의미별로 분리. | 관련 항목을 함께 찾고 작성 상태를 확인하도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#other-add) · [기존 페이지](https://ione119.co.kr/pages/member/other_contract/forecast_add_other.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#other-add) · [기존 페이지](https://ione119.co.kr/pages/member/other_contract/forecast_add_other.php)
 
 ## 기타계약 포캐스팅 현황
 
@@ -222,7 +222,7 @@
 | 현황 비교 | 기타 계약의 월별 예상·이월·달성을 조회. | 기간·상태 조건과 통합 목록으로 비교. | 다른 계약 현황 화면과 같은 방식으로 조회하도록 설계. |
 | 공통 상태 표시 | 계약 일정과 진행 관련 값을 확인. | 일반 포캐스팅과 같은 탭·열·상태 라벨 규칙 사용. | 동일한 상태를 화면마다 다르게 해석하지 않도록 일관된 표현 제공. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#other-status) · [기존 페이지](https://ione119.co.kr/pages/member/other_contract/forecast_status_other.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#other-status) · [기존 페이지](https://ione119.co.kr/pages/member/other_contract/forecast_status_other.php)
 
 ## 관리자 대시보드
 
@@ -231,7 +231,7 @@
 | 관리 목적별 탐색 | 계정·권한·조직·기준정보·운영 설정 메뉴를 제공. | 계정·조직 / 기준정보 / 운영 설정으로 관리 메뉴를 분류. | 하려는 관리 업무의 목적을 기준으로 메뉴를 찾도록 설계. |
 | 공통 화면 틀 | 여러 관리 기능으로 이동하는 관리자 진입 화면. | 관리 항목·요약 카드에 기능별 아이콘 적용. 좌측 메뉴와 같은 아이콘 사용. | 일반 업무에서 관리 업무로 이동해도 조작 위치를 예측하도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#admin) · [기존 페이지](https://ione119.co.kr/pages/admin/dashboard.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#admin) · [기존 페이지](https://ione119.co.kr/pages/admin/dashboard.php)
 
 ## 회원·담당업무 관리
 
@@ -240,7 +240,7 @@
 | 회원 맥락 | 회원 정보·담당 업무·재직 여부와 설정을 관리. | 회원 정보·담당 업무·재직 상태를 하나의 목록과 상세에 통합. | 누가 어떤 업무를 맡고 있는지 함께 확인하도록 설계. |
 | 상세 설정 | 회원 관련 여러 관리 항목을 확인·수정. | 업무별 설정을 상세 패널에서 제공. | 목록의 비교 흐름을 유지하면서 필요한 계정 설정에 접근하도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#members) · [기존 페이지](https://ione119.co.kr/pages/admin/members.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#members) · [기존 페이지](https://ione119.co.kr/pages/admin/members.php)
 
 ## 고객사 담당자 이관
 
@@ -249,7 +249,7 @@
 | 변경 전후 확인 | 고객을 선택하고 기존·변경 담당자를 지정. | 대상 고객과 현재·새 담당자를 같은 화면에서 비교. | 변경 대상과 방향을 알아보고 잘못된 이관을 예방하려는 구성. |
 | 조건과 대상 | 고객 선택 조건 및 담당자 이관 기능을 제공. | 검색·선택한 고객 목록과 담당자 지정 흐름을 연결. | 선택 범위를 확인하고 다음 입력으로 이어지도록 설계. 실제 이관은 수행하지 않음. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#transfer) · [기존 페이지](https://ione119.co.kr/pages/admin/company_sales_rep_transfer.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#transfer) · [기존 페이지](https://ione119.co.kr/pages/admin/company_sales_rep_transfer.php)
 
 ## 페이지 접근 권한
 
@@ -258,7 +258,7 @@
 | 설정 맥락 | 역할별로 접근할 페이지를 선택·관리. | 역할 선택과 해당 페이지 목록을 같은 설정 흐름으로 배치. | 어떤 역할의 권한을 편집 중인지 계속 확인하도록 설계. |
 | 선택 상태 | 페이지 접근 대상의 선택 상태를 관리. | 페이지 목록의 선택 상태와 저장 동작을 공통 패턴으로 제공. | 설정 범위와 변경 동작을 명확하게 표시. 실제 권한 정책은 서버 단계에서 검증 필요. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#permissions) · [기존 페이지](https://ione119.co.kr/pages/admin/roles.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#permissions) · [기존 페이지](https://ione119.co.kr/pages/admin/roles.php)
 
 ## 부서 관리
 
@@ -267,7 +267,7 @@
 | 조직 비교 | 부서 목록과 소속 정보를 관리. | 부서와 소속 인원을 같은 표에서 비교. | 부서별 인원 맥락을 함께 확인하도록 설계. |
 | 목록 공간 | 부서 조회와 신규 등록 경로를 제공. | 조회는 목록에 집중하고 등록 폼은 필요할 때 열기. | 조회와 등록의 목적에 따라 화면을 사용할 수 있도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#departments) · [기존 페이지](https://ione119.co.kr/pages/admin/departments.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#departments) · [기존 페이지](https://ione119.co.kr/pages/admin/departments.php)
 
 ## 부서 신규 등록
 
@@ -276,7 +276,7 @@
 | 등록 범위 | 부서 기본 정보를 입력하는 별도 등록 화면. | 부서 정보만 남긴 공통 폼 구조로 정리. | 짧은 등록 작업에 필요한 입력과 완료 동작을 명확하게 제공. |
 | 등록 이후 | 부서 신규 등록 경로를 제공. | 등록 후 부서 관리 목록으로 이어지는 흐름 제공. | 입력 완료 이후 어디서 결과를 확인할지 알 수 있도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#department-add) · [기존 페이지](https://ione119.co.kr/pages/admin/department_add.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#department-add) · [기존 페이지](https://ione119.co.kr/pages/admin/department_add.php)
 
 ## 매출 목표 관리
 
@@ -285,7 +285,7 @@
 | 기간과 담당자 | 사원별 월 목표·연간 목표를 표에서 관리. | 연도 전환과 사원별 월 목표 입력을 같은 표에 배치. | 어느 기간·담당자의 목표인지 확인하며 입력하도록 설계. |
 | 합계 확인 | 월 목표와 연간 목표 관련 값을 관리. | 월별 값의 연간 합계를 샘플 계산으로 표시. | 개별 입력과 전체 목표의 관계를 확인하도록 설계. 서버 계산 규칙은 별도 확정 필요. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#goals) · [기존 페이지](https://ione119.co.kr/pages/admin/goal/goal_list.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#goals) · [기존 페이지](https://ione119.co.kr/pages/admin/goal/goal_list.php)
 
 ## 관리항목 관리
 
@@ -294,7 +294,7 @@
 | 항목과 선택값 | 관리 항목과 해당 선택값을 등록·관리. | 항목 이름과 선택값을 한 입력 화면에서 연결. | 선택값이 어느 관리 항목에 속하는지 알아보도록 설계. |
 | 관리 방식 | 여러 관리 항목의 등록·관리 경로를 제공. | 공통 목록·입력 규칙으로 항목 관리를 정리. | 반복 관리 작업에서 입력 위치와 동작을 예측하도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#manage-items) · [기존 페이지](https://ione119.co.kr/pages/admin/manage_items.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#manage-items) · [기존 페이지](https://ione119.co.kr/pages/admin/manage_items.php)
 
 ## 기관유형 관리
 
@@ -303,7 +303,7 @@
 | 분류의 사용 맥락 | 고객 분류에 쓰는 기관유형 항목을 관리. | 기관유형과 사용 고객사 수·상태를 함께 표시. | 분류 항목의 사용 맥락을 확인하도록 설계. 실제 영향 범위는 서버 데이터로 검증 필요. |
 | 공통 관리 패턴 | 기관유형 선택 항목을 등록·관리. | 목록·상세·등록을 기준정보 공통 규칙으로 구성. | 다른 기준정보 관리 화면과 같은 방식으로 작업하도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#institutions) · [기존 페이지](https://ione119.co.kr/pages/admin/institution_types.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#institutions) · [기존 페이지](https://ione119.co.kr/pages/admin/institution_types.php)
 
 ## 유입정보 관리
 
@@ -312,7 +312,7 @@
 | 분류 관계 | 소스출처·인입경로 등 유입 분류 정보를 관리. | 소스출처와 인입경로의 상위 관계를 표시. | 이름만 보고 분류하는 대신 어느 경로에 속하는지 함께 이해하도록 설계. |
 | 등록 맥락 | 유입 관련 선택 항목을 등록·관리. | 상위 분류·항목명·유형·사용 상태를 하나의 입력 묶음으로 정리. | 분류 관계를 확인하며 새 항목을 작성하도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#acquisition) · [기존 페이지](https://ione119.co.kr/pages/admin/company_acquisition_options.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#acquisition) · [기존 페이지](https://ione119.co.kr/pages/admin/company_acquisition_options.php)
 
 ## 영리 뉴스 관리
 
@@ -321,7 +321,7 @@
 | 수집과 노출 | 뉴스 수집 사용·순서·키워드 기준을 관리. | 수집 사용·노출 순서·키워드를 같은 관리 목록으로 정리. | 수집 여부와 표시 순서가 서로 다른 설정임을 알아보도록 설계. |
 | 설정 위치 | 뉴스 관련 기준정보를 등록·관리. | 검색·목록·등록을 공통 관리 패턴으로 구성. | 일반 기준정보 관리와 같은 조작 위치를 유지. 실제 수집 동작은 연결 대상. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#commercial-news) · [기존 페이지](https://ione119.co.kr/pages/admin/commercial_news_keywords.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#commercial-news) · [기존 페이지](https://ione119.co.kr/pages/admin/commercial_news_keywords.php)
 
 ## 비영리 뉴스 키워드
 
@@ -330,7 +330,7 @@
 | 업무 관련 키워드 | 비영리 뉴스 수집 키워드와 사용 상태를 관리. | 기관 설립·예산 관련 키워드와 수집 상태를 함께 확인. | 어떤 영업 정보에 연결되는 키워드인지 이해하도록 설계. |
 | 관리 방식 | 키워드를 등록하고 사용 여부를 관리. | 영리 뉴스와 동일한 목록·등록·상태 규칙 사용. | 뉴스 종류가 달라도 관리 방식을 일관되게 제공. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#nonprofit-keywords) · [기존 페이지](https://ione119.co.kr/pages/admin/nonprofit_news_keywords.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#nonprofit-keywords) · [기존 페이지](https://ione119.co.kr/pages/admin/nonprofit_news_keywords.php)
 
 ## 품목 관리
 
@@ -339,7 +339,7 @@
 | 품목과 옵션 | 품목명·코드·사용 여부를 관리. | 품목명·코드·활성 상태와 옵션 수를 함께 비교. | 품목을 식별하고 연결된 옵션의 존재를 알아보도록 설계. |
 | 기준정보 입력 | 제품 품목의 등록·관리 경로를 제공. | 품목 정보 입력과 상태를 공통 상세·폼 패턴으로 정리. | 다른 기준정보와 동일한 작성 규칙을 제공. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#products) · [기존 페이지](https://ione119.co.kr/pages/admin/products.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#products) · [기존 페이지](https://ione119.co.kr/pages/admin/products.php)
 
 ## 품목옵션 관리
 
@@ -348,7 +348,7 @@
 | 소속 품목 | 품목에 연결된 옵션과 옵션 코드를 관리. | 제품별 옵션·코드·활성 상태를 연결해 표시. | 옵션이 어느 품목에 속하는지 확인하고 선택하도록 설계. |
 | 관리 흐름 | 품목옵션의 등록·관리 경로를 제공. | 품목 선택과 옵션 정보 입력을 공통 관리 폼으로 정리. | 상위 품목을 확인하며 옵션을 작성하도록 설계. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#product-options) · [기존 페이지](https://ione119.co.kr/pages/admin/product_options.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#product-options) · [기존 페이지](https://ione119.co.kr/pages/admin/product_options.php)
 
 ## 품목옵션 일괄등록
 
@@ -357,7 +357,7 @@
 | 등록 단계 | 품목옵션 파일로 일괄등록. | 파일 선택 → 항목 확인 → 검증 → 결과의 단계로 표시. | 현재 단계와 반영 전에 확인할 내용을 알아보도록 설계. |
 | 반영 전 검증 | 파일 기반 옵션 등록 경로를 제공. | 필수값·오류 행·반영 결과를 샘플 검증 화면에서 구분. | 자료를 확인하고 수정할 기회를 제공. 실제 서버 검증·일괄 반영은 별도 연결 필요. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#options-upload) · [기존 페이지](https://ione119.co.kr/pages/admin/product_options_upload.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#options-upload) · [기존 페이지](https://ione119.co.kr/pages/admin/product_options_upload.php)
 
 ## 마케팅 활동유형
 
@@ -366,7 +366,7 @@
 | 사용 상태 | 마케팅 활동유형과 사용 여부를 관리. | 활동유형 이름·상태·등록 정보를 같은 목록에서 확인. | 새 유형을 추가하기 전에 기존 항목과 사용 상태를 비교하도록 설계. |
 | 입력 일관성 | 활동유형 등록·수정 경로를 제공. | 기준정보 공통 목록·등록·수정 패턴을 재사용. | 유형 관리마다 다른 방식으로 조작하는 부담을 줄이려는 구성. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#marketing-types) · [기존 페이지](https://ione119.co.kr/pages/admin/marketing_activity_options.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#marketing-types) · [기존 페이지](https://ione119.co.kr/pages/admin/marketing_activity_options.php)
 
 ## 업무일지 운영 설정
 
@@ -375,7 +375,7 @@
 | 대상의 구분 | 업무일지 표시 대상·선보고 수신 대상을 설정. | 표시 대상과 수신 대상의 설정 영역을 분리. | 누가 화면에 표시되고 누가 보고를 받는지 구분하도록 설계. |
 | 선택과 완료 | 대상 관련 여러 운영 설정을 관리. | 각 대상 선택 상태와 저장 동작을 같은 규칙으로 제공. | 설정 대상과 완료 동작을 명확하게 표시. 실제 수신·발송 설정은 변경하지 않음. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#work-settings) · [기존 페이지](https://ione119.co.kr/pages/admin/work_report.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#work-settings) · [기존 페이지](https://ione119.co.kr/pages/admin/work_report.php)
 
 ## 시스템·알림 설정
 
@@ -384,7 +384,7 @@
 | 브랜드와 운영 | 브랜드·로그인 이미지·운영 알림 값을 설정. | 브랜드 이미지와 알림 수신 정보를 별도 묶음으로 구분. | 화면 외형과 알림 운영이 서로 다른 설정임을 알아보도록 설계. |
 | 이미지 확인 | 브랜드 및 로그인 관련 이미지 설정을 제공. | 로고·로그인 이미지 미리보기를 입력 가까이에 배치. | 선택한 이미지의 용도를 확인하도록 설계. 운영 파일 업로드·설정 반영은 수행하지 않음. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#system) · [기존 페이지](https://ione119.co.kr/pages/admin/settings.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#system) · [기존 페이지](https://ione119.co.kr/pages/admin/settings.php)
 
 ## 데이터 마이그레이션
 
@@ -393,7 +393,7 @@
 | 별도 제안 | 원본을 열지 않아 기존 배치·실행 규칙을 확인하지 않음. | 샘플 중복·필수값 검증을 보여주는 별도 제안 시안. | 확인하지 않은 원본에 대한 개선 효과를 주장하지 않고 제안 범위를 명확하게 표시. |
 | 확인 후 연결 | 운영 데이터 이동의 규칙과 예외는 미확인. | 검증 결과와 처리 단계를 예시로 제공. | 실제 마이그레이션 설계 전에 자료·중복·권한 규칙을 확인할 출발점을 제공. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#migration) · [기존 페이지](https://ione119.co.kr/pages/admin/migrate_clients.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#migration) · [기존 페이지](https://ione119.co.kr/pages/admin/migrate_clients.php)
 
 ## 로그인
 
@@ -402,4 +402,4 @@
 | 인증 입력 | 브랜드와 아이디·비밀번호, 계정 찾기·가입 경로를 제공. | 브랜드 소개와 인증 영역을 구분하고 입력에 지속 레이블 적용. | 입력 중에도 각 칸의 의미를 확인하고 인증 작업에 집중하도록 설계. |
 | 보조 경로 | 아이디 저장·비밀번호 찾기·회원가입을 제공. | 인증 버튼과 보조 경로의 우선순위를 구분. | 로그인에 필요한 동작과 계정 문제 해결 경로를 알아보도록 설계. 실제 인증은 연결되지 않음. |
 
-[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.5#login) · [기존 페이지](https://ione119.co.kr/pages/auth/login/login.php)
+[리뉴얼 시안](https://crm-sand-five.vercel.app/?v=5.6#login) · [기존 페이지](https://ione119.co.kr/pages/auth/login/login.php)

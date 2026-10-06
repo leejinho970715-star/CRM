@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw
 ROOT=Path(__file__).resolve().parent.parent
 review=json.loads((ROOT/'output/pdf/CRM-UX-Review-Data.json').read_text(encoding='utf8'))
 pages={p['id']:p for p in json.loads((ROOT/'docs/pages.json').read_text(encoding='utf8'))}
-lines=['# CRM v5.5 · 페이지별 UX As-is / To-be', '',
+lines=['# CRM v5.6 · 페이지별 UX As-is / To-be', '',
        '2026-10-06 · 44개 페이지 · 88개 비교 항목 · 탭·상세 화면 별도 캡처 포함', '',
        '최종 시안의 페이지별 UX 변경과 개선 의도를 기존 화면과 비교합니다. 네이비 대표 버튼·페이지 번호, 본문 색상의 보조 텍스트, 회사·사용자 프로필과 의미별 라벨 아이콘을 반영했습니다. 기대 효과는 실제 사용 테스트로 검증할 설계 의도입니다.', '',
        '[102쪽 공개 비교 PDF](CRM-Renewal-As-Is-To-Be.pdf) · [87장 PNG ZIP](CRM-PNG.zip) · [전체 캡처 목차](screens/CAPTURE-INDEX.md)', '',
