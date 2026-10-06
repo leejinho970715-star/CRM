@@ -199,7 +199,7 @@
     const visible = list.slice((listPage-1)*pageSize,listPage*pageSize);
     $('customer-pagination').innerHTML = `<button type="button" data-page="${listPage-1}" aria-label="이전 페이지" ${listPage===1 ? 'disabled' : ''}>‹</button>${Array.from({length:pages},(_,i) => `<button type="button" data-page="${i+1}" ${i+1===listPage ? 'aria-current="page"' : ''} aria-label="${i+1}페이지">${i+1}</button>`).join('')}<button type="button" data-page="${listPage+1}" aria-label="다음 페이지" ${listPage===pages ? 'disabled' : ''}>›</button><span>${list.length ? (listPage-1)*pageSize+1 : 0}–${Math.min(listPage*pageSize,list.length)} / ${list.length}</span>`;
     $('customer-pagination').querySelectorAll('[data-page]').forEach(button => button.addEventListener('click', () => { listPage = Number(button.dataset.page);renderCustomers(); }));
-    $('customer-list').innerHTML = visible.length ? visible.map(c => `<button class="customer-row${selectedId === c.id ? ' selected' : ''}" data-customer="${escape(c.id)}" aria-pressed="${selectedId === c.id}"><div class="row-top"><span class="row-name" title="${escape(c.name)}">${escape(c.name)}</span><span class="badge ${badgeClass(c.status)}">${escape(c.status)}</span></div><div class="row-meta"><span>${escape(c.id)}</span><span>${escape(c.business)}</span></div><div class="row-foot">${escape(c.note)}</div></button>`).join('') : '<div class="empty-state">검색 결과가 없습니다.<br>검색어 또는 필터를 변경해주세요.</div>';
+    $('customer-list').innerHTML = visible.length ? visible.map(c => `<button class="customer-row${selectedId === c.id ? ' selected' : ''}" data-customer="${escape(c.id)}" aria-pressed="${selectedId === c.id}"><div class="row-top"><span class="row-name" title="${escape(c.name)}">${escape(c.name)}</span>${window.CRMStatus.render(c.status,'customers')}</div><div class="row-meta"><span>${escape(c.id)}</span><span>${escape(c.business)}</span></div><div class="row-foot">${escape(c.note)}</div></button>`).join('') : '<div class="empty-state">검색 결과가 없습니다.<br>검색어 또는 필터를 변경해주세요.</div>';
     $('customer-list').querySelectorAll('[data-customer]').forEach(button => button.addEventListener('click', () => requestCustomer(button.dataset.customer)));
   }
   function renderHistory() {
@@ -219,7 +219,7 @@
     $('selected-owner').textContent = c.owner;
     $('selected-product').textContent = c.product;
     $('customer-initial').textContent = c.name.replace(/^\(주\)|^주식회사\s*/g,'').charAt(0);
-    $('selected-status').textContent = c.status;
+    $('selected-status').innerHTML = window.CRMStatus.icon(c.status,'customers')+escape(c.status);
     $('selected-status').className = 'badge '+badgeClass(c.status);
     renderHistory();
     loadDraft();

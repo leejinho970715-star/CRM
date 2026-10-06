@@ -1,0 +1,478 @@
+[
+  {
+    "route": "home",
+    "tab": "오늘",
+    "height": 2874,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "home",
+    "tab": "이번 주",
+    "height": 2874,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "home",
+    "tab": "완료",
+    "height": 2874,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "news",
+    "tab": "전체",
+    "height": 1733,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "news",
+    "tab": "관심 기사",
+    "height": 1733,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "ssl-master",
+    "tab": "전체",
+    "height": 1116,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "ssl-master",
+    "tab": "품목",
+    "height": 1116,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "ssl-master",
+    "tab": "공급사",
+    "height": 1116,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "ssl-master",
+    "tab": "갱신주기",
+    "height": 1116,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "forecast-status",
+    "tab": "전체",
+    "height": 1880,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "forecast-status",
+    "tab": "이월",
+    "height": 1880,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "forecast-status",
+    "tab": "달성 현황",
+    "height": 1880,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "other-status",
+    "tab": "전체",
+    "height": 1601,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "other-status",
+    "tab": "이월",
+    "height": 1601,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "other-status",
+    "tab": "달성 현황",
+    "height": 1601,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "전체 · 목록",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "전체 · 보드",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "전체 · 달력",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "기한 경과 · 목록",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "기한 경과 · 보드",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "기한 경과 · 달력",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "오늘 · 목록",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "오늘 · 보드",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "오늘 · 달력",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "예정 · 목록",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "예정 · 보드",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "예정 · 달력",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "완료 · 목록",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "완료 · 보드",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "tab": "완료 · 달력",
+    "height": 1918,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "activity-original",
+    "tab": "활동 등록",
+    "height": 2455,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "activity-original",
+    "tab": "활동 이력 3",
+    "height": 2455,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "activity-original",
+    "tab": "AI 견적서",
+    "height": 2455,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "activity-original",
+    "tab": "포캐스팅",
+    "height": 2455,
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "route": "home",
+    "tab": "오늘",
+    "height": 3417,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "home",
+    "tab": "이번 주",
+    "height": 3417,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "home",
+    "tab": "완료",
+    "height": 3417,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "news",
+    "tab": "전체",
+    "height": 1918,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "news",
+    "tab": "관심 기사",
+    "height": 1918,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "ssl-master",
+    "tab": "전체",
+    "height": 1149,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "ssl-master",
+    "tab": "품목",
+    "height": 1149,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "ssl-master",
+    "tab": "공급사",
+    "height": 1149,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "ssl-master",
+    "tab": "갱신주기",
+    "height": 1149,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "forecast-status",
+    "tab": "전체",
+    "height": 2286,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "forecast-status",
+    "tab": "이월",
+    "height": 2286,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "forecast-status",
+    "tab": "달성 현황",
+    "height": 2286,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "other-status",
+    "tab": "전체",
+    "height": 1986,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "other-status",
+    "tab": "이월",
+    "height": 1986,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "other-status",
+    "tab": "달성 현황",
+    "height": 1986,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "전체 · 목록",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "전체 · 보드",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "전체 · 달력",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "기한 경과 · 목록",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "기한 경과 · 보드",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "기한 경과 · 달력",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "오늘 · 목록",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "오늘 · 보드",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "오늘 · 달력",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "예정 · 목록",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "예정 · 보드",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "예정 · 달력",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "완료 · 목록",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "완료 · 보드",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "tab": "완료 · 달력",
+    "height": 2206,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "activity-original",
+    "tab": "활동 등록",
+    "height": 2455,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "activity-original",
+    "tab": "활동 이력 3",
+    "height": 2455,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "activity-original",
+    "tab": "AI 견적서",
+    "height": 2455,
+    "overflow": false,
+    "width": 320
+  },
+  {
+    "route": "activity-original",
+    "tab": "포캐스팅",
+    "height": 2455,
+    "overflow": false,
+    "width": 320
+  }
+]

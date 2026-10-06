@@ -1,0 +1,3162 @@
+[
+  {
+    "route": "home",
+    "viewport": 320,
+    "heading": "대시보드",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "customers",
+    "viewport": 320,
+    "heading": "고객사 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "nonprofits",
+    "viewport": 320,
+    "heading": "비영리 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "news",
+    "viewport": 320,
+    "heading": "영리·비영리 뉴스",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "contacts",
+    "viewport": 320,
+    "heading": "컨택 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "upload",
+    "viewport": 320,
+    "heading": "고객사 일괄업로드",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "activity",
+    "viewport": 320,
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "tasks",
+    "viewport": 320,
+    "heading": "오늘의 업무함",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "leads",
+    "viewport": 320,
+    "heading": "통합 리드함",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "quotes",
+    "viewport": 320,
+    "heading": "견적 현황",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "marketing",
+    "viewport": 320,
+    "heading": "마케팅 활동",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "yearly",
+    "viewport": 320,
+    "heading": "연간 영업현황",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "activity-detail",
+    "viewport": 320,
+    "heading": "활동별 업체별 현황",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "ai",
+    "viewport": 320,
+    "heading": "IONE AI",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "work-report",
+    "viewport": 320,
+    "heading": "업무일지",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "custom-reports",
+    "viewport": 320,
+    "heading": "사용자 정의 보고서",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "ssl-master",
+    "viewport": 320,
+    "heading": "SSL 기초정보 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "ssl-purchase",
+    "viewport": 320,
+    "heading": "SSL 매입 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "ssl-delivery",
+    "viewport": 320,
+    "heading": "SSL 출고 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "ssl-expiration",
+    "viewport": 320,
+    "heading": "SSL 만료·갱신 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "forecast-add",
+    "viewport": 320,
+    "heading": "포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "forecast-status",
+    "viewport": 320,
+    "heading": "포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "other-add",
+    "viewport": 320,
+    "heading": "기타계약 포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "other-status",
+    "viewport": 320,
+    "heading": "기타계약 포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "admin",
+    "viewport": 320,
+    "heading": "관리자 대시보드",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "members",
+    "viewport": 320,
+    "heading": "회원·담당업무 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "transfer",
+    "viewport": 320,
+    "heading": "고객사 담당자 이관",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "permissions",
+    "viewport": 320,
+    "heading": "페이지 접근 권한",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "departments",
+    "viewport": 320,
+    "heading": "부서 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "department-add",
+    "viewport": 320,
+    "heading": "부서 신규 등록",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "goals",
+    "viewport": 320,
+    "heading": "매출 목표 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "manage-items",
+    "viewport": 320,
+    "heading": "관리항목 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "institutions",
+    "viewport": 320,
+    "heading": "기관유형 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "acquisition",
+    "viewport": 320,
+    "heading": "유입정보 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "commercial-news",
+    "viewport": 320,
+    "heading": "영리 뉴스 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "nonprofit-keywords",
+    "viewport": 320,
+    "heading": "비영리 뉴스 키워드",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "products",
+    "viewport": 320,
+    "heading": "품목 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "product-options",
+    "viewport": 320,
+    "heading": "품목옵션 관리",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "options-upload",
+    "viewport": 320,
+    "heading": "품목옵션 일괄등록",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "marketing-types",
+    "viewport": 320,
+    "heading": "마케팅 활동유형",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "work-settings",
+    "viewport": 320,
+    "heading": "업무일지 운영 설정",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "system",
+    "viewport": 320,
+    "heading": "시스템·알림 설정",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "migration",
+    "viewport": 320,
+    "heading": "데이터 마이그레이션",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "login",
+    "viewport": 320,
+    "heading": "고객과 나눈 대화가다음 기회가 되는 곳.",
+    "overflow": false,
+    "scrollWidth": 305,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "route": "home",
+    "viewport": 390,
+    "heading": "대시보드",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "customers",
+    "viewport": 390,
+    "heading": "고객사 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "nonprofits",
+    "viewport": 390,
+    "heading": "비영리 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "news",
+    "viewport": 390,
+    "heading": "영리·비영리 뉴스",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "contacts",
+    "viewport": 390,
+    "heading": "컨택 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "upload",
+    "viewport": 390,
+    "heading": "고객사 일괄업로드",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "activity",
+    "viewport": 390,
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "tasks",
+    "viewport": 390,
+    "heading": "오늘의 업무함",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "leads",
+    "viewport": 390,
+    "heading": "통합 리드함",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "quotes",
+    "viewport": 390,
+    "heading": "견적 현황",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "marketing",
+    "viewport": 390,
+    "heading": "마케팅 활동",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "yearly",
+    "viewport": 390,
+    "heading": "연간 영업현황",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "activity-detail",
+    "viewport": 390,
+    "heading": "활동별 업체별 현황",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "ai",
+    "viewport": 390,
+    "heading": "IONE AI",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "work-report",
+    "viewport": 390,
+    "heading": "업무일지",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "custom-reports",
+    "viewport": 390,
+    "heading": "사용자 정의 보고서",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "ssl-master",
+    "viewport": 390,
+    "heading": "SSL 기초정보 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "ssl-purchase",
+    "viewport": 390,
+    "heading": "SSL 매입 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "ssl-delivery",
+    "viewport": 390,
+    "heading": "SSL 출고 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "ssl-expiration",
+    "viewport": 390,
+    "heading": "SSL 만료·갱신 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "forecast-add",
+    "viewport": 390,
+    "heading": "포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "forecast-status",
+    "viewport": 390,
+    "heading": "포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "other-add",
+    "viewport": 390,
+    "heading": "기타계약 포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "other-status",
+    "viewport": 390,
+    "heading": "기타계약 포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "admin",
+    "viewport": 390,
+    "heading": "관리자 대시보드",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "members",
+    "viewport": 390,
+    "heading": "회원·담당업무 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "transfer",
+    "viewport": 390,
+    "heading": "고객사 담당자 이관",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "permissions",
+    "viewport": 390,
+    "heading": "페이지 접근 권한",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "departments",
+    "viewport": 390,
+    "heading": "부서 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "department-add",
+    "viewport": 390,
+    "heading": "부서 신규 등록",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "goals",
+    "viewport": 390,
+    "heading": "매출 목표 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "manage-items",
+    "viewport": 390,
+    "heading": "관리항목 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "institutions",
+    "viewport": 390,
+    "heading": "기관유형 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "acquisition",
+    "viewport": 390,
+    "heading": "유입정보 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "commercial-news",
+    "viewport": 390,
+    "heading": "영리 뉴스 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "nonprofit-keywords",
+    "viewport": 390,
+    "heading": "비영리 뉴스 키워드",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "products",
+    "viewport": 390,
+    "heading": "품목 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "product-options",
+    "viewport": 390,
+    "heading": "품목옵션 관리",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "options-upload",
+    "viewport": 390,
+    "heading": "품목옵션 일괄등록",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "marketing-types",
+    "viewport": 390,
+    "heading": "마케팅 활동유형",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "work-settings",
+    "viewport": 390,
+    "heading": "업무일지 운영 설정",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "system",
+    "viewport": 390,
+    "heading": "시스템·알림 설정",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "migration",
+    "viewport": 390,
+    "heading": "데이터 마이그레이션",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "login",
+    "viewport": 390,
+    "heading": "고객과 나눈 대화가다음 기회가 되는 곳.",
+    "overflow": false,
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "route": "home",
+    "viewport": 600,
+    "heading": "대시보드",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "customers",
+    "viewport": 600,
+    "heading": "고객사 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "nonprofits",
+    "viewport": 600,
+    "heading": "비영리 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "news",
+    "viewport": 600,
+    "heading": "영리·비영리 뉴스",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "contacts",
+    "viewport": 600,
+    "heading": "컨택 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "upload",
+    "viewport": 600,
+    "heading": "고객사 일괄업로드",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "activity",
+    "viewport": 600,
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "tasks",
+    "viewport": 600,
+    "heading": "오늘의 업무함",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "leads",
+    "viewport": 600,
+    "heading": "통합 리드함",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "quotes",
+    "viewport": 600,
+    "heading": "견적 현황",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "marketing",
+    "viewport": 600,
+    "heading": "마케팅 활동",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "yearly",
+    "viewport": 600,
+    "heading": "연간 영업현황",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "activity-detail",
+    "viewport": 600,
+    "heading": "활동별 업체별 현황",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "ai",
+    "viewport": 600,
+    "heading": "IONE AI",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "work-report",
+    "viewport": 600,
+    "heading": "업무일지",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "custom-reports",
+    "viewport": 600,
+    "heading": "사용자 정의 보고서",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "ssl-master",
+    "viewport": 600,
+    "heading": "SSL 기초정보 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "ssl-purchase",
+    "viewport": 600,
+    "heading": "SSL 매입 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "ssl-delivery",
+    "viewport": 600,
+    "heading": "SSL 출고 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "ssl-expiration",
+    "viewport": 600,
+    "heading": "SSL 만료·갱신 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "forecast-add",
+    "viewport": 600,
+    "heading": "포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "forecast-status",
+    "viewport": 600,
+    "heading": "포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "other-add",
+    "viewport": 600,
+    "heading": "기타계약 포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "other-status",
+    "viewport": 600,
+    "heading": "기타계약 포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "admin",
+    "viewport": 600,
+    "heading": "관리자 대시보드",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "members",
+    "viewport": 600,
+    "heading": "회원·담당업무 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "transfer",
+    "viewport": 600,
+    "heading": "고객사 담당자 이관",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "permissions",
+    "viewport": 600,
+    "heading": "페이지 접근 권한",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "departments",
+    "viewport": 600,
+    "heading": "부서 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "department-add",
+    "viewport": 600,
+    "heading": "부서 신규 등록",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "goals",
+    "viewport": 600,
+    "heading": "매출 목표 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "manage-items",
+    "viewport": 600,
+    "heading": "관리항목 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "institutions",
+    "viewport": 600,
+    "heading": "기관유형 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "acquisition",
+    "viewport": 600,
+    "heading": "유입정보 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "commercial-news",
+    "viewport": 600,
+    "heading": "영리 뉴스 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "nonprofit-keywords",
+    "viewport": 600,
+    "heading": "비영리 뉴스 키워드",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "products",
+    "viewport": 600,
+    "heading": "품목 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "product-options",
+    "viewport": 600,
+    "heading": "품목옵션 관리",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "options-upload",
+    "viewport": 600,
+    "heading": "품목옵션 일괄등록",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "marketing-types",
+    "viewport": 600,
+    "heading": "마케팅 활동유형",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "work-settings",
+    "viewport": 600,
+    "heading": "업무일지 운영 설정",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "system",
+    "viewport": 600,
+    "heading": "시스템·알림 설정",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "migration",
+    "viewport": 600,
+    "heading": "데이터 마이그레이션",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "login",
+    "viewport": 600,
+    "heading": "고객과 나눈 대화가다음 기회가 되는 곳.",
+    "overflow": false,
+    "scrollWidth": 585,
+    "textOverflow": [],
+    "width": 600
+  },
+  {
+    "route": "home",
+    "viewport": 820,
+    "heading": "대시보드",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "customers",
+    "viewport": 820,
+    "heading": "고객사 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "nonprofits",
+    "viewport": 820,
+    "heading": "비영리 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "news",
+    "viewport": 820,
+    "heading": "영리·비영리 뉴스",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "contacts",
+    "viewport": 820,
+    "heading": "컨택 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "upload",
+    "viewport": 820,
+    "heading": "고객사 일괄업로드",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "activity",
+    "viewport": 820,
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "tasks",
+    "viewport": 820,
+    "heading": "오늘의 업무함",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "leads",
+    "viewport": 820,
+    "heading": "통합 리드함",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "quotes",
+    "viewport": 820,
+    "heading": "견적 현황",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "marketing",
+    "viewport": 820,
+    "heading": "마케팅 활동",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "yearly",
+    "viewport": 820,
+    "heading": "연간 영업현황",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "activity-detail",
+    "viewport": 820,
+    "heading": "활동별 업체별 현황",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "ai",
+    "viewport": 820,
+    "heading": "IONE AI",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "work-report",
+    "viewport": 820,
+    "heading": "업무일지",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "custom-reports",
+    "viewport": 820,
+    "heading": "사용자 정의 보고서",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "ssl-master",
+    "viewport": 820,
+    "heading": "SSL 기초정보 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "ssl-purchase",
+    "viewport": 820,
+    "heading": "SSL 매입 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "ssl-delivery",
+    "viewport": 820,
+    "heading": "SSL 출고 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "ssl-expiration",
+    "viewport": 820,
+    "heading": "SSL 만료·갱신 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "forecast-add",
+    "viewport": 820,
+    "heading": "포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "forecast-status",
+    "viewport": 820,
+    "heading": "포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "other-add",
+    "viewport": 820,
+    "heading": "기타계약 포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "other-status",
+    "viewport": 820,
+    "heading": "기타계약 포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "admin",
+    "viewport": 820,
+    "heading": "관리자 대시보드",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "members",
+    "viewport": 820,
+    "heading": "회원·담당업무 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "transfer",
+    "viewport": 820,
+    "heading": "고객사 담당자 이관",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "permissions",
+    "viewport": 820,
+    "heading": "페이지 접근 권한",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "departments",
+    "viewport": 820,
+    "heading": "부서 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "department-add",
+    "viewport": 820,
+    "heading": "부서 신규 등록",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "goals",
+    "viewport": 820,
+    "heading": "매출 목표 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "manage-items",
+    "viewport": 820,
+    "heading": "관리항목 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "institutions",
+    "viewport": 820,
+    "heading": "기관유형 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "acquisition",
+    "viewport": 820,
+    "heading": "유입정보 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "commercial-news",
+    "viewport": 820,
+    "heading": "영리 뉴스 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "nonprofit-keywords",
+    "viewport": 820,
+    "heading": "비영리 뉴스 키워드",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "products",
+    "viewport": 820,
+    "heading": "품목 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "product-options",
+    "viewport": 820,
+    "heading": "품목옵션 관리",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "options-upload",
+    "viewport": 820,
+    "heading": "품목옵션 일괄등록",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "marketing-types",
+    "viewport": 820,
+    "heading": "마케팅 활동유형",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "work-settings",
+    "viewport": 820,
+    "heading": "업무일지 운영 설정",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "system",
+    "viewport": 820,
+    "heading": "시스템·알림 설정",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "migration",
+    "viewport": 820,
+    "heading": "데이터 마이그레이션",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "login",
+    "viewport": 820,
+    "heading": "고객과 나눈 대화가다음 기회가 되는 곳.",
+    "overflow": false,
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "route": "home",
+    "viewport": 1024,
+    "heading": "대시보드",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "customers",
+    "viewport": 1024,
+    "heading": "고객사 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "nonprofits",
+    "viewport": 1024,
+    "heading": "비영리 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "news",
+    "viewport": 1024,
+    "heading": "영리·비영리 뉴스",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "contacts",
+    "viewport": 1024,
+    "heading": "컨택 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "upload",
+    "viewport": 1024,
+    "heading": "고객사 일괄업로드",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "activity",
+    "viewport": 1024,
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "tasks",
+    "viewport": 1024,
+    "heading": "오늘의 업무함",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "leads",
+    "viewport": 1024,
+    "heading": "통합 리드함",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "quotes",
+    "viewport": 1024,
+    "heading": "견적 현황",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "marketing",
+    "viewport": 1024,
+    "heading": "마케팅 활동",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "yearly",
+    "viewport": 1024,
+    "heading": "연간 영업현황",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "activity-detail",
+    "viewport": 1024,
+    "heading": "활동별 업체별 현황",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "ai",
+    "viewport": 1024,
+    "heading": "IONE AI",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "work-report",
+    "viewport": 1024,
+    "heading": "업무일지",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "custom-reports",
+    "viewport": 1024,
+    "heading": "사용자 정의 보고서",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "ssl-master",
+    "viewport": 1024,
+    "heading": "SSL 기초정보 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "ssl-purchase",
+    "viewport": 1024,
+    "heading": "SSL 매입 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "ssl-delivery",
+    "viewport": 1024,
+    "heading": "SSL 출고 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "ssl-expiration",
+    "viewport": 1024,
+    "heading": "SSL 만료·갱신 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "forecast-add",
+    "viewport": 1024,
+    "heading": "포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "forecast-status",
+    "viewport": 1024,
+    "heading": "포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "other-add",
+    "viewport": 1024,
+    "heading": "기타계약 포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "other-status",
+    "viewport": 1024,
+    "heading": "기타계약 포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "admin",
+    "viewport": 1024,
+    "heading": "관리자 대시보드",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "members",
+    "viewport": 1024,
+    "heading": "회원·담당업무 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "transfer",
+    "viewport": 1024,
+    "heading": "고객사 담당자 이관",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "permissions",
+    "viewport": 1024,
+    "heading": "페이지 접근 권한",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "departments",
+    "viewport": 1024,
+    "heading": "부서 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "department-add",
+    "viewport": 1024,
+    "heading": "부서 신규 등록",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "goals",
+    "viewport": 1024,
+    "heading": "매출 목표 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "manage-items",
+    "viewport": 1024,
+    "heading": "관리항목 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "institutions",
+    "viewport": 1024,
+    "heading": "기관유형 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "acquisition",
+    "viewport": 1024,
+    "heading": "유입정보 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "commercial-news",
+    "viewport": 1024,
+    "heading": "영리 뉴스 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "nonprofit-keywords",
+    "viewport": 1024,
+    "heading": "비영리 뉴스 키워드",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "products",
+    "viewport": 1024,
+    "heading": "품목 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "product-options",
+    "viewport": 1024,
+    "heading": "품목옵션 관리",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "options-upload",
+    "viewport": 1024,
+    "heading": "품목옵션 일괄등록",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "marketing-types",
+    "viewport": 1024,
+    "heading": "마케팅 활동유형",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "work-settings",
+    "viewport": 1024,
+    "heading": "업무일지 운영 설정",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "system",
+    "viewport": 1024,
+    "heading": "시스템·알림 설정",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "migration",
+    "viewport": 1024,
+    "heading": "데이터 마이그레이션",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "login",
+    "viewport": 1024,
+    "heading": "고객과 나눈 대화가다음 기회가 되는 곳.",
+    "overflow": false,
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "route": "home",
+    "viewport": 1280,
+    "heading": "대시보드",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "customers",
+    "viewport": 1280,
+    "heading": "고객사 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "nonprofits",
+    "viewport": 1280,
+    "heading": "비영리 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "news",
+    "viewport": 1280,
+    "heading": "영리·비영리 뉴스",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "contacts",
+    "viewport": 1280,
+    "heading": "컨택 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "upload",
+    "viewport": 1280,
+    "heading": "고객사 일괄업로드",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "activity",
+    "viewport": 1280,
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "tasks",
+    "viewport": 1280,
+    "heading": "오늘의 업무함",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "leads",
+    "viewport": 1280,
+    "heading": "통합 리드함",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "quotes",
+    "viewport": 1280,
+    "heading": "견적 현황",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "marketing",
+    "viewport": 1280,
+    "heading": "마케팅 활동",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "yearly",
+    "viewport": 1280,
+    "heading": "연간 영업현황",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "activity-detail",
+    "viewport": 1280,
+    "heading": "활동별 업체별 현황",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "ai",
+    "viewport": 1280,
+    "heading": "IONE AI",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "work-report",
+    "viewport": 1280,
+    "heading": "업무일지",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "custom-reports",
+    "viewport": 1280,
+    "heading": "사용자 정의 보고서",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "ssl-master",
+    "viewport": 1280,
+    "heading": "SSL 기초정보 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "ssl-purchase",
+    "viewport": 1280,
+    "heading": "SSL 매입 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "ssl-delivery",
+    "viewport": 1280,
+    "heading": "SSL 출고 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "ssl-expiration",
+    "viewport": 1280,
+    "heading": "SSL 만료·갱신 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "forecast-add",
+    "viewport": 1280,
+    "heading": "포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "forecast-status",
+    "viewport": 1280,
+    "heading": "포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "other-add",
+    "viewport": 1280,
+    "heading": "기타계약 포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "other-status",
+    "viewport": 1280,
+    "heading": "기타계약 포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "admin",
+    "viewport": 1280,
+    "heading": "관리자 대시보드",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "members",
+    "viewport": 1280,
+    "heading": "회원·담당업무 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "transfer",
+    "viewport": 1280,
+    "heading": "고객사 담당자 이관",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "permissions",
+    "viewport": 1280,
+    "heading": "페이지 접근 권한",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "departments",
+    "viewport": 1280,
+    "heading": "부서 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "department-add",
+    "viewport": 1280,
+    "heading": "부서 신규 등록",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "goals",
+    "viewport": 1280,
+    "heading": "매출 목표 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "manage-items",
+    "viewport": 1280,
+    "heading": "관리항목 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "institutions",
+    "viewport": 1280,
+    "heading": "기관유형 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "acquisition",
+    "viewport": 1280,
+    "heading": "유입정보 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "commercial-news",
+    "viewport": 1280,
+    "heading": "영리 뉴스 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "nonprofit-keywords",
+    "viewport": 1280,
+    "heading": "비영리 뉴스 키워드",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "products",
+    "viewport": 1280,
+    "heading": "품목 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "product-options",
+    "viewport": 1280,
+    "heading": "품목옵션 관리",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "options-upload",
+    "viewport": 1280,
+    "heading": "품목옵션 일괄등록",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "marketing-types",
+    "viewport": 1280,
+    "heading": "마케팅 활동유형",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "work-settings",
+    "viewport": 1280,
+    "heading": "업무일지 운영 설정",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "system",
+    "viewport": 1280,
+    "heading": "시스템·알림 설정",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "migration",
+    "viewport": 1280,
+    "heading": "데이터 마이그레이션",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "login",
+    "viewport": 1280,
+    "heading": "고객과 나눈 대화가다음 기회가 되는 곳.",
+    "overflow": false,
+    "scrollWidth": 1265,
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "route": "home",
+    "viewport": 1600,
+    "heading": "대시보드",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "customers",
+    "viewport": 1600,
+    "heading": "고객사 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "nonprofits",
+    "viewport": 1600,
+    "heading": "비영리 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "news",
+    "viewport": 1600,
+    "heading": "영리·비영리 뉴스",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "contacts",
+    "viewport": 1600,
+    "heading": "컨택 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "upload",
+    "viewport": 1600,
+    "heading": "고객사 일괄업로드",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "activity",
+    "viewport": 1600,
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "tasks",
+    "viewport": 1600,
+    "heading": "오늘의 업무함",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "leads",
+    "viewport": 1600,
+    "heading": "통합 리드함",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "quotes",
+    "viewport": 1600,
+    "heading": "견적 현황",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "marketing",
+    "viewport": 1600,
+    "heading": "마케팅 활동",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "yearly",
+    "viewport": 1600,
+    "heading": "연간 영업현황",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "activity-detail",
+    "viewport": 1600,
+    "heading": "활동별 업체별 현황",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "ai",
+    "viewport": 1600,
+    "heading": "IONE AI",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "work-report",
+    "viewport": 1600,
+    "heading": "업무일지",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "custom-reports",
+    "viewport": 1600,
+    "heading": "사용자 정의 보고서",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "ssl-master",
+    "viewport": 1600,
+    "heading": "SSL 기초정보 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "ssl-purchase",
+    "viewport": 1600,
+    "heading": "SSL 매입 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "ssl-delivery",
+    "viewport": 1600,
+    "heading": "SSL 출고 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "ssl-expiration",
+    "viewport": 1600,
+    "heading": "SSL 만료·갱신 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "forecast-add",
+    "viewport": 1600,
+    "heading": "포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "forecast-status",
+    "viewport": 1600,
+    "heading": "포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "other-add",
+    "viewport": 1600,
+    "heading": "기타계약 포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "other-status",
+    "viewport": 1600,
+    "heading": "기타계약 포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "admin",
+    "viewport": 1600,
+    "heading": "관리자 대시보드",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "members",
+    "viewport": 1600,
+    "heading": "회원·담당업무 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "transfer",
+    "viewport": 1600,
+    "heading": "고객사 담당자 이관",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "permissions",
+    "viewport": 1600,
+    "heading": "페이지 접근 권한",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "departments",
+    "viewport": 1600,
+    "heading": "부서 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "department-add",
+    "viewport": 1600,
+    "heading": "부서 신규 등록",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "goals",
+    "viewport": 1600,
+    "heading": "매출 목표 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "manage-items",
+    "viewport": 1600,
+    "heading": "관리항목 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "institutions",
+    "viewport": 1600,
+    "heading": "기관유형 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "acquisition",
+    "viewport": 1600,
+    "heading": "유입정보 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "commercial-news",
+    "viewport": 1600,
+    "heading": "영리 뉴스 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "nonprofit-keywords",
+    "viewport": 1600,
+    "heading": "비영리 뉴스 키워드",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "products",
+    "viewport": 1600,
+    "heading": "품목 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "product-options",
+    "viewport": 1600,
+    "heading": "품목옵션 관리",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "options-upload",
+    "viewport": 1600,
+    "heading": "품목옵션 일괄등록",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "marketing-types",
+    "viewport": 1600,
+    "heading": "마케팅 활동유형",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "work-settings",
+    "viewport": 1600,
+    "heading": "업무일지 운영 설정",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "system",
+    "viewport": 1600,
+    "heading": "시스템·알림 설정",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "migration",
+    "viewport": 1600,
+    "heading": "데이터 마이그레이션",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "login",
+    "viewport": 1600,
+    "heading": "고객과 나눈 대화가다음 기회가 되는 곳.",
+    "overflow": false,
+    "scrollWidth": 1585,
+    "textOverflow": [],
+    "width": 1600
+  },
+  {
+    "route": "home",
+    "viewport": 1920,
+    "heading": "대시보드",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "customers",
+    "viewport": 1920,
+    "heading": "고객사 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "nonprofits",
+    "viewport": 1920,
+    "heading": "비영리 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "news",
+    "viewport": 1920,
+    "heading": "영리·비영리 뉴스",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "contacts",
+    "viewport": 1920,
+    "heading": "컨택 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "upload",
+    "viewport": 1920,
+    "heading": "고객사 일괄업로드",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "activity",
+    "viewport": 1920,
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "tasks",
+    "viewport": 1920,
+    "heading": "오늘의 업무함",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "leads",
+    "viewport": 1920,
+    "heading": "통합 리드함",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "quotes",
+    "viewport": 1920,
+    "heading": "견적 현황",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "marketing",
+    "viewport": 1920,
+    "heading": "마케팅 활동",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "yearly",
+    "viewport": 1920,
+    "heading": "연간 영업현황",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "activity-detail",
+    "viewport": 1920,
+    "heading": "활동별 업체별 현황",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "ai",
+    "viewport": 1920,
+    "heading": "IONE AI",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "work-report",
+    "viewport": 1920,
+    "heading": "업무일지",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "custom-reports",
+    "viewport": 1920,
+    "heading": "사용자 정의 보고서",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "ssl-master",
+    "viewport": 1920,
+    "heading": "SSL 기초정보 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "ssl-purchase",
+    "viewport": 1920,
+    "heading": "SSL 매입 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "ssl-delivery",
+    "viewport": 1920,
+    "heading": "SSL 출고 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "ssl-expiration",
+    "viewport": 1920,
+    "heading": "SSL 만료·갱신 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "forecast-add",
+    "viewport": 1920,
+    "heading": "포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "forecast-status",
+    "viewport": 1920,
+    "heading": "포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "other-add",
+    "viewport": 1920,
+    "heading": "기타계약 포캐스팅 등록",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "other-status",
+    "viewport": 1920,
+    "heading": "기타계약 포캐스팅 현황",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "admin",
+    "viewport": 1920,
+    "heading": "관리자 대시보드",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "members",
+    "viewport": 1920,
+    "heading": "회원·담당업무 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "transfer",
+    "viewport": 1920,
+    "heading": "고객사 담당자 이관",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "permissions",
+    "viewport": 1920,
+    "heading": "페이지 접근 권한",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "departments",
+    "viewport": 1920,
+    "heading": "부서 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "department-add",
+    "viewport": 1920,
+    "heading": "부서 신규 등록",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "goals",
+    "viewport": 1920,
+    "heading": "매출 목표 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "manage-items",
+    "viewport": 1920,
+    "heading": "관리항목 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "institutions",
+    "viewport": 1920,
+    "heading": "기관유형 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "acquisition",
+    "viewport": 1920,
+    "heading": "유입정보 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "commercial-news",
+    "viewport": 1920,
+    "heading": "영리 뉴스 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "nonprofit-keywords",
+    "viewport": 1920,
+    "heading": "비영리 뉴스 키워드",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "products",
+    "viewport": 1920,
+    "heading": "품목 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "product-options",
+    "viewport": 1920,
+    "heading": "품목옵션 관리",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "options-upload",
+    "viewport": 1920,
+    "heading": "품목옵션 일괄등록",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "marketing-types",
+    "viewport": 1920,
+    "heading": "마케팅 활동유형",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "work-settings",
+    "viewport": 1920,
+    "heading": "업무일지 운영 설정",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "system",
+    "viewport": 1920,
+    "heading": "시스템·알림 설정",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "migration",
+    "viewport": 1920,
+    "heading": "데이터 마이그레이션",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  },
+  {
+    "route": "login",
+    "viewport": 1920,
+    "heading": "고객과 나눈 대화가다음 기회가 되는 곳.",
+    "overflow": false,
+    "scrollWidth": 1905,
+    "textOverflow": [],
+    "width": 1920
+  }
+]

@@ -1,0 +1,1830 @@
+[
+  {
+    "id": "activity-original",
+    "title": "영업활동 관리 · 단독 시안",
+    "url": "http://127.0.0.1:8938/activity.html",
+    "filename": "01-activity-original",
+    "qa": {
+      "font": "loaded",
+      "height": 1531,
+      "loaded": true,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1531
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "01-activity-original.png"
+  },
+  {
+    "id": "activity",
+    "title": "영업활동 관리",
+    "url": "http://127.0.0.1:8938/index.html#activity",
+    "filename": "02-activity",
+    "qa": {
+      "font": "loaded",
+      "height": 1549,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "영업활동 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "fixed-header position needs recapture",
+    "pixels": {
+      "width": 1920,
+      "height": 1548
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "02-activity.png"
+  },
+  {
+    "id": "home",
+    "title": "대시보드",
+    "url": "http://127.0.0.1:8938/index.html#home",
+    "filename": "03-home",
+    "qa": {
+      "font": "loaded",
+      "height": 1627,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "대시보드 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1627
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "03-home.png"
+  },
+  {
+    "id": "customers",
+    "title": "고객사 관리",
+    "url": "http://127.0.0.1:8938/index.html#customers",
+    "filename": "04-customers",
+    "qa": {
+      "font": "loaded",
+      "height": 1186,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "고객사 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1185
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "04-customers.png"
+  },
+  {
+    "id": "nonprofits",
+    "title": "비영리 관리",
+    "url": "http://127.0.0.1:8938/index.html#nonprofits",
+    "filename": "05-nonprofits",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "비영리 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "05-nonprofits.png"
+  },
+  {
+    "id": "news",
+    "title": "영리·비영리 뉴스",
+    "url": "http://127.0.0.1:8938/index.html#news",
+    "filename": "06-news",
+    "qa": {
+      "font": "loaded",
+      "height": 1143,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "영리·비영리 뉴스 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1143
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "06-news.png"
+  },
+  {
+    "id": "contacts",
+    "title": "컨택 관리",
+    "url": "http://127.0.0.1:8938/index.html#contacts",
+    "filename": "07-contacts",
+    "qa": {
+      "font": "loaded",
+      "height": 1229,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "컨택 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1228
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "07-contacts.png"
+  },
+  {
+    "id": "upload",
+    "title": "고객사 일괄업로드",
+    "url": "http://127.0.0.1:8938/index.html#upload",
+    "filename": "08-upload",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "고객사 일괄업로드 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "08-upload.png"
+  },
+  {
+    "id": "tasks",
+    "title": "오늘의 업무함",
+    "url": "http://127.0.0.1:8938/index.html#tasks",
+    "filename": "09-tasks",
+    "qa": {
+      "font": "loaded",
+      "height": 1415,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "오늘의 업무함 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1415
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "09-tasks.png"
+  },
+  {
+    "id": "leads",
+    "title": "통합 리드함",
+    "url": "http://127.0.0.1:8938/index.html#leads",
+    "filename": "10-leads",
+    "qa": {
+      "font": "loaded",
+      "height": 1278,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "통합 리드함 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1278
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "10-leads.png"
+  },
+  {
+    "id": "quotes",
+    "title": "견적 현황",
+    "url": "http://127.0.0.1:8938/index.html#quotes",
+    "filename": "11-quotes",
+    "qa": {
+      "font": "loaded",
+      "height": 1570,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "견적 현황 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1570
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "11-quotes.png"
+  },
+  {
+    "id": "marketing",
+    "title": "마케팅 활동",
+    "url": "http://127.0.0.1:8938/index.html#marketing",
+    "filename": "12-marketing",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "마케팅 활동 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "12-marketing.png"
+  },
+  {
+    "id": "yearly",
+    "title": "연간 영업현황",
+    "url": "http://127.0.0.1:8938/index.html#yearly",
+    "filename": "13-yearly",
+    "qa": {
+      "font": "loaded",
+      "height": 1640,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "연간 영업현황 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1640
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "13-yearly.png"
+  },
+  {
+    "id": "activity-detail",
+    "title": "활동별 업체별 현황",
+    "url": "http://127.0.0.1:8938/index.html#activity-detail",
+    "filename": "14-activity-detail",
+    "qa": {
+      "font": "loaded",
+      "height": 1640,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "활동별 업체별 현황 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1640
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "14-activity-detail.png"
+  },
+  {
+    "id": "ai",
+    "title": "IONE AI",
+    "url": "http://127.0.0.1:8938/index.html#ai",
+    "filename": "15-ai",
+    "qa": {
+      "font": "loaded",
+      "height": 1222,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "IONE AI · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1221
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "15-ai.png"
+  },
+  {
+    "id": "work-report",
+    "title": "업무일지",
+    "url": "http://127.0.0.1:8938/index.html#work-report",
+    "filename": "16-work-report",
+    "qa": {
+      "font": "loaded",
+      "height": 2217,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "업무일지 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 2216
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "16-work-report.png"
+  },
+  {
+    "id": "custom-reports",
+    "title": "사용자 정의 보고서",
+    "url": "http://127.0.0.1:8938/index.html#custom-reports",
+    "filename": "17-custom-reports",
+    "qa": {
+      "font": "loaded",
+      "height": 1173,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "사용자 정의 보고서 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1172
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "17-custom-reports.png"
+  },
+  {
+    "id": "ssl-master",
+    "title": "SSL 기초정보 관리",
+    "url": "http://127.0.0.1:8938/index.html#ssl-master",
+    "filename": "18-ssl-master",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "SSL 기초정보 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "18-ssl-master.png"
+  },
+  {
+    "id": "ssl-purchase",
+    "title": "SSL 매입 관리",
+    "url": "http://127.0.0.1:8938/index.html#ssl-purchase",
+    "filename": "19-ssl-purchase",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "SSL 매입 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "19-ssl-purchase.png"
+  },
+  {
+    "id": "ssl-delivery",
+    "title": "SSL 출고 관리",
+    "url": "http://127.0.0.1:8938/index.html#ssl-delivery",
+    "filename": "20-ssl-delivery",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "SSL 출고 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "20-ssl-delivery.png"
+  },
+  {
+    "id": "ssl-expiration",
+    "title": "SSL 만료·갱신 관리",
+    "url": "http://127.0.0.1:8938/index.html#ssl-expiration",
+    "filename": "21-ssl-expiration",
+    "qa": {
+      "font": "loaded",
+      "height": 1209,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "SSL 만료·갱신 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1208
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "21-ssl-expiration.png"
+  },
+  {
+    "id": "forecast-add",
+    "title": "포캐스팅 등록",
+    "url": "http://127.0.0.1:8938/index.html#forecast-add",
+    "filename": "22-forecast-add",
+    "qa": {
+      "font": "loaded",
+      "height": 1370,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "포캐스팅 등록 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1370
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "22-forecast-add.png"
+  },
+  {
+    "id": "forecast-status",
+    "title": "포캐스팅 현황",
+    "url": "http://127.0.0.1:8938/index.html#forecast-status",
+    "filename": "23-forecast-status",
+    "qa": {
+      "font": "loaded",
+      "height": 1408,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "포캐스팅 현황 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1408
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "23-forecast-status.png"
+  },
+  {
+    "id": "other-add",
+    "title": "기타계약 포캐스팅 등록",
+    "url": "http://127.0.0.1:8938/index.html#other-add",
+    "filename": "24-other-add",
+    "qa": {
+      "font": "loaded",
+      "height": 1370,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "기타계약 포캐스팅 등록 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1370
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "24-other-add.png"
+  },
+  {
+    "id": "other-status",
+    "title": "기타계약 포캐스팅 현황",
+    "url": "http://127.0.0.1:8938/index.html#other-status",
+    "filename": "25-other-status",
+    "qa": {
+      "font": "loaded",
+      "height": 1129,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "기타계약 포캐스팅 현황 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1128
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "25-other-status.png"
+  },
+  {
+    "id": "admin",
+    "title": "관리자 대시보드",
+    "url": "http://127.0.0.1:8938/index.html#admin",
+    "filename": "26-admin",
+    "qa": {
+      "font": "loaded",
+      "height": 2423,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "관리자 대시보드 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 2423
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "26-admin.png"
+  },
+  {
+    "id": "members",
+    "title": "회원·담당업무 관리",
+    "url": "http://127.0.0.1:8938/index.html#members",
+    "filename": "27-members",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "회원·담당업무 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "27-members.png"
+  },
+  {
+    "id": "transfer",
+    "title": "고객사 담당자 이관",
+    "url": "http://127.0.0.1:8938/index.html#transfer",
+    "filename": "28-transfer",
+    "qa": {
+      "font": "loaded",
+      "height": 1297,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "고객사 담당자 이관 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1296
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "28-transfer.png"
+  },
+  {
+    "id": "permissions",
+    "title": "페이지 접근 권한",
+    "url": "http://127.0.0.1:8938/index.html#permissions",
+    "filename": "29-permissions",
+    "qa": {
+      "font": "loaded",
+      "height": 1132,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "페이지 접근 권한 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1132
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "29-permissions.png"
+  },
+  {
+    "id": "departments",
+    "title": "부서 관리",
+    "url": "http://127.0.0.1:8938/index.html#departments",
+    "filename": "30-departments",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "부서 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "30-departments.png"
+  },
+  {
+    "id": "department-add",
+    "title": "부서 신규 등록",
+    "url": "http://127.0.0.1:8938/index.html#department-add",
+    "filename": "31-department-add",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "부서 신규 등록 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "31-department-add.png"
+  },
+  {
+    "id": "goals",
+    "title": "매출 목표 관리",
+    "url": "http://127.0.0.1:8938/index.html#goals",
+    "filename": "32-goals",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "매출 목표 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "32-goals.png"
+  },
+  {
+    "id": "manage-items",
+    "title": "관리항목 관리",
+    "url": "http://127.0.0.1:8938/index.html#manage-items",
+    "filename": "33-manage-items",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "관리항목 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "33-manage-items.png"
+  },
+  {
+    "id": "institutions",
+    "title": "기관유형 관리",
+    "url": "http://127.0.0.1:8938/index.html#institutions",
+    "filename": "34-institutions",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "기관유형 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "34-institutions.png"
+  },
+  {
+    "id": "acquisition",
+    "title": "유입정보 관리",
+    "url": "http://127.0.0.1:8938/index.html#acquisition",
+    "filename": "35-acquisition",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "유입정보 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "35-acquisition.png"
+  },
+  {
+    "id": "commercial-news",
+    "title": "영리 뉴스 관리",
+    "url": "http://127.0.0.1:8938/index.html#commercial-news",
+    "filename": "36-commercial-news",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "영리 뉴스 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "36-commercial-news.png"
+  },
+  {
+    "id": "nonprofit-keywords",
+    "title": "비영리 뉴스 키워드",
+    "url": "http://127.0.0.1:8938/index.html#nonprofit-keywords",
+    "filename": "37-nonprofit-keywords",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "비영리 뉴스 키워드 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "37-nonprofit-keywords.png"
+  },
+  {
+    "id": "products",
+    "title": "품목 관리",
+    "url": "http://127.0.0.1:8938/index.html#products",
+    "filename": "38-products",
+    "qa": {
+      "font": "loaded",
+      "height": 1186,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "품목 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1185
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "38-products.png"
+  },
+  {
+    "id": "product-options",
+    "title": "품목옵션 관리",
+    "url": "http://127.0.0.1:8938/index.html#product-options",
+    "filename": "39-product-options",
+    "qa": {
+      "font": "loaded",
+      "height": 1186,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "품목옵션 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1185
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "39-product-options.png"
+  },
+  {
+    "id": "options-upload",
+    "title": "품목옵션 일괄등록",
+    "url": "http://127.0.0.1:8938/index.html#options-upload",
+    "filename": "40-options-upload",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "품목옵션 일괄등록 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "40-options-upload.png"
+  },
+  {
+    "id": "marketing-types",
+    "title": "마케팅 활동유형",
+    "url": "http://127.0.0.1:8938/index.html#marketing-types",
+    "filename": "41-marketing-types",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "마케팅 활동유형 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "41-marketing-types.png"
+  },
+  {
+    "id": "work-settings",
+    "title": "업무일지 운영 설정",
+    "url": "http://127.0.0.1:8938/index.html#work-settings",
+    "filename": "42-work-settings",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "업무일지 운영 설정 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "42-work-settings.png"
+  },
+  {
+    "id": "system",
+    "title": "시스템·알림 설정",
+    "url": "http://127.0.0.1:8938/index.html#system",
+    "filename": "43-system",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "시스템·알림 설정 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "43-system.png"
+  },
+  {
+    "id": "migration",
+    "title": "데이터 마이그레이션",
+    "url": "http://127.0.0.1:8938/index.html#migration",
+    "filename": "44-migration",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "데이터 마이그레이션 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "44-migration.png"
+  },
+  {
+    "id": "login",
+    "title": "로그인",
+    "url": "http://127.0.0.1:8938/index.html#login",
+    "filename": "45-login",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "loaded": true,
+      "overflow": false,
+      "primary": "#1462fd",
+      "title": "로그인 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "45-login.png"
+  },
+  {
+    "id": "activity--register",
+    "route": "activity",
+    "title": "영업활동 관리",
+    "tab": "활동 등록",
+    "filename": "01-activity-register",
+    "qa": {
+      "font": "loaded",
+      "height": 1549,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "fixed-header position needs recapture",
+    "pixels": {
+      "width": 1904,
+      "height": 1548
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/01-activity-register.png"
+  },
+  {
+    "id": "activity--history",
+    "route": "activity",
+    "title": "영업활동 관리",
+    "tab": "활동 이력 3",
+    "filename": "02-activity-history",
+    "qa": {
+      "font": "loaded",
+      "height": 1277,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "fixed-header position needs recapture",
+    "pixels": {
+      "width": 1904,
+      "height": 1276
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/02-activity-history.png"
+  },
+  {
+    "id": "activity--quote",
+    "route": "activity",
+    "title": "영업활동 관리",
+    "tab": "AI 견적서",
+    "filename": "03-activity-quote",
+    "qa": {
+      "font": "loaded",
+      "height": 1277,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "fixed-header position needs recapture",
+    "pixels": {
+      "width": 1904,
+      "height": 1276
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/03-activity-quote.png"
+  },
+  {
+    "id": "activity--forecast",
+    "route": "activity",
+    "title": "영업활동 관리",
+    "tab": "포캐스팅 · 연결 화면",
+    "filename": "04-activity-forecast",
+    "qa": {
+      "font": "loaded",
+      "height": 1370,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1370
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/04-activity-forecast.png"
+  },
+  {
+    "id": "activity-original--register",
+    "route": "activity-original",
+    "title": "영업활동 관리 · 단독 시안",
+    "tab": "활동 등록",
+    "filename": "05-activity-original-register",
+    "qa": {
+      "font": "loaded",
+      "height": 1531,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1920,
+      "height": 1531
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/05-activity-original-register.png"
+  },
+  {
+    "id": "activity-original--history",
+    "route": "activity-original",
+    "title": "영업활동 관리 · 단독 시안",
+    "tab": "활동 이력 3",
+    "filename": "06-activity-original-history",
+    "qa": {
+      "font": "loaded",
+      "height": 1159,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1159
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/06-activity-original-history.png"
+  },
+  {
+    "id": "activity-original--quote",
+    "route": "activity-original",
+    "title": "영업활동 관리 · 단독 시안",
+    "tab": "AI 견적서",
+    "filename": "07-activity-original-quote",
+    "qa": {
+      "font": "loaded",
+      "height": 1111,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1111
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/07-activity-original-quote.png"
+  },
+  {
+    "id": "activity-original--forecast",
+    "route": "activity-original",
+    "title": "영업활동 관리 · 단독 시안",
+    "tab": "포캐스팅",
+    "filename": "08-activity-original-forecast",
+    "qa": {
+      "font": "loaded",
+      "height": 1111,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1111
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/08-activity-original-forecast.png"
+  },
+  {
+    "id": "home--1",
+    "route": "home",
+    "title": "대시보드",
+    "tab": "오늘",
+    "filename": "09-home-1",
+    "qa": {
+      "font": "loaded",
+      "height": 1627,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "fixed-header position needs recapture",
+    "pixels": {
+      "width": 1904,
+      "height": 1627
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/09-home-1.png"
+  },
+  {
+    "id": "home--2",
+    "route": "home",
+    "title": "대시보드",
+    "tab": "이번 주",
+    "filename": "10-home-2",
+    "qa": {
+      "font": "loaded",
+      "height": 1627,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "fixed-header position needs recapture",
+    "pixels": {
+      "width": 1904,
+      "height": 1627
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/10-home-2.png"
+  },
+  {
+    "id": "home--3",
+    "route": "home",
+    "title": "대시보드",
+    "tab": "완료",
+    "filename": "11-home-3",
+    "qa": {
+      "font": "loaded",
+      "height": 1553,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "fixed-header position needs recapture",
+    "pixels": {
+      "width": 1904,
+      "height": 1552
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/11-home-3.png"
+  },
+  {
+    "id": "news--1",
+    "route": "news",
+    "title": "영리·비영리 뉴스",
+    "tab": "전체",
+    "filename": "12-news-1",
+    "qa": {
+      "font": "loaded",
+      "height": 1143,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1143
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/12-news-1.png"
+  },
+  {
+    "id": "news--2",
+    "route": "news",
+    "title": "영리·비영리 뉴스",
+    "tab": "관심 기사",
+    "filename": "13-news-2",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/13-news-2.png"
+  },
+  {
+    "id": "ssl-master--1",
+    "route": "ssl-master",
+    "title": "SSL 기초정보 관리",
+    "tab": "전체",
+    "filename": "14-ssl-master-1",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/14-ssl-master-1.png"
+  },
+  {
+    "id": "ssl-master--2",
+    "route": "ssl-master",
+    "title": "SSL 기초정보 관리",
+    "tab": "품목",
+    "filename": "15-ssl-master-2",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/15-ssl-master-2.png"
+  },
+  {
+    "id": "ssl-master--3",
+    "route": "ssl-master",
+    "title": "SSL 기초정보 관리",
+    "tab": "공급사",
+    "filename": "16-ssl-master-3",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/16-ssl-master-3.png"
+  },
+  {
+    "id": "ssl-master--4",
+    "route": "ssl-master",
+    "title": "SSL 기초정보 관리",
+    "tab": "갱신주기",
+    "filename": "17-ssl-master-4",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/17-ssl-master-4.png"
+  },
+  {
+    "id": "forecast-status--1",
+    "route": "forecast-status",
+    "title": "포캐스팅 현황",
+    "tab": "전체",
+    "filename": "18-forecast-status-1",
+    "qa": {
+      "font": "loaded",
+      "height": 1408,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1408
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/18-forecast-status-1.png"
+  },
+  {
+    "id": "forecast-status--2",
+    "route": "forecast-status",
+    "title": "포캐스팅 현황",
+    "tab": "이월",
+    "filename": "19-forecast-status-2",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/19-forecast-status-2.png"
+  },
+  {
+    "id": "forecast-status--3",
+    "route": "forecast-status",
+    "title": "포캐스팅 현황",
+    "tab": "달성 현황",
+    "filename": "20-forecast-status-3",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/20-forecast-status-3.png"
+  },
+  {
+    "id": "other-status--1",
+    "route": "other-status",
+    "title": "기타계약 포캐스팅 현황",
+    "tab": "전체",
+    "filename": "21-other-status-1",
+    "qa": {
+      "font": "loaded",
+      "height": 1129,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1128
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/21-other-status-1.png"
+  },
+  {
+    "id": "other-status--2",
+    "route": "other-status",
+    "title": "기타계약 포캐스팅 현황",
+    "tab": "이월",
+    "filename": "22-other-status-2",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/22-other-status-2.png"
+  },
+  {
+    "id": "other-status--3",
+    "route": "other-status",
+    "title": "기타계약 포캐스팅 현황",
+    "tab": "달성 현황",
+    "filename": "23-other-status-3",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/23-other-status-3.png"
+  },
+  {
+    "id": "tasks--1-1",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "전체 · 목록",
+    "filename": "24-tasks-1-1",
+    "qa": {
+      "font": "loaded",
+      "height": 1415,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1415
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/24-tasks-1-1.png"
+  },
+  {
+    "id": "tasks--1-2",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "전체 · 보드",
+    "filename": "25-tasks-1-2",
+    "qa": {
+      "font": "loaded",
+      "height": 1983,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1983
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/25-tasks-1-2.png"
+  },
+  {
+    "id": "tasks--1-3",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "전체 · 달력",
+    "filename": "26-tasks-1-3",
+    "qa": {
+      "font": "loaded",
+      "height": 1358,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1358
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/26-tasks-1-3.png"
+  },
+  {
+    "id": "tasks--2-1",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "기한 경과 · 목록",
+    "filename": "27-tasks-2-1",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/27-tasks-2-1.png"
+  },
+  {
+    "id": "tasks--2-2",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "기한 경과 · 보드",
+    "filename": "28-tasks-2-2",
+    "qa": {
+      "font": "loaded",
+      "height": 1141,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1140
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/28-tasks-2-2.png"
+  },
+  {
+    "id": "tasks--2-3",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "기한 경과 · 달력",
+    "filename": "29-tasks-2-3",
+    "qa": {
+      "font": "loaded",
+      "height": 1306,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1305
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/29-tasks-2-3.png"
+  },
+  {
+    "id": "tasks--3-1",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "오늘 · 목록",
+    "filename": "30-tasks-3-1",
+    "qa": {
+      "font": "loaded",
+      "height": 1136,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1136
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/30-tasks-3-1.png"
+  },
+  {
+    "id": "tasks--3-2",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "오늘 · 보드",
+    "filename": "31-tasks-3-2",
+    "qa": {
+      "font": "loaded",
+      "height": 1478,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1477
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/31-tasks-3-2.png"
+  },
+  {
+    "id": "tasks--3-3",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "오늘 · 달력",
+    "filename": "32-tasks-3-3",
+    "qa": {
+      "font": "loaded",
+      "height": 1358,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1358
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/32-tasks-3-3.png"
+  },
+  {
+    "id": "tasks--4-1",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "예정 · 목록",
+    "filename": "33-tasks-4-1",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/33-tasks-4-1.png"
+  },
+  {
+    "id": "tasks--4-2",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "예정 · 보드",
+    "filename": "34-tasks-4-2",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/34-tasks-4-2.png"
+  },
+  {
+    "id": "tasks--4-3",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "예정 · 달력",
+    "filename": "35-tasks-4-3",
+    "qa": {
+      "font": "loaded",
+      "height": 1306,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1305
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/35-tasks-4-3.png"
+  },
+  {
+    "id": "tasks--5-1",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "완료 · 목록",
+    "filename": "36-tasks-5-1",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/36-tasks-5-1.png"
+  },
+  {
+    "id": "tasks--5-2",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "완료 · 보드",
+    "filename": "37-tasks-5-2",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/37-tasks-5-2.png"
+  },
+  {
+    "id": "tasks--5-3",
+    "route": "tasks",
+    "title": "오늘의 업무함",
+    "tab": "완료 · 달력",
+    "filename": "38-tasks-5-3",
+    "qa": {
+      "font": "loaded",
+      "height": 1306,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1305
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/38-tasks-5-3.png"
+  },
+  {
+    "id": "customers--detail",
+    "route": "customers",
+    "title": "고객사 관리",
+    "tab": "고객 상세 · 정보·영업활동",
+    "filename": "39-customers-detail",
+    "qa": {
+      "font": "loaded",
+      "height": 1186,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1185
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/39-customers-detail.png"
+  },
+  {
+    "id": "nonprofits--detail",
+    "route": "nonprofits",
+    "title": "비영리 관리",
+    "tab": "기관 상세 · 기본 정보",
+    "filename": "40-nonprofits-detail",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/40-nonprofits-detail.png"
+  },
+  {
+    "id": "marketing--register-top",
+    "route": "marketing",
+    "title": "마케팅 활동",
+    "tab": "마케팅 활동 등록 · 상단",
+    "filename": "41-marketing-register-top",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/41-marketing-register-top.png"
+  },
+  {
+    "id": "marketing--register-bottom",
+    "route": "marketing",
+    "title": "마케팅 활동",
+    "tab": "마케팅 활동 등록 · 하단",
+    "filename": "42-marketing-register-bottom",
+    "qa": {
+      "font": "loaded",
+      "height": 1095,
+      "overflow": false,
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1920,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG",
+    "file": "tabs/42-marketing-register-bottom.png"
+  }
+]

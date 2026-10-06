@@ -20,10 +20,20 @@
     return contexts[context]?.[label] || tones.get(label) || 'neutral';
   };
   const escape = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  const icon = (value,context='') => {
+    const kind = tone(value,context);
+    const paths = {
+      neutral:'<path d="M4 8h8"/>',
+      active:'<circle cx="8" cy="8" r="5"/><path d="M8 5v3l2 1"/>',
+      complete:'<path d="m3.5 8 3 3 6-6"/>',
+      attention:'<path d="M8 4v5m0 3v.1"/><circle cx="8" cy="8" r="6"/>'
+    };
+    return `<svg class="status-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">${paths[kind]}</svg>`;
+  };
   const render = (value,context='') => {
     const label = String(value || '미확인');
     const kind = tone(label,context);
-    return `<span class="state-badge status-${kind}" data-status-tone="${kind}">${escape(label)}</span>`;
+    return `<span class="state-badge status-${kind}" data-status-tone="${kind}">${icon(label,context)}${escape(label)}</span>`;
   };
   const examples = [
     {name:'고객·영업',context:'customers',values:['미진행','진행','이월','계약완료','영업종료']},
@@ -36,5 +46,5 @@
     {name:'비영리·예산',context:'nonprofits',values:['설립방침 수립','1차 협의','설립 승인','기관 설립','미편성','편성 예정','편성 완료']},
     {name:'관리·인사',context:'members',values:['사용','활성','비활성','재직','퇴사']}
   ];
-  window.CRMStatus = Object.freeze({groups,vocabulary,contexts,examples,tone,render});
+  window.CRMStatus = Object.freeze({groups,vocabulary,contexts,examples,tone,icon,render});
 })();

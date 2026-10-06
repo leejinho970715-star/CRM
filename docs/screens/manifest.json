@@ -5,12 +5,18 @@
     "url": "http://127.0.0.1:8938/activity.html",
     "filename": "01-activity-original",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1458,
+      "font": "loaded",
+      "height": 1531,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1531
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "activity",
@@ -18,12 +24,20 @@
     "url": "http://127.0.0.1:8938/index.html#activity",
     "filename": "02-activity",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1598,
+      "font": "loaded",
+      "height": 1549,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "영업활동 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "fixed-header position needs recapture",
+    "pixels": {
+      "width": 1920,
+      "height": 1548
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "home",
@@ -31,12 +45,20 @@
     "url": "http://127.0.0.1:8938/index.html#home",
     "filename": "03-home",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 2366,
+      "font": "loaded",
+      "height": 1627,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "대시보드 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1627
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "customers",
@@ -44,12 +66,20 @@
     "url": "http://127.0.0.1:8938/index.html#customers",
     "filename": "04-customers",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1164,
+      "font": "loaded",
+      "height": 1186,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "고객사 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1185
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "nonprofits",
@@ -57,12 +87,20 @@
     "url": "http://127.0.0.1:8938/index.html#nonprofits",
     "filename": "05-nonprofits",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "비영리 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "news",
@@ -70,12 +108,20 @@
     "url": "http://127.0.0.1:8938/index.html#news",
     "filename": "06-news",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1345,
+      "font": "loaded",
+      "height": 1143,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "영리·비영리 뉴스 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1143
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "contacts",
@@ -83,12 +129,20 @@
     "url": "http://127.0.0.1:8938/index.html#contacts",
     "filename": "07-contacts",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1207,
+      "font": "loaded",
+      "height": 1229,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "컨택 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1228
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "upload",
@@ -96,12 +150,20 @@
     "url": "http://127.0.0.1:8938/index.html#upload",
     "filename": "08-upload",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "고객사 일괄업로드 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "tasks",
@@ -109,12 +171,20 @@
     "url": "http://127.0.0.1:8938/index.html#tasks",
     "filename": "09-tasks",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1531,
+      "font": "loaded",
+      "height": 1415,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "오늘의 업무함 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1415
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "leads",
@@ -122,12 +192,20 @@
     "url": "http://127.0.0.1:8938/index.html#leads",
     "filename": "10-leads",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1387,
+      "font": "loaded",
+      "height": 1278,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "통합 리드함 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1278
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "quotes",
@@ -135,12 +213,20 @@
     "url": "http://127.0.0.1:8938/index.html#quotes",
     "filename": "11-quotes",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1880,
+      "font": "loaded",
+      "height": 1570,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "견적 현황 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1570
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "marketing",
@@ -148,12 +234,20 @@
     "url": "http://127.0.0.1:8938/index.html#marketing",
     "filename": "12-marketing",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1022,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "마케팅 활동 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "yearly",
@@ -161,12 +255,20 @@
     "url": "http://127.0.0.1:8938/index.html#yearly",
     "filename": "13-yearly",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1984,
+      "font": "loaded",
+      "height": 1640,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "연간 영업현황 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1640
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "activity-detail",
@@ -174,12 +276,20 @@
     "url": "http://127.0.0.1:8938/index.html#activity-detail",
     "filename": "14-activity-detail",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1984,
+      "font": "loaded",
+      "height": 1640,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "활동별 업체별 현황 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1640
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "ai",
@@ -187,12 +297,20 @@
     "url": "http://127.0.0.1:8938/index.html#ai",
     "filename": "15-ai",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1497,
+      "font": "loaded",
+      "height": 1222,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "IONE AI · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1221
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "work-report",
@@ -200,12 +318,20 @@
     "url": "http://127.0.0.1:8938/index.html#work-report",
     "filename": "16-work-report",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 2554,
+      "font": "loaded",
+      "height": 2217,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "업무일지 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 2216
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "custom-reports",
@@ -213,12 +339,20 @@
     "url": "http://127.0.0.1:8938/index.html#custom-reports",
     "filename": "17-custom-reports",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1133,
+      "font": "loaded",
+      "height": 1173,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "사용자 정의 보고서 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1172
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "ssl-master",
@@ -226,12 +360,20 @@
     "url": "http://127.0.0.1:8938/index.html#ssl-master",
     "filename": "18-ssl-master",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "SSL 기초정보 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "ssl-purchase",
@@ -239,12 +381,20 @@
     "url": "http://127.0.0.1:8938/index.html#ssl-purchase",
     "filename": "19-ssl-purchase",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "SSL 매입 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "ssl-delivery",
@@ -252,12 +402,20 @@
     "url": "http://127.0.0.1:8938/index.html#ssl-delivery",
     "filename": "20-ssl-delivery",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1022,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "SSL 출고 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "ssl-expiration",
@@ -265,12 +423,20 @@
     "url": "http://127.0.0.1:8938/index.html#ssl-expiration",
     "filename": "21-ssl-expiration",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1316,
+      "font": "loaded",
+      "height": 1209,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "SSL 만료·갱신 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1208
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "forecast-add",
@@ -278,12 +444,20 @@
     "url": "http://127.0.0.1:8938/index.html#forecast-add",
     "filename": "22-forecast-add",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1411,
+      "font": "loaded",
+      "height": 1370,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "포캐스팅 등록 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1370
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "forecast-status",
@@ -291,12 +465,20 @@
     "url": "http://127.0.0.1:8938/index.html#forecast-status",
     "filename": "23-forecast-status",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1518,
+      "font": "loaded",
+      "height": 1408,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "포캐스팅 현황 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1408
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "other-add",
@@ -304,12 +486,20 @@
     "url": "http://127.0.0.1:8938/index.html#other-add",
     "filename": "24-other-add",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1411,
+      "font": "loaded",
+      "height": 1370,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "기타계약 포캐스팅 등록 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1370
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "other-status",
@@ -317,12 +507,20 @@
     "url": "http://127.0.0.1:8938/index.html#other-status",
     "filename": "25-other-status",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1232,
+      "font": "loaded",
+      "height": 1129,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "기타계약 포캐스팅 현황 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1128
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "admin",
@@ -330,12 +528,20 @@
     "url": "http://127.0.0.1:8938/index.html#admin",
     "filename": "26-admin",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 2481,
+      "font": "loaded",
+      "height": 2423,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "관리자 대시보드 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 2423
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "members",
@@ -343,12 +549,20 @@
     "url": "http://127.0.0.1:8938/index.html#members",
     "filename": "27-members",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "회원·담당업무 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "transfer",
@@ -356,12 +570,20 @@
     "url": "http://127.0.0.1:8938/index.html#transfer",
     "filename": "28-transfer",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1270,
+      "font": "loaded",
+      "height": 1297,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "고객사 담당자 이관 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1296
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "permissions",
@@ -369,12 +591,20 @@
     "url": "http://127.0.0.1:8938/index.html#permissions",
     "filename": "29-permissions",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1115,
+      "font": "loaded",
+      "height": 1132,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "페이지 접근 권한 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1132
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "departments",
@@ -382,12 +612,20 @@
     "url": "http://127.0.0.1:8938/index.html#departments",
     "filename": "30-departments",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "부서 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "department-add",
@@ -395,12 +633,20 @@
     "url": "http://127.0.0.1:8938/index.html#department-add",
     "filename": "31-department-add",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "부서 신규 등록 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "goals",
@@ -408,12 +654,20 @@
     "url": "http://127.0.0.1:8938/index.html#goals",
     "filename": "32-goals",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "매출 목표 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "manage-items",
@@ -421,12 +675,20 @@
     "url": "http://127.0.0.1:8938/index.html#manage-items",
     "filename": "33-manage-items",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 974,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "관리항목 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "institutions",
@@ -434,12 +696,20 @@
     "url": "http://127.0.0.1:8938/index.html#institutions",
     "filename": "34-institutions",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "기관유형 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "acquisition",
@@ -447,12 +717,20 @@
     "url": "http://127.0.0.1:8938/index.html#acquisition",
     "filename": "35-acquisition",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "유입정보 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "commercial-news",
@@ -460,12 +738,20 @@
     "url": "http://127.0.0.1:8938/index.html#commercial-news",
     "filename": "36-commercial-news",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "영리 뉴스 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "nonprofit-keywords",
@@ -473,12 +759,20 @@
     "url": "http://127.0.0.1:8938/index.html#nonprofit-keywords",
     "filename": "37-nonprofit-keywords",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "비영리 뉴스 키워드 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "products",
@@ -486,12 +780,20 @@
     "url": "http://127.0.0.1:8938/index.html#products",
     "filename": "38-products",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1164,
+      "font": "loaded",
+      "height": 1186,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "품목 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1185
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "product-options",
@@ -499,12 +801,20 @@
     "url": "http://127.0.0.1:8938/index.html#product-options",
     "filename": "39-product-options",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 1164,
+      "font": "loaded",
+      "height": 1186,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "품목옵션 관리 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1185
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "options-upload",
@@ -512,12 +822,20 @@
     "url": "http://127.0.0.1:8938/index.html#options-upload",
     "filename": "40-options-upload",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "품목옵션 일괄등록 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "marketing-types",
@@ -525,12 +843,20 @@
     "url": "http://127.0.0.1:8938/index.html#marketing-types",
     "filename": "41-marketing-types",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "마케팅 활동유형 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "work-settings",
@@ -538,12 +864,20 @@
     "url": "http://127.0.0.1:8938/index.html#work-settings",
     "filename": "42-work-settings",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "업무일지 운영 설정 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "system",
@@ -551,12 +885,20 @@
     "url": "http://127.0.0.1:8938/index.html#system",
     "filename": "43-system",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "시스템·알림 설정 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "migration",
@@ -564,12 +906,20 @@
     "url": "http://127.0.0.1:8938/index.html#migration",
     "filename": "44-migration",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "데이터 마이그레이션 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   },
   {
     "id": "login",
@@ -577,11 +927,19 @@
     "url": "http://127.0.0.1:8938/index.html#login",
     "filename": "45-login",
     "qa": {
-      "font": "\"Pretendard Variable\", Pretendard, sans-serif",
-      "height": 970,
+      "font": "loaded",
+      "height": 1095,
       "loaded": true,
       "overflow": false,
-      "width": 1265
-    }
+      "primary": "#1462fd",
+      "title": "로그인 · IONE CRM 리뉴얼 시안",
+      "width": 1920
+    },
+    "review_status": "captured",
+    "pixels": {
+      "width": 1904,
+      "height": 1095
+    },
+    "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
   }
 ]

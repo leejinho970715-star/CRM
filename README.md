@@ -2,12 +2,15 @@
 
 [전체 시안](https://leejinho970715-star.github.io/CRM/) · [영업활동 관리](https://leejinho970715-star.github.io/CRM/#activity) · [단독 영업활동 시안](https://leejinho970715-star.github.io/CRM/activity.html)
 
-44개 화면을 White / Neutral, Calm Density, Thin Border, Bento 구조와 Pretendard로 통일했습니다. 첨부 DOUZONE 로고와 절제된 3D 대시보드를 적용하고 320~1600px의 7개 폭에서 반응형을 검증했습니다. 운영 CRM 42개 화면과 로그인의 기존 분석을 바탕으로 구현했고, 마이그레이션은 원본을 열지 않은 제안입니다. 실제 운영 CRM은 변경하지 않았습니다.
+v5.0: 첨부 CRM UI Design System v1.0의 브랜드·타입·간격·입력·표 규격을 44개 화면에 적용했습니다. 낮은 글자 대비, 강한 상태 색상과 일률적인 여백은 조정했습니다. White / Neutral, Calm Density, Thin Border, Bento와 Pretendard, 첨부 DOUZONE 로고 및 절제된 3D 대시보드는 유지했습니다. 320~1920px의 8개 폭에서 전체 페이지와 영업활동 내부 화면을 검증했습니다. 운영 CRM은 변경하지 않았습니다.
 
 ## 결과물
 
-- [페이지별 As-is / To-be PDF — 49쪽](docs/CRM-Renewal-As-Is-To-Be.pdf)
-- [전체 화면 PNG 45장 ZIP](docs/CRM-PNG.zip): 단독 영업활동, 통합 영업활동, 나머지 43개 화면. 영업활동이 맨 앞입니다.
+현재 이미지·PDF는 검토본입니다. 87장 중 고정 메뉴 촬영 위치 재점검이 필요한 7장은 [캡처 검수 기록](docs/CAPTURE-QUALITY-v5.md)에 표시했습니다. 브라우저 스크린샷 연결이 복구되면 해당 파일을 재촬영할 예정입니다.
+
+- [페이지별 As-is / To-be PDF — 102쪽, 공개판](docs/CRM-Renewal-As-Is-To-Be.pdf): 44개 페이지 비교, 적용 가이드와 예외, 50개 탭·연결 화면 비교 부록. 공개판 AS-IS는 관찰한 구조의 도식이며 원본 캡처 포함 PDF는 로컬 output/pdf에 별도 제공했습니다.
+- [전체 화면·내부 탭 PNG 87장 ZIP](docs/CRM-PNG.zip): 기본 45장과 탭·상세·등록창 42장. 업무함 5개 상태 × 3개 보기의 모든 조합을 포함합니다. 영업활동이 맨 앞입니다.
+- [전체 캡처 목차](docs/screens/CAPTURE-INDEX.md): 화면명·탭명과 실제 파일명 매핑.
 - [페이지별 비교 원문](docs/AS-IS-TO-BE.md)
 - [상태 라벨 가이드](status-guide.html) · [상태 사전과 사용 원칙](STATUS-GUIDE.md)
 - [원본 화면 대응](PAGE-MAP.md), [디자인 규칙](DESIGN-SYSTEM.md), [검증 기록](VALIDATION.md)
@@ -28,12 +31,14 @@ GitHub Pages는 **main 브랜치 / 루트 디렉터리**를 배포합니다. `.n
 | activity.html / app.js / styles.css | 최초 영업활동 시안 및 로컬 저장 |
 | theme.css / responsive.css | Pretendard, 통일 디자인 토큰, 본문 너비에 따른 반응형 |
 | interaction.css | 콘텐츠 박스 안의 탭, 보기 버튼 그룹, 공통 버튼 간격 |
+| guide.css | 디자인 가이드 v1.0 적용 토큰·컴포넌트 규격과 조정한 예외 |
 | status.js / status.css / status-guide.html | 네 가지 상태 톤, 공통 상태 사전과 시각 가이드 |
 | assets/fonts | 공식 Pretendard 웹 글꼴과 OFL 라이선스 |
 | assets/favicon* / assets/og-image.png | 앱 아이콘과 1200×630 공유 이미지 |
 | docs/screens | 브라우저 전체 페이지 캡처 PNG와 검증 manifest |
 | scripts/prepare-site.cjs | 진입점·메타데이터·공통 테마 구성 |
 | scripts/build-comparison.py | 비교 PDF 및 PNG ZIP 생성 |
+| scripts/build-ux-review.py / scripts/export-captures-v5.py | 현재 102쪽 UX 비교 PDF와 탭을 포함한 PNG·ZIP 내보내기 |
 | scripts/build-public-assets.cjs / scripts/build-og.py | 아이콘·공유 이미지 생성 |
 
 PDF와 OG 재생성은 Python reportlab, pypdf, Pillow 및 공식 Pretendard Regular/Bold TTF가 필요합니다. TTF를 `output/pdf/fonts/`에 두고 스크립트를 실행합니다. 출처는 THIRD-PARTY-NOTICES.md에 있습니다. PNG manifest는 실제 브라우저 캡처를 바탕으로 생성합니다. 아이콘 생성은 Node sharp를 사용합니다.
