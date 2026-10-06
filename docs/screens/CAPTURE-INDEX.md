@@ -1,4 +1,4 @@
-# IONE CRM v5.0 - capture index
+# IONE CRM v5.2 - capture index
 
 45 page images + 42 tab, detail and form images = 87 PNGs.
 Captured at a 1920px browser width; native screenshot pixels retained without enlargement.

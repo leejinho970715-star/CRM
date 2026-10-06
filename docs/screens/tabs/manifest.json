@@ -7,11 +7,14 @@
     "filename": "01-activity-register",
     "qa": {
       "font": "loaded",
+      "headerTop": 0,
       "height": 1549,
       "overflow": false,
+      "scrollY": 0,
+      "title": "영업활동 관리 · IONE CRM 리뉴얼 시안",
       "width": 1920
     },
-    "review_status": "fixed-header position needs recapture",
+    "review_status": "captured",
     "pixels": {
       "width": 1904,
       "height": 1548
@@ -26,11 +29,14 @@
     "filename": "02-activity-history",
     "qa": {
       "font": "loaded",
+      "headerTop": 0,
       "height": 1277,
       "overflow": false,
+      "scrollY": 0,
+      "title": "영업활동 관리 · IONE CRM 리뉴얼 시안",
       "width": 1920
     },
-    "review_status": "fixed-header position needs recapture",
+    "review_status": "captured",
     "pixels": {
       "width": 1904,
       "height": 1276
@@ -45,11 +51,14 @@
     "filename": "03-activity-quote",
     "qa": {
       "font": "loaded",
+      "headerTop": 0,
       "height": 1277,
       "overflow": false,
+      "scrollY": 0,
+      "title": "영업활동 관리 · IONE CRM 리뉴얼 시안",
       "width": 1920
     },
-    "review_status": "fixed-header position needs recapture",
+    "review_status": "captured",
     "pixels": {
       "width": 1904,
       "height": 1276
@@ -83,13 +92,16 @@
     "filename": "05-activity-original-register",
     "qa": {
       "font": "loaded",
+      "headerTop": 0,
       "height": 1531,
       "overflow": false,
+      "scrollY": 0,
+      "title": "영업활동 관리 · CRM 리뉴얼 시안",
       "width": 1920
     },
     "review_status": "captured",
     "pixels": {
-      "width": 1920,
+      "width": 1904,
       "height": 1531
     },
     "capture_format": "native JPEG screenshot; unchanged pixels exported as PNG"
@@ -102,8 +114,11 @@
     "filename": "06-activity-original-history",
     "qa": {
       "font": "loaded",
+      "headerTop": 0,
       "height": 1159,
       "overflow": false,
+      "scrollY": 0,
+      "title": "영업활동 관리 · CRM 리뉴얼 시안",
       "width": 1920
     },
     "review_status": "captured",
@@ -121,8 +136,11 @@
     "filename": "07-activity-original-quote",
     "qa": {
       "font": "loaded",
+      "headerTop": 0,
       "height": 1111,
       "overflow": false,
+      "scrollY": 0,
+      "title": "영업활동 관리 · CRM 리뉴얼 시안",
       "width": 1920
     },
     "review_status": "captured",
@@ -140,8 +158,11 @@
     "filename": "08-activity-original-forecast",
     "qa": {
       "font": "loaded",
+      "headerTop": 0,
       "height": 1111,
       "overflow": false,
+      "scrollY": 0,
+      "title": "영업활동 관리 · CRM 리뉴얼 시안",
       "width": 1920
     },
     "review_status": "captured",
@@ -159,11 +180,14 @@
     "filename": "09-home-1",
     "qa": {
       "font": "loaded",
+      "headerTop": 0,
       "height": 1627,
       "overflow": false,
+      "scrollY": 0,
+      "title": "대시보드 · IONE CRM 리뉴얼 시안",
       "width": 1920
     },
-    "review_status": "fixed-header position needs recapture",
+    "review_status": "captured",
     "pixels": {
       "width": 1904,
       "height": 1627
@@ -178,11 +202,14 @@
     "filename": "10-home-2",
     "qa": {
       "font": "loaded",
+      "headerTop": 0,
       "height": 1627,
       "overflow": false,
+      "scrollY": 0,
+      "title": "대시보드 · IONE CRM 리뉴얼 시안",
       "width": 1920
     },
-    "review_status": "fixed-header position needs recapture",
+    "review_status": "captured",
     "pixels": {
       "width": 1904,
       "height": 1627
@@ -197,11 +224,14 @@
     "filename": "11-home-3",
     "qa": {
       "font": "loaded",
+      "headerTop": 0,
       "height": 1553,
       "overflow": false,
+      "scrollY": 0,
+      "title": "대시보드 · IONE CRM 리뉴얼 시안",
       "width": 1920
     },
-    "review_status": "fixed-header position needs recapture",
+    "review_status": "captured",
     "pixels": {
       "width": 1904,
       "height": 1552

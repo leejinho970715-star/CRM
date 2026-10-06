@@ -217,11 +217,34 @@ pdf = ROOT/'docs/CRM-Renewal-As-Is-To-Be.pdf' if PUBLIC else OUT / 'CRM-UX-As-Is
 c = canvas.Canvas(str(pdf), pagesize=(W, H), pageCompression=1)
 c.setTitle('IONE CRM - 페이지별 UX As-Is / To-Be 비교 및 디자인 가이드 검토')
 c.setAuthor('IONE CRM Renewal')
-c.setSubject('현재 v5.0 구현 비교와 신규 디자인 시스템 적용 기록. 사용성 개선율은 미측정.')
+c.setSubject('현재 v5.2 구현 비교와 신규 디자인 시스템 적용 기록. 사용성 개선율은 미측정.')
 qa = []
+layout_regions = []
+layout_page = 0
+
+def overlaps(a, b):
+    return min(a[2], b[2])-max(a[0], b[0]) > 1 and min(a[3], b[3])-max(a[1], b[1]) > 1
+
+def record_text(rect, value):
+    if rect[0] < M-1 or rect[2] > W-M+1 or rect[1] < 19:
+        raise ValueError(f'Page {layout_page}: text exceeds page margin: {value}')
+    for kind, region, _ in layout_regions:
+        if kind == 'image' and overlaps(rect, region):
+            raise ValueError(f'Page {layout_page}: text overlaps an image: {value}')
+        if kind == 'text' and overlaps(rect, region):
+            raise ValueError(f'Page {layout_page}: text overlaps earlier text: {value}')
+    layout_regions.append(('text', rect, value[:90]))
+
+def protect_text(rect, kind):
+    for region_kind, region, value in layout_regions:
+        if region_kind == 'text' and overlaps(rect, region):
+            raise ValueError(f'Page {layout_page}: {kind} covers earlier text: {value}')
 
 def text(value, x, y, size=18, color=INK, bold=False):
-    c.setFont('PR' + ('Bold' if bold else 'Regular'), size)
+    font = 'PR' + ('Bold' if bold else 'Regular')
+    ascent, descent = pdfmetrics.getAscentDescent(font, size)
+    record_text((x, y+descent, x+pdfmetrics.stringWidth(value, font, size), y+ascent), value)
+    c.setFont(font, size)
     c.setFillColor(HexColor(color))
     c.drawString(x, y, value)
 
@@ -237,11 +260,13 @@ def para(value, x, top, width, size=18, color=INK, bold=False, max_h=None):
         _, height = p.wrap(width, H)
     if max_h is not None and height > max_h:
         raise ValueError(f'Text exceeds box ({height:.1f} > {max_h}): {value}')
+    record_text((x, top-height, x+width, top), value)
     p.drawOn(c, x, top - height)
     qa.append({'text': value[:70], 'height': round(height, 2), 'bottom': round(top-height, 2)})
     return height
 
 def box(x, y, width, height, fill='#FFFFFF', radius=12):
+    protect_text((x, y, x+width, y+height), 'card')
     c.setFillColor(HexColor(fill)); c.setStrokeColor(HexColor(LINE))
     c.roundRect(x, y, width, height, radius, fill=1, stroke=1)
 
@@ -254,10 +279,15 @@ def image_fit(source, x, bottom, width, height, align_top=True, forced_width=Non
     sw, sh = iw * scale, ih * scale
     assert sw <= width + .01 and sh <= height + .01
     y = bottom + height - sh if align_top else bottom + (height - sh) / 2
+    protect_text((x+(width-sw)/2, y, x+(width+sw)/2, y+sh), 'image')
+    layout_regions.append(('image', (x+(width-sw)/2, y, x+(width+sw)/2, y+sh), str(source)))
     c.drawImage(str(source), x + (width - sw) / 2, y, width=sw, height=sh, mask='auto')
     return sw, sh
 
 def base(number, label):
+    global layout_page
+    layout_page = number
+    layout_regions.clear()
     c.setFillColor(HexColor(BG)); c.rect(0, 0, W, H, fill=1, stroke=0)
     c.drawImage(str(ROOT / 'assets/logo.png'), M, H-69, width=112, height=40.52, mask='auto')
     text('CRM / UX REVIEW', M+134, H-45, 14, MUTED, True)
@@ -270,13 +300,13 @@ def page_title(title, subtitle):
     text(title, M, H-120, 32, INK, True)
     text(subtitle, M, H-155, 16, MUTED)
 
-base(1, 'OVERVIEW / v5.0 / DESIGN GUIDE IMPLEMENTED')
+base(1, 'OVERVIEW / v5.2 / DESIGN GUIDE IMPLEMENTED')
 text('화면을 정리한 이유까지,', M, 1220, 48, INK, True)
 text('페이지별로 비교합니다.', M, 1150, 48, INK, True)
-para('44개 페이지의 UX 비교 + 내부 탭·연결 화면 부록\nAS-IS / TO-BE / 변경 내용 / 개선 의도\n검토본 · 고정 메뉴 촬영 위치 7장 재점검 대기', M, 1095, 650, 23, MUTED)
+para('44개 페이지의 UX 비교 + 내부 탭·연결 화면 부록\nAS-IS / TO-BE / 변경 내용 / 개선 의도\n블루 메인 + 흰색 버튼 텍스트 · 헤더·겹침 수정', M, 1095, 650, 23, MUTED)
 box(M, 620, 620, 310)
 text('이 문서의 두 가지 범위', M+24, 886, 23, BLUE, True)
-para('① 현재 구현된 v5.0 시안의 페이지별 개선 설명\n② 새로 첨부한 디자인 시스템 v1.0의 적용 내용과 예외\n\n첨부 가이드를 공통 스타일에 적용했습니다. 대비가 낮은 텍스트, 강한 상태 색상, 일률적인 여백은 조정하고 기존 업무 흐름을 유지했습니다.', M+24, 850, 572, 20, max_h=212)
+para('① 현재 구현된 v5.2 시안의 페이지별 개선 설명\n② 디자인 시스템 v1.0의 적용 내용과 최신 컬러 역할\n\n첨부 가이드를 공통 스타일에 적용했습니다. 대비가 낮은 텍스트, 강한 상태 색상, 일률적인 여백은 조정하고 기존 업무 흐름을 유지했습니다.', M+24, 850, 572, 20, max_h=212)
 box(M, 292, 620, 298)
 text('비교 이미지의 출처', M+24, 548, 23, BLUE, True)
 para(('공개판: 원본은 관찰한 구성 관계의 도식으로 표시\n원본 캡처 포함 비교 PDF는 별도 로컬 파일로 제공\n' if PUBLIC else 'CRM 42개 화면: 로그인 후 실제 원본 전체 캡처\n로그인: 보관된 실제 원본 캡처\n')+'리뉴얼: 기본 45장 + 탭·상세·등록창 42장\n마이그레이션: 원본 미열람, 별도 제안\n\n1920px 브라우저 폭에서 촬영하고 원본 화소를 유지합니다. 캡처 JPEG를 확대 없이 PNG로 내보냈습니다. PDF 설명은 벡터 텍스트입니다.', M+24, 510, 572, 18, max_h=210)
@@ -289,7 +319,7 @@ base(2, 'DESIGN SYSTEM / ADOPT & ADJUST')
 page_title('가이드의 방향은 채택하고, 가독성과 밀도는 조정합니다.', '검토 결과: White / Neutral + Pretendard + 공통 컴포넌트는 적합. 모든 수치를 일괄 적용하는 방식은 보완 권고.')
 rules = [
  ('채택 · 공통 언어', 'Pretendard, 4px 간격 체계, 입력·버튼 40px, 같은 카드·탭·표·페이지네이션 규칙을 기본으로 사용합니다.'),
- ('채택 · 브랜드 파랑', '주요 행동·선택·포커스는 MD의 #1462FD를 기준으로 정리했습니다. Sky·Navy는 제한된 보조 역할로 둡니다. 이미지 하단의 토큰 예시는 다른 파랑이므로 기준값을 MD에 맞춰 통일했습니다.'),
+ ('유지 · 블루 메인과 흰색 CTA', '사용자의 최종 선택에 따라 기존 블루 #1462FD를 주요 행동·선택·포커스에 사용합니다. 주요 버튼 글자는 흰색입니다. 호버에 좌우 세로선이나 테두리가 새로 나타나지 않도록 정리했습니다.'),
  ('조정 · 보조 글자 대비', '#8592A6 / 흰색의 대비는 약 3.15:1입니다. 활성 상태의 작은 본문·레이블에는 더 진한 파생 텍스트 토큰을 사용하고, 연한 회색은 비활성·장식용으로 제한합니다.'),
  ('조정 · 상태 라벨', '대기·진행·완료·확인 필요의 네 가지 차분한 톤을 유지합니다. 오류는 오류 상황에만 사용합니다. 밝은 의미 색상은 배경·아이콘에, 텍스트는 대비를 확보한 진한 색에 배정합니다.'),
  ('조정 · 실제 콘텐츠 폭', '1440px 최대 폭과 12/8/4열은 기본 틀로 사용합니다. 넓은 표는 내부 스크롤을 유지하고, 폼은 실제 본문 폭에 맞춰 줄바꿈합니다. 모든 카드에 24px 여백을 강제하지 않고 밀도 변형을 정의합니다.'),
@@ -311,7 +341,7 @@ base(3, 'EVIDENCE / HOW TO READ THIS DOCUMENT')
 page_title('관찰, 설계 의도, 검증 결과를 구분합니다.', '비교표의 “개선 의도”는 기대하는 사용 경험이며, 측정된 성과를 뜻하지 않습니다.')
 items = [
  ('01  직접 확인한 근거', '사용자 제공 영업활동 캡처, 새로 촬영한 42개 CRM 실제 화면과 이전 분석의 제목·필드·선택지·표·버튼 기록을 사용합니다. 등록·수정·발송·업로드·권한 변경은 수행하지 않았습니다.'),
- ('02  현재 구현에서 확인한 변경', 'docs/pages.json, 페이지별 비교 기록과 v5.0 전체 화면 캡처를 대조했습니다. 입력 묶음·조건·상세 패널·탭·샘플 계산·로컬 동작을 설명합니다. 실제 서버 규칙과 운영 기능 실행은 확인하지 않았습니다.'),
+ ('02  현재 구현에서 확인한 변경', 'docs/pages.json, 페이지별 비교 기록과 v5.2 전체 화면 캡처를 대조했습니다. 입력 묶음·조건·상세 패널·탭·샘플 계산·로컬 동작을 설명합니다. 실제 서버 규칙과 운영 기능 실행은 확인하지 않았습니다.'),
  ('03  일반 UX 원칙', '관련 항목의 그룹화, 현재 상태 표시, 기억보다 화면에서 알아보기, 공통 동작의 일관성을 근거로 개선 의도를 작성합니다. 일반 원칙이 이 CRM의 업무 시간 단축을 직접 증명하지는 않습니다.'),
  ('04  아직 검증할 부분', '실제 영업 담당자에게 같은 작업을 기존·리뉴얼 화면에서 수행하게 하고 완료 시간·누락·오선택을 비교해야 합니다. 품목 접기처럼 추가 클릭이 생기는 변경도 함께 확인해야 합니다.'),
  ('05  이미지의 차이', '42개 CRM 화면은 로그인 후 실제 원본을 새로 촬영했습니다. 로그인은 로그인된 상태에서 대시보드로 이동하므로 보관된 캡처를 사용합니다. 원본 미열람인 마이그레이션은 제안 화면으로 구분합니다. 원본 자료를 등록·수정·발송하지 않았습니다.')
@@ -381,13 +411,13 @@ for idx, p in enumerate(ordered, 6):
     subtitle = '기존 구조와 현재 구현 시안의 비교 / 변경 내용과 개선 의도'
     if p['id']=='migration': subtitle = '원본 미열람 / 개선 전후의 효과 비교가 아닌 별도 제안'
     page_title(p['title'], subtitle)
-    y, ch = 370, 875
+    y, ch = 370, 838
     for x, head, note, active in [
         (M, 'AS-IS  /  개선 전', '원본 미열람' if p['id']=='migration' else '관찰한 구조의 도식 · 원본 캡처 비공개' if PUBLIC else '보관된 실제 원본 캡처' if p['id']=='login' else '로그인 후 실제 원본 전체 화면 캡처 · 2026.10.06', False),
-        (M+COL+GAP, 'TO-BE  /  현재 리뉴얼 시안', '처음 구현한 단독 영업활동 시안 · v5.0' if p['id']=='activity' else 'v5.0 전체 화면 캡처 · 디자인 가이드 적용', True)]:
+        (M+COL+GAP, 'TO-BE  /  현재 리뉴얼 시안', '처음 구현한 단독 영업활동 시안 · v5.2' if p['id']=='activity' else 'v5.2 전체 화면 캡처 · 디자인 가이드 적용', True)]:
         box(x, y, COL, ch)
         text(head, x+22, y+ch-36, 24, BLUE if active else INK, True)
-        text(note, x+22, y+ch-66, 15, MUTED)
+        para(note, x+22, y+ch-52, COL-44, 15, MUTED, max_h=38)
         c.setStrokeColor(HexColor(LINE)); c.line(x, y+ch-84, x+COL, y+ch-84)
     image_area_h = ch-114
     if p['id'] in source_images:
@@ -443,7 +473,7 @@ for i,a in enumerate(appendix):
     p=next(p for p in pages if p['id']==a['route'])
     before=a['before'] or source_images.get(a['route'])
     y,ch=352,866
-    pending=(i in [0,1,2,8,9,10])
+    pending=False
     for x,label,note in [(M,'AS-IS / 기존 화면',a['before_label']), (M+COL+GAP,'TO-BE / 현재 시안',a['tab']+(' · 촬영 정렬 재점검 대기' if pending else ''))]:
         box(x,y,COL,ch)
         text(label,x+22,y+ch-36,24,BLUE if x>M else INK,True)
@@ -467,18 +497,18 @@ base(TOTAL_PAGES, 'VALIDATION / NEXT DESIGN ITERATION')
 page_title('다음 리뉴얼은 이 순서로 연결하는 것을 권합니다.', '새 디자인 가이드 적용 기록과 이후 사용자 검증 과제')
 steps = [
  ('01  가이드의 기준값 정리', 'MD의 브랜드·타입·간격 토큰을 기준으로 이미지 예시와 충돌하는 값을 정리합니다. 어두운 텍스트 파생 토큰과 차분한 상태 라벨, 표·폼의 밀도 변형을 문서화합니다.'),
- ('02  영업활동에서 먼저 검토', '현재 입력·필터를 유지하면서 기본 정보·활동 내용·처리 결과·다음 행동의 그룹을 보존합니다. 주요 행동 파랑, 글자 대비, 4px 간격 체계와 입력 규격을 이 화면에서 먼저 확인합니다.'),
+ ('02  영업활동에서 먼저 검토', '현재 입력·필터를 유지하면서 기본 정보·활동 내용·처리 결과·다음 행동의 그룹을 보존합니다. 블루 메인, 흰색 CTA, 글자 대비, 4px 간격 체계와 입력 규격을 이 화면에서 먼저 확인합니다.'),
  ('03  공통 컴포넌트로 전체 확장', '탭·버튼·입력·선택·표·상태·페이지네이션의 공통 스타일을 먼저 적용한 뒤 각 페이지로 확장합니다. 모든 화면을 동일한 그리드에 억지로 맞추기보다 정보량과 본문 폭에 따른 변형을 사용합니다.'),
  ('04  반응형과 접근성 확인', '새 스타일 적용 후 320·390·600·820·1024·1280·1600·1920px에서 전체 화면의 가로 넘침을 확인했습니다. 상태 라벨 글자 대비는 모두 4.5:1 이상입니다. 정식 WCAG 감사를 완료한 결과는 아니며 키보드·스크린리더·오류 예외도 별도 검증이 필요합니다.'),
  ('05  실제 작업으로 검증', '같은 고객과 상담 시나리오로 고객 찾기 → 상담 입력 → 품목 선택 → 다음 행동·기한 입력 → 저장을 수행합니다. 순서 효과를 줄이도록 기존·리뉴얼 사용 순서를 바꾸어 완료 시간·누락·오선택을 비교합니다. 숙련자의 적응 부담과 품목 접기의 추가 클릭도 확인합니다.')
 ]
 y = 1204
 for title, body in steps:
-    box(M, y-193, CW, 193)
+    box(M, y-177, CW, 177)
     text(title, M+24, y-39, 25, BLUE, True)
     para(body, M+24, y-73, CW-48, 22, max_h=108)
-    y -= 209
-para('이 문서는 현재 시안의 설명과 디자인 방향 검토용입니다. 서버 저장·인증·발송·수집·권한·마이그레이션은 연결하지 않았으며 운영 CRM을 변경하지 않았습니다. PNG 87장 중 통합 영업활동 기본·등록·이력·AI 견적서 및 대시보드 오늘·이번 주·완료 7장은 고정 메뉴 촬영 위치 재점검 대기입니다. 브라우저 연결이 복구되면 최상단 기준으로 재촬영해야 합니다.', M, 163, CW, 17, MUTED, max_h=92)
+    y -= 190
+para('이 문서는 현재 시안의 설명과 디자인 방향 검토용입니다. 서버 저장·인증·발송·수집·권한·마이그레이션은 연결하지 않았으며 운영 CRM을 변경하지 않았습니다. 최종 블루 컬러의 PNG 87장을 정리하고 촬영 문제가 있던 화면을 교체했습니다. 고정 메뉴는 최상단 위치를 확인하고, PDF 설명·이미지·비교 카드의 영역이 겹치지 않는지 검사했습니다.', M, 163, CW, 17, MUTED, max_h=92)
 c.save()
 reader = PdfReader(str(pdf))
 assert len(reader.pages) == TOTAL_PAGES

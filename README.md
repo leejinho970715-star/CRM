@@ -2,11 +2,11 @@
 
 [전체 시안](https://leejinho970715-star.github.io/CRM/) · [영업활동 관리](https://leejinho970715-star.github.io/CRM/#activity) · [단독 영업활동 시안](https://leejinho970715-star.github.io/CRM/activity.html)
 
-v5.0: 첨부 CRM UI Design System v1.0의 브랜드·타입·간격·입력·표 규격을 44개 화면에 적용했습니다. 낮은 글자 대비, 강한 상태 색상과 일률적인 여백은 조정했습니다. White / Neutral, Calm Density, Thin Border, Bento와 Pretendard, 첨부 DOUZONE 로고 및 절제된 3D 대시보드는 유지했습니다. 320~1920px의 8개 폭에서 전체 페이지와 영업활동 내부 화면을 검증했습니다. 운영 CRM은 변경하지 않았습니다.
+v5.2: 첨부 CRM UI Design System v1.0의 브랜드·타입·간격·입력·표 규격을 44개 화면에 적용했습니다. 낮은 글자 대비, 강한 상태 색상과 일률적인 여백은 조정했습니다. White / Neutral, Calm Density, Thin Border, Bento와 Pretendard, 첨부 DOUZONE 로고 및 절제된 3D 대시보드는 유지했습니다. 320~1920px의 8개 폭에서 전체 페이지와 영업활동 내부 화면을 검증했습니다. 운영 CRM은 변경하지 않았습니다.
 
 ## 결과물
 
-현재 이미지·PDF는 검토본입니다. 87장 중 고정 메뉴 촬영 위치 재점검이 필요한 7장은 [캡처 검수 기록](docs/CAPTURE-QUALITY-v5.md)에 표시했습니다. 브라우저 스크린샷 연결이 복구되면 해당 파일을 재촬영할 예정입니다.
+기존 블루 메인과 흰색 주요 버튼 글자를 적용했습니다. 호버의 좌우 선을 제거하고 영업활동 헤더 및 PDF 설명 겹침을 수정했습니다. PNG 87장 중 촬영 문제가 있던 화면과 관련 탭 13장을 교체했으며, 나머지 정상 캡처는 유지했습니다. [캡처 검수 기록](docs/CAPTURE-QUALITY-v5.md).
 
 - [페이지별 As-is / To-be PDF — 102쪽, 공개판](docs/CRM-Renewal-As-Is-To-Be.pdf): 44개 페이지 비교, 적용 가이드와 예외, 50개 탭·연결 화면 비교 부록. 공개판 AS-IS는 관찰한 구조의 도식이며 원본 캡처 포함 PDF는 로컬 output/pdf에 별도 제공했습니다.
 - [전체 화면·내부 탭 PNG 87장 ZIP](docs/CRM-PNG.zip): 기본 45장과 탭·상세·등록창 42장. 업무함 5개 상태 × 3개 보기의 모든 조합을 포함합니다. 영업활동이 맨 앞입니다.
