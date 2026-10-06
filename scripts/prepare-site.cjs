@@ -8,7 +8,7 @@ const write = (name, data) => fs.writeFileSync(path.join(root, name), data, 'utf
 if (!fs.existsSync(path.join(root, 'activity.html'))) write('activity.html', read('index.html'));
 const metadata = canonical => `
   <meta name="description" content="IONE CRM 리뉴얼 시안. 고객 관리, 영업활동, 후속 업무, 포캐스팅, 보고서와 관리자까지 44개 화면을 살펴보세요.">
-  <meta name="theme-color" content="#1462fd">
+  <meta name="theme-color" content="#1a3c83">
   <link rel="canonical" href="${canonical}">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
@@ -20,7 +20,7 @@ const metadata = canonical => `
   <meta property="og:title" content="IONE CRM | 고객과 기회를 연결하는 워크스페이스">
   <meta property="og:description" content="고객에서 활동, 다음 업무와 계약까지. 전체 CRM 리뉴얼 UI 시안을 확인하세요.">
   <meta property="og:url" content="${canonical}">
-  <meta property="og:image" content="${url}assets/og-image.png">
+  <meta property="og:image" content="${url}assets/og-image-v5.5.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:type" content="image/png">
@@ -28,12 +28,12 @@ const metadata = canonical => `
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="IONE CRM 리뉴얼 시안">
   <meta name="twitter:description" content="고객에서 활동, 다음 업무와 계약까지 연결하는 44개 CRM 화면.">
-  <meta name="twitter:image" content="${url}assets/og-image.png">`;
+  <meta name="twitter:image" content="${url}assets/og-image-v5.5.png">`;
 function setHead(html, canonical) {
   const description = html.indexOf('<meta name="description"');
   if (description !== -1) html = html.slice(0, description) + html.slice(html.indexOf('</head>', description));
   html = html.replace(/\s*<link[^>]+(?:theme\.css|responsive\.css|status\.css|interaction\.css|guide\.css|as="font")[^>]*>/g, '');
-  return html.replace('</head>', '<link rel="preload" href="assets/fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="theme.css?v=3.0"><link rel="stylesheet" href="responsive.css?v=4.1"><link rel="stylesheet" href="status.css?v=5.0"><link rel="stylesheet" href="interaction.css?v=4.3"><link rel="stylesheet" href="guide.css?v=5.2">' + metadata(canonical) + '\n</head>');
+  return html.replace('</head>', '<link rel="preload" href="assets/fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="theme.css?v=3.0"><link rel="stylesheet" href="responsive.css?v=4.1"><link rel="stylesheet" href="status.css?v=5.0"><link rel="stylesheet" href="interaction.css?v=4.3"><link rel="stylesheet" href="guide.css?v=5.5">' + metadata(canonical) + '\n</head>');
 }
 let crm = read('crm.html').replace(/\?v=2\.[789]/g, '?v=3.0').replace('시안 <span>v2.0', '시안 <span>v3.0');
 crm = crm.replace('ローカル UI', '로컬 UI').replace('로컬 UI 시안', 'CRM 리뉴얼 시안');

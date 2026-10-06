@@ -6,6 +6,10 @@ const cases=[['미진행','','neutral'],['미계약','','neutral'],['비활성',
 for(const [value,domain,tone] of cases)assert.equal(status.tone(value,domain),tone,value);
 assert(!status.render('<img src=x onerror=alert(1)>').includes('<img'));
 assert.equal(status.groups.length,4);
+const expectedIcons={홈페이지:'globe',마케팅:'campaign',수동:'edit',높음:'up',보통:'normal',낮음:'down',신규:'new',접촉:'phone',유효:'verified',전환:'converted',진행:'progress'};
+for(const [label,key] of Object.entries(expectedIcons))assert(status.icon(label).includes(`data-status-icon="${key}"`),label);
+assert.equal(status.icon('새로 추가한 분류'),'');
+assert(!status.icon('진행').includes('undefined'));
 const css=fs.readFileSync('status.css','utf8');
 const luminance=hex=>{const v=hex.slice(1).match(/../g).map(x=>parseInt(x,16)/255).map(x=>x<=.04045?x/12.92:((x+.055)/1.055)**2.4);return v[0]*.2126+v[1]*.7152+v[2]*.0722;};
 for(const group of status.groups){

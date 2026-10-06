@@ -26,7 +26,6 @@ screens = {s['id']: ROOT / 'docs/screens' / (s['filename'] + '.png') for s in js
 screens['activity'] = screens['activity-original']  # First implemented activity view, with its original standalone chrome.
 inventory = json.loads((ROOT / 'output/crm-page-inventory.json').read_text(encoding='utf-8'))
 original_activity = Path('C:/Users/tlscj/AppData/Local/Temp/codex-clipboard-f59bf958-e776-407b-bb1d-10e83a6150e7.png')
-guide = Path('C:/Users/tlscj/Downloads/아이원소프트뱅크/CRM 디자인 시스템/CRM UI Design System v1.0.png')
 source_images = {s['id']: ROOT / 'output/captures-v5/as-is' / s['filename'] for s in json.loads((ROOT / 'output/captures-v5/as-is/manifest.json').read_text(encoding='utf8'))}
 source_images['login'] = ROOT / 'output/original-login.jpg'
 PUBLIC = '--public' in sys.argv
@@ -73,10 +72,10 @@ if PUBLIC:
 changes = {
 'activity': [
  ('입력 순서', '좁은 기본 정보 칸에 제목·결과·후속 업무·품목·첨부가 길게 이어짐.', '기본 정보 → 활동 내용 → 처리 결과·다음 행동으로 구분. 첨부는 상담 내용 가까이 배치.', '관련 항목을 함께 찾고, 상담 기록에서 후속 업무로 자연스럽게 이어서 작성하도록 설계.'),
- ('고객·저장 맥락', '고객 정보 표와 하단 등록 버튼으로 대상 고객·완료 동작을 확인.', '선택 고객 행과 상단 요약을 강조. 하단에 임시 저장·활동 저장을 구분.', '작성 대상과 다음 동작을 계속 확인하도록 설계. 탭의 카드 내부 배치는 기존 구조를 유지한 부분.')],
+ ('고객·저장 맥락', '고객 정보 표와 하단 등록 버튼으로 대상 고객·완료 동작을 확인.', '회사 아이콘으로 고객 요약 표시. 선택선 대신 배경으로 구분하고 저장 버튼 분리.', '작성 대상과 다음 동작을 계속 확인하도록 설계. 탭의 카드 내부 배치는 기존 구조를 유지한 부분.')],
 'home': [
  ('실행 우선 요약', '오늘의 업무·고객 관리·최근 활동·지표·지도·추천이 세로로 이어짐.', '업무·영업·계약 요약을 상단에 모으고 관련 목록·실행 영역으로 연결.', '첫 화면에서 무엇부터 확인할지 판단하고 실제 처리 화면으로 이어지도록 설계.'),
- ('정보 위계', '영업 요약과 고객 추천 등 여러 정보를 한 진입 화면에서 확인.', '요약·추이·추천을 카드로 구분. 은은한 입체 장식은 대시보드에만 제한.', '업무 정보의 읽는 순서를 명확하게 하고 장식이 데이터와 경쟁하지 않도록 조절.')],
+ ('정보 위계', '영업 요약과 고객 추천 등 여러 정보를 한 진입 화면에서 확인.', '카드별 위계·입체 장식 정리. 바로가기 제목·설명 시작점과 화살표 위치 통일.', '업무 정보의 읽는 순서를 명확하게 하고 장식이 데이터와 경쟁하지 않도록 조절.')],
 'customers': [
  ('목록과 상세', '많은 고객 정보 열과 상세·등록·수정 경로를 제공.', '핵심 열을 우선 표시하고 추가 열 선택·상세 패널로 정보 분리.', '목록에서는 고객을 비교하고 상세에서는 한 고객의 맥락을 확인하도록 설계.'),
  ('후속 업무 연결', '검색 조건, 고객 정보와 관련 영업활동을 각각 확인.', '기본·상세 필터를 유지하고 상세에 정보·이력·수정·활동 기록을 묶음.', '고객을 찾은 뒤 정보를 다시 탐색하는 부담을 줄이려는 구성.')],
@@ -145,7 +144,7 @@ changes = {
  ('공통 상태 표시', '계약 일정과 진행 관련 값을 확인.', '일반 포캐스팅과 같은 탭·열·상태 라벨 규칙 사용.', '동일한 상태를 화면마다 다르게 해석하지 않도록 일관된 표현 제공.')],
 'admin': [
  ('관리 목적별 탐색', '계정·권한·조직·기준정보·운영 설정 메뉴를 제공.', '계정·조직 / 기준정보 / 운영 설정으로 관리 메뉴를 분류.', '하려는 관리 업무의 목적을 기준으로 메뉴를 찾도록 설계.'),
- ('공통 화면 틀', '여러 관리 기능으로 이동하는 관리자 진입 화면.', '본문과 같은 메뉴·카드·목록 규칙을 관리자에도 적용.', '일반 업무에서 관리 업무로 이동해도 조작 위치를 예측하도록 설계.')],
+ ('공통 화면 틀', '여러 관리 기능으로 이동하는 관리자 진입 화면.', '관리 항목·요약 카드에 기능별 아이콘 적용. 좌측 메뉴와 같은 아이콘 사용.', '일반 업무에서 관리 업무로 이동해도 조작 위치를 예측하도록 설계.')],
 'members': [
  ('회원 맥락', '회원 정보·담당 업무·재직 여부와 설정을 관리.', '회원 정보·담당 업무·재직 상태를 하나의 목록과 상세에 통합.', '누가 어떤 업무를 맡고 있는지 함께 확인하도록 설계.'),
  ('상세 설정', '회원 관련 여러 관리 항목을 확인·수정.', '업무별 설정을 상세 패널에서 제공.', '목록의 비교 흐름을 유지하면서 필요한 계정 설정에 접근하도록 설계.')],
@@ -212,12 +211,12 @@ for name in ['Regular', 'Bold']:
 W, H, M, GAP = 1440, 1400, 48, 24
 CW = W - 2 * M
 COL = (CW - GAP) / 2
-INK, MUTED, BLUE, LINE, BG = '#18243A', '#576579', '#1462FD', '#CAD2DE', '#F7F8FA'
+INK, MUTED, BLUE, LINE, BG = '#18243A', '#576579', '#1A3C83', '#CAD2DE', '#F7F8FA'
 pdf = ROOT/'docs/CRM-Renewal-As-Is-To-Be.pdf' if PUBLIC else OUT / 'CRM-UX-As-Is-To-Be-Review.pdf'
 c = canvas.Canvas(str(pdf), pagesize=(W, H), pageCompression=1)
-c.setTitle('IONE CRM - 페이지별 UX As-Is / To-Be 비교 및 디자인 가이드 검토')
+c.setTitle('IONE CRM - 페이지별 UX As-Is / To-Be 비교')
 c.setAuthor('IONE CRM Renewal')
-c.setSubject('현재 v5.2 구현 비교와 신규 디자인 시스템 적용 기록. 사용성 개선율은 미측정.')
+c.setSubject('현재 v5.5 구현과 기존 화면의 UX 비교. 사용성 개선율은 미측정.')
 qa = []
 layout_regions = []
 layout_page = 0
@@ -300,13 +299,13 @@ def page_title(title, subtitle):
     text(title, M, H-120, 32, INK, True)
     text(subtitle, M, H-155, 16, MUTED)
 
-base(1, 'OVERVIEW / v5.2 / DESIGN GUIDE IMPLEMENTED')
+base(1, 'OVERVIEW / v5.5 / PAGE UX COMPARISON')
 text('화면을 정리한 이유까지,', M, 1220, 48, INK, True)
 text('페이지별로 비교합니다.', M, 1150, 48, INK, True)
-para('44개 페이지의 UX 비교 + 내부 탭·연결 화면 부록\nAS-IS / TO-BE / 변경 내용 / 개선 의도\n블루 메인 + 흰색 버튼 텍스트 · 헤더·겹침 수정', M, 1095, 650, 23, MUTED)
+para('44개 페이지의 UX 비교 + 내부 탭·연결 화면 부록\nAS-IS / TO-BE / 변경 내용 / 개선 의도\n회사·사용자 아이콘 · 선택선 제거 · 정렬·OG 갱신', M, 1095, 650, 23, MUTED)
 box(M, 620, 620, 310)
-text('이 문서의 두 가지 범위', M+24, 886, 23, BLUE, True)
-para('① 현재 구현된 v5.2 시안의 페이지별 개선 설명\n② 디자인 시스템 v1.0의 적용 내용과 최신 컬러 역할\n\n첨부 가이드를 공통 스타일에 적용했습니다. 대비가 낮은 텍스트, 강한 상태 색상, 일률적인 여백은 조정하고 기존 업무 흐름을 유지했습니다.', M+24, 850, 572, 20, max_h=212)
+text('이 문서에서 비교하는 내용', M+24, 886, 23, BLUE, True)
+para('① 기존 화면과 최종 시안의 페이지별 비교\n② 변경 내용과 개선 의도의 간략한 설명\n③ 내부 탭·상세 패널·등록창까지 포함한 부록\n\n고객 찾기, 상담 기록, 다음 행동 확인 등 실제 업무 흐름에 따라 달라진 부분을 정리합니다.', M+24, 850, 572, 20, max_h=212)
 box(M, 292, 620, 298)
 text('비교 이미지의 출처', M+24, 548, 23, BLUE, True)
 para(('공개판: 원본은 관찰한 구성 관계의 도식으로 표시\n원본 캡처 포함 비교 PDF는 별도 로컬 파일로 제공\n' if PUBLIC else 'CRM 42개 화면: 로그인 후 실제 원본 전체 캡처\n로그인: 보관된 실제 원본 캡처\n')+'리뉴얼: 기본 45장 + 탭·상세·등록창 42장\n마이그레이션: 원본 미열람, 별도 제안\n\n1920px 브라우저 폭에서 촬영하고 원본 화소를 유지합니다. 캡처 JPEG를 확대 없이 PNG로 내보냈습니다. PDF 설명은 벡터 텍스트입니다.', M+24, 510, 572, 18, max_h=210)
@@ -315,33 +314,29 @@ text('영업활동관리부터 시작하는 전체 44개 페이지 리뷰', M, 1
 para('실제 원본 화면과 일반 UX 원칙을 연결한 설계 설명입니다. 실제 사용자 업무시간·누락·오류의 개선 정도는 아직 측정하지 않았습니다.', M, 153, CW, 18, MUTED)
 c.showPage()
 
-base(2, 'DESIGN SYSTEM / ADOPT & ADJUST')
-page_title('가이드의 방향은 채택하고, 가독성과 밀도는 조정합니다.', '검토 결과: White / Neutral + Pretendard + 공통 컴포넌트는 적합. 모든 수치를 일괄 적용하는 방식은 보완 권고.')
+base(2, 'UX CHANGES / FINAL REVIEW')
+page_title('최종 시안에서 달라진 사용 경험', '페이지별 상세 비교에 앞서, 공통으로 정리한 동작과 정보 표현을 살펴봅니다.')
 rules = [
- ('채택 · 공통 언어', 'Pretendard, 4px 간격 체계, 입력·버튼 40px, 같은 카드·탭·표·페이지네이션 규칙을 기본으로 사용합니다.'),
- ('유지 · 블루 메인과 흰색 CTA', '사용자의 최종 선택에 따라 기존 블루 #1462FD를 주요 행동·선택·포커스에 사용합니다. 주요 버튼 글자는 흰색입니다. 호버에 좌우 세로선이나 테두리가 새로 나타나지 않도록 정리했습니다.'),
- ('조정 · 보조 글자 대비', '#8592A6 / 흰색의 대비는 약 3.15:1입니다. 활성 상태의 작은 본문·레이블에는 더 진한 파생 텍스트 토큰을 사용하고, 연한 회색은 비활성·장식용으로 제한합니다.'),
- ('조정 · 상태 라벨', '대기·진행·완료·확인 필요의 네 가지 차분한 톤을 유지합니다. 오류는 오류 상황에만 사용합니다. 밝은 의미 색상은 배경·아이콘에, 텍스트는 대비를 확보한 진한 색에 배정합니다.'),
- ('조정 · 실제 콘텐츠 폭', '1440px 최대 폭과 12/8/4열은 기본 틀로 사용합니다. 넓은 표는 내부 스크롤을 유지하고, 폼은 실제 본문 폭에 맞춰 줄바꿈합니다. 모든 카드에 24px 여백을 강제하지 않고 밀도 변형을 정의합니다.'),
- ('유지 · 탭과 입체감', '탭은 콘텐츠 박스 안에 둡니다. 버튼 간격 12px·보기 전환 8px을 유지합니다. 대시보드에만 작은 입체 장식을 허용하고 본문 데이터·텍스트는 평면으로 유지합니다.')
+ ('업무 흐름에 따른 정보 묶음', '조회 조건, 목록, 선택 대상, 입력 내용과 다음 행동을 구분합니다. 고객·상담·계약의 맥락을 화면에서 계속 확인하도록 구성했습니다.'),
+ ('현재 작업과 보기 방식 구분', '내부 탭은 해당 콘텐츠 카드 안에 배치했습니다. 업무의 상태 조회와 목록·보드·달력 보기 방식은 별도 그룹으로 구분합니다.'),
+ ('명확한 대표 행동', '조회·등록·저장과 선택된 페이지 번호는 네이비 배경과 흰 글자로 표시합니다. 보조 버튼·링크는 본문 색상으로 정리해 대표 행동을 식별하도록 했습니다.'),
+ ('라벨의 실제 의미 표시', '유입경로는 웹·캠페인·직접 입력 아이콘, 우선순위는 위·등호·아래, 접촉·유효·전환은 전화·확인 방패·이동 화살표로 구분합니다. 모호한 빼기·시계 표시는 제거했습니다.'),
+ ('프로필과 탐색 항목의 구분', '이름 첫 글자 대신 회사·사용자 아이콘을 사용합니다. 관리자 메뉴는 기능별 아이콘으로 구분하고, 선택된 고객은 좌측 선 없이 배경으로 표시합니다.'),
+ ('정렬과 좁은 화면에서의 읽기', '바로가기 제목·설명의 시작점을 맞추고 버튼 간 간격을 확보했습니다. 좁은 화면은 카드·폼을 재배치하고 표는 내부 스크롤로 정보를 보존합니다.')
 ]
 y = 1205
 for title, body in rules:
-    box(M, y-164, 846, 164)
+    box(M, y-164, CW, 164)
     text(title, M+24, y-36, 23, BLUE, True)
-    para(body, M+24, y-62, 798, 18, max_h=94)
+    para(body, M+24, y-66, CW-48, 22, max_h=84)
     y -= 178
-box(920, 90, 472, 1125)
-text('첨부 가이드 / 원본 이미지', 942, 1175, 19, INK, True)
-image_fit(guide, 936, 136, 440, 1008)
-para('가이드의 전체 구성과 현재 CRM의 업무 밀도를 함께 검토했습니다.', 942, 117, 428, 13, MUTED, max_h=42)
 c.showPage()
 
 base(3, 'EVIDENCE / HOW TO READ THIS DOCUMENT')
 page_title('관찰, 설계 의도, 검증 결과를 구분합니다.', '비교표의 “개선 의도”는 기대하는 사용 경험이며, 측정된 성과를 뜻하지 않습니다.')
 items = [
  ('01  직접 확인한 근거', '사용자 제공 영업활동 캡처, 새로 촬영한 42개 CRM 실제 화면과 이전 분석의 제목·필드·선택지·표·버튼 기록을 사용합니다. 등록·수정·발송·업로드·권한 변경은 수행하지 않았습니다.'),
- ('02  현재 구현에서 확인한 변경', 'docs/pages.json, 페이지별 비교 기록과 v5.2 전체 화면 캡처를 대조했습니다. 입력 묶음·조건·상세 패널·탭·샘플 계산·로컬 동작을 설명합니다. 실제 서버 규칙과 운영 기능 실행은 확인하지 않았습니다.'),
+ ('02  현재 구현에서 확인한 변경', 'docs/pages.json, 페이지별 비교 기록과 v5.5 전체 화면 캡처를 대조했습니다. 입력 묶음·조건·상세 패널·탭·샘플 계산·로컬 동작을 설명합니다. 실제 서버 규칙과 운영 기능 실행은 확인하지 않았습니다.'),
  ('03  일반 UX 원칙', '관련 항목의 그룹화, 현재 상태 표시, 기억보다 화면에서 알아보기, 공통 동작의 일관성을 근거로 개선 의도를 작성합니다. 일반 원칙이 이 CRM의 업무 시간 단축을 직접 증명하지는 않습니다.'),
  ('04  아직 검증할 부분', '실제 영업 담당자에게 같은 작업을 기존·리뉴얼 화면에서 수행하게 하고 완료 시간·누락·오선택을 비교해야 합니다. 품목 접기처럼 추가 클릭이 생기는 변경도 함께 확인해야 합니다.'),
  ('05  이미지의 차이', '42개 CRM 화면은 로그인 후 실제 원본을 새로 촬영했습니다. 로그인은 로그인된 상태에서 대시보드로 이동하므로 보관된 캡처를 사용합니다. 원본 미열람인 마이그레이션은 제안 화면으로 구분합니다. 원본 자료를 등록·수정·발송하지 않았습니다.')
@@ -414,7 +409,7 @@ for idx, p in enumerate(ordered, 6):
     y, ch = 370, 838
     for x, head, note, active in [
         (M, 'AS-IS  /  개선 전', '원본 미열람' if p['id']=='migration' else '관찰한 구조의 도식 · 원본 캡처 비공개' if PUBLIC else '보관된 실제 원본 캡처' if p['id']=='login' else '로그인 후 실제 원본 전체 화면 캡처 · 2026.10.06', False),
-        (M+COL+GAP, 'TO-BE  /  현재 리뉴얼 시안', '처음 구현한 단독 영업활동 시안 · v5.2' if p['id']=='activity' else 'v5.2 전체 화면 캡처 · 디자인 가이드 적용', True)]:
+        (M+COL+GAP, 'TO-BE  /  현재 리뉴얼 시안', '처음 구현한 단독 영업활동 시안 · v5.5' if p['id']=='activity' else 'v5.5 최종 화면 캡처', True)]:
         box(x, y, COL, ch)
         text(head, x+22, y+ch-36, 24, BLUE if active else INK, True)
         para(note, x+22, y+ch-52, COL-44, 15, MUTED, max_h=38)
@@ -449,7 +444,7 @@ for idx, p in enumerate(ordered, 6):
     kept = ' · '.join(comparison[p['id']]['preserved']) or '기존 화면의 관리 대상과 조회·등록 흐름'
     if len(kept)>150: kept=kept[:146]+' …'
     para('유지한 항목: '+kept, M, 116, CW, 13, MUTED, max_h=42)
-    link = 'https://leejinho970715-star.github.io/CRM/?v=5.0#'+p['id']
+    link = 'https://leejinho970715-star.github.io/CRM/?v=5.5#'+p['id']
     text('현재 웹 시안 열기  /  '+p['id'], M, 74, 13, BLUE)
     c.linkURL(link, (M, 68, M+500, 93), relative=0)
     text('일반 UX 원칙에 따른 설계 의도 · 실제 개선 성과 미측정', W-M-397, 74, 13, MUTED)
@@ -493,12 +488,12 @@ for i,a in enumerate(appendix):
     text('화면별 개선 설명은 '+str(ordered.index(p)+6)+'쪽 · 변경의 기대 효과는 실제 작업으로 검증 필요',M,74,14,MUTED)
     c.showPage()
 
-base(TOTAL_PAGES, 'VALIDATION / NEXT DESIGN ITERATION')
-page_title('다음 리뉴얼은 이 순서로 연결하는 것을 권합니다.', '새 디자인 가이드 적용 기록과 이후 사용자 검증 과제')
+base(TOTAL_PAGES, 'VALIDATION / NEXT UX REVIEW')
+page_title('실제 업무에서 검증할 다음 과제', '구현한 화면의 사용성 검증과 운영 연결 과제')
 steps = [
- ('01  가이드의 기준값 정리', 'MD의 브랜드·타입·간격 토큰을 기준으로 이미지 예시와 충돌하는 값을 정리합니다. 어두운 텍스트 파생 토큰과 차분한 상태 라벨, 표·폼의 밀도 변형을 문서화합니다.'),
- ('02  영업활동에서 먼저 검토', '현재 입력·필터를 유지하면서 기본 정보·활동 내용·처리 결과·다음 행동의 그룹을 보존합니다. 블루 메인, 흰색 CTA, 글자 대비, 4px 간격 체계와 입력 규격을 이 화면에서 먼저 확인합니다.'),
- ('03  공통 컴포넌트로 전체 확장', '탭·버튼·입력·선택·표·상태·페이지네이션의 공통 스타일을 먼저 적용한 뒤 각 페이지로 확장합니다. 모든 화면을 동일한 그리드에 억지로 맞추기보다 정보량과 본문 폭에 따른 변형을 사용합니다.'),
+ ('01  핵심 작업 시나리오 확인', '고객 조회·상담 등록·리드 배정·계약 현황 확인을 대표 작업으로 선정합니다. 업무별 필수값·상태 변경·다음 행동의 규칙을 실제 담당자와 확인합니다.'),
+ ('02  영업활동에서 먼저 검토', '고객을 선택하고 상담 내용·처리 결과·다음 행동·기한을 기록하는 순서를 검토합니다. 선택 고객을 잘못 인식하거나 필수 항목을 놓치는 지점을 확인합니다.'),
+ ('03  탐색과 라벨의 이해 확인', '리드의 유입경로·우선순위·상태를 구분해서 읽는지 확인합니다. 내부 탭과 보기 전환의 현재 위치, 저장·조회 버튼과 선택된 페이지 번호도 함께 검토합니다.'),
  ('04  반응형과 접근성 확인', '새 스타일 적용 후 320·390·600·820·1024·1280·1600·1920px에서 전체 화면의 가로 넘침을 확인했습니다. 상태 라벨 글자 대비는 모두 4.5:1 이상입니다. 정식 WCAG 감사를 완료한 결과는 아니며 키보드·스크린리더·오류 예외도 별도 검증이 필요합니다.'),
  ('05  실제 작업으로 검증', '같은 고객과 상담 시나리오로 고객 찾기 → 상담 입력 → 품목 선택 → 다음 행동·기한 입력 → 저장을 수행합니다. 순서 효과를 줄이도록 기존·리뉴얼 사용 순서를 바꾸어 완료 시간·누락·오선택을 비교합니다. 숙련자의 적응 부담과 품목 접기의 추가 클릭도 확인합니다.')
 ]
@@ -508,7 +503,7 @@ for title, body in steps:
     text(title, M+24, y-39, 25, BLUE, True)
     para(body, M+24, y-73, CW-48, 22, max_h=108)
     y -= 190
-para('이 문서는 현재 시안의 설명과 디자인 방향 검토용입니다. 서버 저장·인증·발송·수집·권한·마이그레이션은 연결하지 않았으며 운영 CRM을 변경하지 않았습니다. 최종 블루 컬러의 PNG 87장을 정리하고 촬영 문제가 있던 화면을 교체했습니다. 고정 메뉴는 최상단 위치를 확인하고, PDF 설명·이미지·비교 카드의 영역이 겹치지 않는지 검사했습니다.', M, 163, CW, 17, MUTED, max_h=92)
+para('이 문서는 현재 시안의 설명과 디자인 방향 검토용입니다. 서버 저장·인증·발송·수집·권한·마이그레이션은 연결하지 않았으며 운영 CRM을 변경하지 않았습니다. 최신 수정본의 PNG 87장을 다시 촬영·정리했습니다. 고정 메뉴는 최상단 위치를 확인하고, PDF 설명·이미지·비교 카드의 영역이 겹치지 않는지 검사했습니다.', M, 163, CW, 17, MUTED, max_h=92)
 c.save()
 reader = PdfReader(str(pdf))
 assert len(reader.pages) == TOTAL_PAGES
@@ -519,5 +514,5 @@ assert len(changes) == 44 and all(len(v)==2 for v in changes.values())
 review = [dict(id=p['id'], title=p['title'], source=p['source'], image_kind='original-capture' if p['id'] in source_images else 'unobserved-proposal' if p['id']=='migration' else 'observed-structure-diagram', changes=[dict(focus=a, as_is=b, to_be=d, intent=e) for a,b,d,e in changes[p['id']]]) for p in ordered]
 if not PUBLIC:
     (OUT/'CRM-UX-Review-Data.json').write_text(json.dumps(review, ensure_ascii=False, indent=2), encoding='utf8')
-    (OUT/'CRM-UX-Review-QA.json').write_text(json.dumps({'pages':len(reader.pages), 'reviewed_routes':len(review), 'comparisons':sum(len(p['changes']) for p in review), 'tab_appendix_pages':len(appendix), 'text_boxes':len(qa), 'min_text_bottom':min(q['bottom'] for q in qa), 'source_capture_routes':list(source_images), 'new_guide_implemented':True}, ensure_ascii=False, indent=2), encoding='utf8')
+    (OUT/'CRM-UX-Review-QA.json').write_text(json.dumps({'pages':len(reader.pages), 'reviewed_routes':len(review), 'comparisons':sum(len(p['changes']) for p in review), 'tab_appendix_pages':len(appendix), 'text_boxes':len(qa), 'min_text_bottom':min(q['bottom'] for q in qa), 'source_capture_routes':list(source_images), 'design_guide_content_included':False}, ensure_ascii=False, indent=2), encoding='utf8')
 print(f'Created {pdf}\n{len(reader.pages)} pages; 44 routes; 88 comparison rows; checked {len(qa)} text boxes.')

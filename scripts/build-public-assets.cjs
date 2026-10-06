@@ -5,7 +5,7 @@ const root = path.resolve(__dirname, '..');
 const assetDir = path.join(root, 'assets');
 fs.mkdirSync(assetDir, { recursive: true });
 
-const icon = `<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#1462fd"/><path d="M19 43 31 32 46 20" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="19" cy="43" r="6" fill="#fff"/><circle cx="31" cy="32" r="6" fill="#01ade7"/><circle cx="46" cy="20" r="6" fill="#fff"/></svg>`;
+const icon = `<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#1a3c83"/><path d="M19 43 31 32 46 20" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="19" cy="43" r="6" fill="#fff"/><circle cx="31" cy="32" r="6" fill="#01ade7"/><circle cx="46" cy="20" r="6" fill="#fff"/></svg>`;
 fs.writeFileSync(path.join(assetDir, 'favicon.svg'), icon);
 
 async function main() {

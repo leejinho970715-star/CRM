@@ -218,7 +218,6 @@
     $('selected-business').textContent = c.business;
     $('selected-owner').textContent = c.owner;
     $('selected-product').textContent = c.product;
-    $('customer-initial').textContent = c.name.replace(/^\(주\)|^주식회사\s*/g,'').charAt(0);
     $('selected-status').innerHTML = window.CRMStatus.icon(c.status,'customers')+escape(c.status);
     $('selected-status').className = 'badge '+badgeClass(c.status);
     renderHistory();
