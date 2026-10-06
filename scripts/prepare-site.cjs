@@ -33,7 +33,7 @@ function setHead(html, canonical) {
   const description = html.indexOf('<meta name="description"');
   if (description !== -1) html = html.slice(0, description) + html.slice(html.indexOf('</head>', description));
   html = html.replace(/\s*<link[^>]+(?:theme\.css|responsive\.css|status\.css|interaction\.css|guide\.css|as="font")[^>]*>/g, '');
-  return html.replace('</head>', '<link rel="preload" href="assets/fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="theme.css?v=3.0"><link rel="stylesheet" href="responsive.css?v=4.1"><link rel="stylesheet" href="status.css?v=5.0"><link rel="stylesheet" href="interaction.css?v=4.3"><link rel="stylesheet" href="guide.css?v=5.5">' + metadata(canonical) + '\n</head>');
+  return html.replace('</head>', '<link rel="preload" href="assets/fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="theme.css?v=3.0"><link rel="stylesheet" href="responsive.css?v=4.1"><link rel="stylesheet" href="status.css?v=5.0"><link rel="stylesheet" href="interaction.css?v=4.3"><link rel="stylesheet" href="guide.css?v=5.6">' + metadata(canonical) + '\n</head>');
 }
 let crm = read('crm.html').replace(/\?v=2\.[789]/g, '?v=3.0').replace('시안 <span>v2.0', '시안 <span>v3.0');
 crm = crm.replace('ローカル UI', '로컬 UI').replace('로컬 UI 시안', 'CRM 리뉴얼 시안');

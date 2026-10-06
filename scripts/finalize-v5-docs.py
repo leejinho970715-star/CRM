@@ -13,7 +13,7 @@ for p in review:
     lines.extend(['## '+p['title'],'','| 개선 항목 | As-is | To-be | 개선 의도 |','| --- | --- | --- | --- |'])
     for ch in p['changes']:
         lines.append('| '+' | '.join(ch[k].replace('|','／') for k in ['focus','as_is','to_be','intent'])+' |')
-    lines.extend(['',f"[리뉴얼 시안](https://leejinho970715-star.github.io/CRM/?v=5.5#{p['id']}) · [기존 페이지](https://ione119.co.kr{p['source']})",''])
+    lines.extend(['',f"[리뉴얼 시안](https://leejinho970715-star.github.io/CRM/?v=5.6#{p['id']}) · [기존 페이지](https://ione119.co.kr{p['source']})",''])
 (ROOT/'docs/AS-IS-TO-BE.md').write_text('\n'.join(lines),encoding='utf8')
 shutil.copy2(ROOT/'output/pdf/CRM-UX-Review-Data.json',ROOT/'docs/ux-review-v5.json')
 samples=['001','002','003','006','007','009','014','021','025','041','049','050','051','053','062','075','088','093','095','098','101','102']

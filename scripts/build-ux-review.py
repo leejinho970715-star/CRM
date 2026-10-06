@@ -444,7 +444,7 @@ for idx, p in enumerate(ordered, 6):
     kept = ' · '.join(comparison[p['id']]['preserved']) or '기존 화면의 관리 대상과 조회·등록 흐름'
     if len(kept)>150: kept=kept[:146]+' …'
     para('유지한 항목: '+kept, M, 116, CW, 13, MUTED, max_h=42)
-    link = 'https://leejinho970715-star.github.io/CRM/?v=5.5#'+p['id']
+    link = 'https://leejinho970715-star.github.io/CRM/?v=5.6#'+p['id']
     text('현재 웹 시안 열기  /  '+p['id'], M, 74, 13, BLUE)
     c.linkURL(link, (M, 68, M+500, 93), relative=0)
     text('일반 UX 원칙에 따른 설계 의도 · 실제 개선 성과 미측정', W-M-397, 74, 13, MUTED)

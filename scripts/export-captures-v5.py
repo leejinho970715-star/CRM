@@ -40,7 +40,7 @@ with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as z:
         z.write(DEST/s['file'], 'CRM-PNG/'+s['file'])
     z.writestr('CRM-PNG/manifest.json', json.dumps(manifest, ensure_ascii=False, indent=2))
     z.write(ROOT/'docs/CAPTURE-QUALITY-v5.md', 'CRM-PNG/CAPTURE-QUALITY-v5.md')
-    z.writestr('CRM-PNG/README.txt', 'IONE CRM v5.6 · 2026-10-06\n기본 페이지 45장 + 탭·상세·등록창 42장 = 총 87장\n네이비 메인 + 본문 색상 보조 버튼·텍스트 + 흰색 CTA 텍스트. 아이콘 선과 탭 밑줄은 네이비. 호버 시 좌우 선 추가 없음.\n회사·사용자 프로필 아이콘, 고객 선택선 제거, 카드 텍스트 정렬과 관리자 아이콘과 의미별 라벨 아이콘을 반영했습니다.\n업무함 5개 상태 × 목록·보드·달력의 15개 조합 포함\n영업활동 등록·이력·AI 견적서·포캐스팅 연결 및 단독 시안의 4개 탭 포함\n1920px 브라우저에서 촬영. 캡처 원본 화소 유지, 확대 없음.\n브라우저 JPEG 캡처를 같은 화소의 PNG로 내보냈습니다.\n등록창은 내부 스크롤 때문에 상단/하단을 별도 캡처했습니다.\n가상 고객 및 user_1~3만 사용한 UI 시안입니다.\nhttps://leejinho970715-star.github.io/CRM/?v=5.5\n')
+    z.writestr('CRM-PNG/README.txt', 'IONE CRM v5.6 · 2026-10-06\n기본 페이지 45장 + 탭·상세·등록창 42장 = 총 87장\n네이비 메인 + 본문 색상 보조 버튼·텍스트 + 흰색 CTA 텍스트. 아이콘 선과 탭 밑줄은 네이비. 호버 시 좌우 선 추가 없음.\n회사·사용자 프로필 아이콘, 고객 선택선 제거, 카드 텍스트 정렬과 관리자 아이콘과 의미별 라벨 아이콘을 반영했습니다.\n업무함 5개 상태 × 목록·보드·달력의 15개 조합 포함\n영업활동 등록·이력·AI 견적서·포캐스팅 연결 및 단독 시안의 4개 탭 포함\n1920px 브라우저에서 촬영. 캡처 원본 화소 유지, 확대 없음.\n브라우저 JPEG 캡처를 같은 화소의 PNG로 내보냈습니다.\n등록창은 내부 스크롤 때문에 상단/하단을 별도 캡처했습니다.\n가상 고객 및 user_1~3만 사용한 UI 시안입니다.\nhttps://leejinho970715-star.github.io/CRM/?v=5.6\n')
 with zipfile.ZipFile(archive) as z:
     assert z.testzip() is None and len([n for n in z.namelist() if n.endswith('.png')]) == 87
 shutil.copy2(archive, ROOT/'docs/CRM-PNG.zip')
