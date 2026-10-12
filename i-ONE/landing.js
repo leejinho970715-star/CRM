@@ -71,12 +71,53 @@
     panel.querySelectorAll('[data-jump-features]').forEach(button=>button.addEventListener('click',e=>{e.preventDefault();jumpTo(panel.querySelector('.features-section'));}));
   });
   const dialog=document.querySelector('#screen-dialog');
+  const viewer=document.querySelector('.dialog-image');
+  const viewerImage=document.querySelector('#screen-dialog-image');
+  const scaleOutput=document.querySelector('#viewer-scale');
+  let viewerScale=1, viewerMode='fit', viewRequest=0;
+  function fitScale(){
+    const style=getComputedStyle(viewer);
+    const w=viewer.clientWidth-parseFloat(style.paddingLeft)-parseFloat(style.paddingRight);
+    const h=viewer.clientHeight-parseFloat(style.paddingTop)-parseFloat(style.paddingBottom);
+    return Math.min(1,w/viewerImage.naturalWidth,h/viewerImage.naturalHeight);
+  }
+  function setScale(value,mode='custom'){
+    if(!viewerImage.naturalWidth)return;
+    const oldWidth=viewerImage.getBoundingClientRect().width;
+    const oldHeight=viewerImage.getBoundingClientRect().height;
+    const cx=oldWidth>viewer.clientWidth?(viewer.scrollLeft+viewer.clientWidth/2)/oldWidth:.5;
+    const cy=oldHeight>viewer.clientHeight?(viewer.scrollTop+viewer.clientHeight/2)/oldHeight:.5;
+    viewerScale=Math.min(1,Math.max(fitScale(),value));viewerMode=mode;
+    viewerImage.style.width=`${viewerImage.naturalWidth*viewerScale}px`;
+    viewerImage.style.height=`${viewerImage.naturalHeight*viewerScale}px`;
+    scaleOutput.textContent=`${Math.round(viewerScale*100)}%`;
+    dialog.querySelector('[data-viewer=fit]').setAttribute('aria-pressed',String(mode==='fit'));
+    dialog.querySelector('[data-viewer=native]').setAttribute('aria-pressed',String(viewerScale===1));
+    dialog.querySelector('[data-viewer=in]').disabled=viewerScale>=1;
+    dialog.querySelector('[data-viewer=out]').disabled=viewerScale<=fitScale()+.001;
+    viewer.scrollTo({left:mode==='fit'?0:cx*viewerImage.width-viewer.clientWidth/2,top:mode==='fit'?0:cy*viewerImage.height-viewer.clientHeight/2,behavior:'instant'});
+  }
   document.querySelectorAll('[data-zoom]').forEach(button=>button.addEventListener('click',()=>{
-    opener=button;const img=document.querySelector('#screen-dialog-image');img.src=button.dataset.zoom;img.alt=button.dataset.caption;document.querySelector('#screen-dialog-title').textContent=button.dataset.caption;dialog.showModal();
+    opener=button;const request=++viewRequest;
+    viewerImage.src=button.dataset.zoom;viewerImage.alt=button.dataset.caption;
+    document.querySelector('#screen-dialog-title').textContent=button.dataset.caption;
+    dialog.showModal();document.body.style.overflow='hidden';
+    viewerImage.decode().then(()=>{
+      if(request!==viewRequest||!dialog.open)return;
+      setScale(button.classList.contains('detail-zoom')?1:fitScale(),button.classList.contains('detail-zoom')?'native':'fit');
+    }).catch(()=>{});
   }));
+  dialog.querySelectorAll('[data-viewer]').forEach(button=>button.addEventListener('click',()=>{
+    const mode=button.dataset.viewer;
+    if(mode==='fit')setScale(fitScale(),'fit');
+    if(mode==='native')setScale(1,'native');
+    if(mode==='in')setScale(viewerScale*1.35);
+    if(mode==='out')setScale(viewerScale/1.35);
+  }));
+  window.addEventListener('resize',()=>{if(dialog.open){if(viewerMode==='fit')setScale(fitScale(),'fit');else setScale(viewerScale,viewerMode);}});
   document.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
   dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
-  dialog.addEventListener('close',()=>opener?.focus({preventScroll:true}));
+  dialog.addEventListener('close',()=>{viewRequest++;document.body.style.overflow='';opener?.focus({preventScroll:true});});
   const menuButton=document.querySelector('.menu-toggle'),menu=document.querySelector('#mobile-menu');
   function closeMenu(){menu.hidden=true;menuButton.setAttribute('aria-expanded','false');menuButton.setAttribute('aria-label','메뉴 열기');}
   menuButton.addEventListener('click',()=>{const open=menuButton.getAttribute('aria-expanded')==='true';menu.hidden=open;menuButton.setAttribute('aria-expanded',String(!open));menuButton.setAttribute('aria-label',open?'메뉴 열기':'메뉴 닫기');});

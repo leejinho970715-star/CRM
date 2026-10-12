@@ -67,21 +67,21 @@
         "name": "일정관리",
         "title": "내 일정과 팀의 일정을 함께.",
         "description": "개인 일정과 공유 일정을 한곳에서 관리합니다. 실시간으로 변동 사항을 확인하고 구성원과 업무 일정을 조율합니다.",
-        "image": "a10-full-53.png",
-        "caption": "Amaranth10 · 일정관리 전체 예시 화면 · 공개 제안서 p.53",
-        "source": "https://www.douzone.site/_files/ugd/366828_7cbc39e6858a444e9c60282258f81e3d.pdf#page=53",
-        "width": 1038,
-        "height": 669
+        "image": "a10-schedule-hires.png",
+        "caption": "Amaranth10 · 일정관리 PC·모바일 공식 화면",
+        "source": "https://www.amaranth10.com/service/S002",
+        "width": 4137,
+        "height": 2903
       },
       {
         "name": "자동전표처리",
         "title": "증빙 확인에서 회계 처리까지.",
         "description": "기관별로 수집한 증빙 데이터와 자동 분개 내역을 확인하고 전표를 처리합니다. 회계 업무의 반복 입력을 줄이는 흐름을 제공합니다.",
-        "image": "a10-full-92.png",
-        "caption": "Amaranth10 · 자동전표처리 전체 예시 화면 · 공개 제안서 p.92",
-        "source": "https://www.douzone.site/_files/ugd/366828_7cbc39e6858a444e9c60282258f81e3d.pdf#page=92",
-        "width": 1042,
-        "height": 671
+        "image": "a10-autojournal-hires.png",
+        "caption": "Amaranth10 · 자동전표처리 공식 화면",
+        "source": "https://www.amaranth10.com/service/S003",
+        "width": 3918,
+        "height": 2882
       },
       {
         "name": "전자결재",

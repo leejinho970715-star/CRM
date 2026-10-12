@@ -5,6 +5,7 @@
 ## 디자인 참고와 회사 정보
 
 - 사용자 지정 참고: https://www.douzone.com/main/index.jsp — 넓은 여백, 큰 타이포그래피, 제품 중심 비주얼과 탭 구성 참고. 해당 사이트 영상이나 코드는 복제하지 않았습니다.
+- 현대 IT/SaaS 디자인 참고: https://linear.app/ 및 https://ramp.com/ — 큰 제목, 간결한 탐색, 둥근 CTA와 실제 제품 화면 중심의 정보 위계를 관찰해 적용했습니다. 두 사이트의 화면·코드·문구는 복제하지 않았습니다. 흰색 베이스와 사용자 지정 블루·시안은 유지했습니다.
 - 아이원소프트뱅크 회사·서비스·사업자 정보: https://www.duzon119.co.kr/
 - 실제 상담 연결: https://www.duzon119.co.kr/purchase/inquiry.asp
 - 회사·AX/DX 로고, 3D 제품 이미지 6종: 사용자가 제공한 PNG. 원본은 `assets/`에 보존하고 투명 여백 정리·WebP 변환본을 사용합니다. Amaranth10 비영리 소개에는 동일 제품군의 Amaranth10 3D 로고를 사용합니다.
@@ -16,8 +17,8 @@
 | OmniEsol | 재무·회계 | omni-fcm.jpg | https://www.omniesol.com/link/erp.html · https://www.omniesol.com/img/erp_1.jpg |
 | OmniEsol | 인사·급여 | omni-hrm.jpg | 동일 제품 페이지 · https://www.omniesol.com/img/erp_2.jpg |
 | OmniEsol | 영업·공급망 | omni-scm.jpg | 동일 제품 페이지 · https://www.omniesol.com/img/erp_3.jpg |
-| Amaranth10 | 일정관리 | a10-full-53.png (1038×669) | 일반기업 공개 제안서 p.53, 좌우가 온전한 단일 화면 |
-| Amaranth10 | 회계 | a10-full-92.png (1042×671) | 일반기업 공개 제안서 p.92, 자료수집 및 자동전표처리 화면 |
+| Amaranth10 | 일정관리 | a10-schedule-hires.png (4137×2903) | https://www.amaranth10.com/service/S002 · https://www.amaranth10.com/static/media/img-groupware_05.06e58185.png |
+| Amaranth10 | 자동전표처리 | a10-autojournal-hires.png (3918×2882) | https://www.amaranth10.com/service/S003 · https://www.amaranth10.com/static/media/img-Accounting_01.79a3f2bd.png |
 | Amaranth10 | 전자결재 | a10-full-51.png (1314×861) | 일반기업 공개 제안서 p.51, 전자결재 HOME 전체 화면 |
 | WEHAGO | 협업·지식공유 | wehago-note.png (1354×840) | https://www.wehago.com/landing/ko/cooperation/ · https://static.wehago.com/html/landing/img/v2/screenshot_co_09_new.png |
 | WEHAGO | Smart A 10 | wehago-tax.png (1700×1001) | https://www.wehago.com/landing/ko/business/ · https://static.wehago.com/html/landing/img/v2/screenshot_ba_07.png |
@@ -36,7 +37,7 @@
 
 일반기업 제안서: https://www.douzone.site/_files/ugd/366828_7cbc39e6858a444e9c60282258f81e3d.pdf
 
-Amaranth10의 기존 홈페이지 합성 이미지는 화면 일부가 이미지 자체에서 잘려 있어, 일반기업 제안서에 포함된 전체 예시 화면으로 교체했습니다. PDF 내장 원본 이미지를 재압축 없이 PNG로 추출했습니다.
+Amaranth10 일정관리와 자동전표처리는 제조사 서비스 페이지의 큰 PNG 원본으로 교체했습니다. 일정관리는 PC·모바일을 함께 담은 공식 소개용 합성 이미지입니다. 전자결재는 제조사 홈페이지 이미지의 왼쪽이 원본에서 잘려 있어, 전체 구성이 담긴 공개 제안서 p.51의 내장 이미지를 사용합니다. 비영리도 공개 제안서의 내장 원본을 재압축 없이 추출했습니다.
 
 제안서 PDF: https://www.douzone.site/_files/ugd/366828_d5408775539d4a189cb4a2465292d21d.pdf
 
@@ -48,7 +49,9 @@ WEHAGO 모바일 이미지는 실제 제품 UI가 포함된 공식 소개용 합
 
 장식용 배경은 기본 Imagegen으로 제작했습니다. 네이비 제품 패턴은 사용하지 않고 밝은 블루·시안 패턴으로 교체했습니다. 실제 UI 자료와 분리해 사용하며 [배경 파일·최종 프롬프트 기록](assets/BACKGROUND-PROMPTS.md)을 제공합니다.
 
-기능 UI는 원본 픽셀과 무손실 PNG/WebP를 유지합니다. JPEG로 제공된 OmniEsol 이미지는 원본 파일을 그대로 보존합니다. 실제 화면을 AI로 재구성하거나 글자를 바꾸는 업스케일은 적용하지 않았습니다. 원본 크기가 작으면 강제로 확대하지 않으며, 데스크톱 갤러리와 확대 창 모두 원본 해상도를 넘는 표시를 제한합니다. 18개 화면의 실제 픽셀 크기는 `data.json`에 기록합니다.
+기능 UI는 원본 픽셀과 무손실 PNG/WebP를 유지합니다. JPEG로 제공된 OmniEsol 이미지는 원본 파일을 그대로 보존합니다. 실제 화면을 AI로 재구성하거나 글자를 바꾸는 업스케일은 적용하지 않았습니다. 18개 화면은 가로 1042–4137px이며, 공개 원본의 압축·합성 방식에 따라 실제 글자 선명도는 다릅니다. 픽셀 수만으로 모든 화면을 새 4K 캡처라고 주장하지 않습니다.
+
+한 화면 높이의 갤러리는 `object-fit: contain`으로 전체 이미지를 보여주고, 확대 창은 ‘전체 보기’·‘원본 100%’·단계별 확대/축소를 제공합니다. 원본 크기 이상으로 강제로 늘리지 않습니다. 18개 화면의 실제 픽셀 크기는 `data.json`에 기록합니다.
 
 ## 컬러·체크리스트 참고
 
