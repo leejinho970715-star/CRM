@@ -1,0 +1,52 @@
+# 콘텐츠·이미지 출처
+
+확인일: 2026-10-12. 제품명과 화면의 권리는 더존비즈온 및 해당 권리자에게 있습니다. 화면을 재작성하거나 실제 제품처럼 보이는 가상 UI를 생성하지 않았습니다.
+
+## 디자인 참고와 회사 정보
+
+- 사용자 지정 참고: https://www.douzone.com/main/index.jsp — 넓은 여백, 큰 타이포그래피, 제품 중심 비주얼과 탭 구성 참고. 해당 사이트 영상이나 코드는 복제하지 않았습니다.
+- 아이원소프트뱅크 회사·서비스·사업자 정보: https://www.duzon119.co.kr/
+- 실제 상담 연결: https://www.duzon119.co.kr/purchase/inquiry.asp
+- 회사·AX/DX 로고, 3D 제품 이미지 6종: 사용자가 제공한 PNG. 원본은 `assets/`에 보존하고 투명 여백 정리·WebP 변환본을 사용합니다. Amaranth10 비영리 소개에는 동일 제품군의 Amaranth10 3D 로고를 사용합니다.
+
+## 제품 기능 화면
+
+| 제품 | 기능 | 로컬 파일 | 원문 / 이미지 출처 |
+|---|---|---|---|
+| OmniEsol | 재무·회계 | omni-fcm.jpg | https://www.omniesol.com/link/erp.html · https://www.omniesol.com/img/erp_1.jpg |
+| OmniEsol | 인사·급여 | omni-hrm.jpg | 동일 제품 페이지 · https://www.omniesol.com/img/erp_2.jpg |
+| OmniEsol | 영업·공급망 | omni-scm.jpg | 동일 제품 페이지 · https://www.omniesol.com/img/erp_3.jpg |
+| Amaranth10 | 일정관리 | a10-schedule.webp | https://www.duzon119.co.kr/product/amaranth10/brand.asp · https://www.duzon119.co.kr/images/sub/brand01__img01.png |
+| Amaranth10 | 회계 | a10-accounting.png | https://www.duzon119.co.kr/product/amaranth10/overview.asp · https://www.duzon119.co.kr/images/sub/overview01__img01.png |
+| Amaranth10 | 전자결재 | a10-approval.png | https://www.duzon119.co.kr/product/amaranth10/brand.asp · https://www.duzon119.co.kr/images/sub/brand01__img04.png |
+| WEHAGO | 협업·지식공유 | wehago-note.png (1354×840) | https://www.wehago.com/landing/ko/cooperation/ · https://static.wehago.com/html/landing/img/v2/screenshot_co_09_new.png |
+| WEHAGO | Smart A 10 | wehago-tax.png (1700×1001) | https://www.wehago.com/landing/ko/business/ · https://static.wehago.com/html/landing/img/v2/screenshot_ba_07.png |
+| WEHAGO | 모바일 | wehago-mobile-hires.png (1355×904) | https://www.wehago.com/landing/ko/home/ · https://static.wehago.com/html/landing/img/v2/bg_mobile.png |
+| ONE AI | 기업정보 검색 | oneai-analysis.png | https://www.douzone.com/product/oneai.jsp · https://www.douzone.com/html/images/product/oneai/slide-4.png |
+| ONE AI | 세무 데이터 질의 | oneai-tax.png | 동일 제품 페이지 · https://www.douzone.com/html/images/product/oneai/slide-2.png |
+| ONE AI | 문서 작성 | oneai-document.png | https://www.douzone.com/product/amaranth10.jsp · https://www.douzone.com/html/images/product/amaranth10/img-case-3.png |
+| Amaranth10 비영리 | 예산 통제 | nonprofit-budget.png | 아래 공개 제안서 p.44: 결의서입력 예산 초과 확인 |
+| Amaranth10 비영리 | 지출결의 | nonprofit-accounting.png | 아래 공개 제안서 p.54: 지출결의 전표 처리 |
+| Amaranth10 비영리 | 전자결재 | nonprofit-approval.png | 아래 공개 제안서 p.136: 비영리 전자결재 HOME |
+| IFRS18 | 재무제표 서식 | ifrs18-format.png | https://www.duzon119.co.kr/product/amaranth10/ifrs18.asp · https://www.duzon119.co.kr/images/sub/ifrs18__img01.png |
+| IFRS18 | 계정별 범주 | ifrs18-category.png | 동일 제품 페이지 · https://www.duzon119.co.kr/images/sub/ifrs18__img02.png |
+| IFRS18 | 현금흐름표 | ifrs18-cashflow.png | 동일 제품 페이지 · https://www.duzon119.co.kr/images/sub/ifrs18__img04.png |
+
+비영리 제안서 제공 페이지: https://www.douzone.site/document (더존지니어스 공개 자료실, 제조사 직접 호스팅은 아님).
+
+제안서 PDF: https://www.douzone.site/_files/ugd/366828_d5408775539d4a189cb4a2465292d21d.pdf
+
+IFRS18 기능 확인에 함께 참고한 더존 보도자료: https://en.douzone.com/media/media_room_read.jsp?id=3201
+
+WEHAGO 모바일 이미지는 실제 제품 UI가 포함된 공식 소개용 합성 이미지이며, 단일 화면 캡처로 오인하지 않도록 설명합니다. 노트와 법인조정은 실제 단일 UI입니다. ONE AI 문서 이미지는 Amaranth10 내 ONE AI 활용 예시입니다. 비영리의 예산 화면은 예산 편성 화면이 아니라 결의 단계의 예산 통제 화면입니다.
+
+## 선명도
+
+기능 UI는 원본 픽셀과 무손실 PNG/WebP를 유지합니다. JPEG로 제공된 OmniEsol 이미지는 원본 파일을 그대로 보존합니다. 실제 화면을 AI로 재구성하거나 글자를 바꾸는 업스케일은 적용하지 않았습니다. 원본 크기가 작으면 강제로 확대하지 않으며, 데스크톱 갤러리와 확대 창 모두 원본 해상도를 넘는 표시를 제한합니다. 18개 화면의 실제 픽셀 크기는 `data.json`에 기록합니다.
+
+## 라이브러리
+
+- GSAP 3.13.0 / ScrollTrigger 3.13.0: https://gsap.com/ · https://gsap.com/standard-license/
+- 배포본 다운로드: https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js 및 https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js
+- 라이브러리 헤더를 유지한 자체 호스팅. 제품 라이브러리를 판매하는 형태가 아닌 웹사이트 애니메이션에 사용합니다.
+- Pretendard: 기존 CRM의 자체 호스팅 폰트 사용. https://github.com/orioncactus/pretendard (SIL Open Font License).
