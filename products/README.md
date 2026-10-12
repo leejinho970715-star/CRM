@@ -7,6 +7,7 @@
 - 빌드: `python scripts/build-product-landing.py` (표준 라이브러리만 사용)
 - 콘텐츠 수정: `products/data.json`
 - 스타일·동작: `landing.css`, `landing.js`
+- 장식 배경: `backgrounds.css`, `assets/hero-tech-background.webp`, `assets/product-tech-pattern.webp`
 - 프리뷰: 저장소 루트에서 `python -m http.server 8940` 실행 후 `/products/` 접속
 
 ## 구성

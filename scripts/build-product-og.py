@@ -1,10 +1,10 @@
 """Compose the landing social preview from supplied brand assets."""
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 assets = ROOT / 'products/assets'
-canvas = Image.new('RGB', (1200, 630), '#f7f9fc')
+canvas = ImageOps.fit(Image.open(assets / 'hero-tech-background.webp').convert('RGB'), (1200, 630), method=Image.Resampling.LANCZOS)
 draw = ImageDraw.Draw(canvas)
 fonts = ROOT / 'output/pdf/fonts'
 bold = ImageFont.truetype(str(fonts / 'Pretendard-Bold.ttf'), 54)

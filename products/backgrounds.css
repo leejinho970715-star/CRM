@@ -1,0 +1,45 @@
+/* Decorative raster backgrounds remain behind all copy, controls and product art. */
+.hero{
+  background-color:#f8faff;
+  background-image:linear-gradient(90deg,#f8faff55 0%,#f8faff12 48%,transparent 72%),url('assets/hero-tech-background.webp');
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.hero-halo{opacity:.48}
+.product-stage::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  z-index:-2;
+  pointer-events:none;
+  background-image:linear-gradient(90deg,#102e6873 0%,#102e681f 62%,transparent),url('assets/product-tech-pattern.webp');
+  background-position:var(--tech-position,center);
+  background-size:cover;
+  background-repeat:no-repeat;
+  opacity:.64;
+}
+.product-panel[data-id='omniesol']{--tech-position:62% 45%}
+.product-panel[data-id='amaranth10']{--tech-position:70% 54%}
+.product-panel[data-id='wehago']{--tech-position:60% 62%}
+.product-panel[data-id='oneai']{--tech-position:75% 38%}
+.product-panel[data-id='nonprofit']{--tech-position:65% 52%}
+.product-panel[data-id='ifrs18']{--tech-position:72% 60%}
+.contact-section{position:relative;isolation:isolate;overflow:hidden}
+.contact-section::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  background:linear-gradient(90deg,#1a3c8380,transparent),url('assets/product-tech-pattern.webp') center 64%/cover no-repeat;
+  opacity:.36;
+}
+@media(max-width:860px){
+  .hero{
+    background-image:linear-gradient(180deg,#f8faffce 0%,#f8faffb3 35%,#f8faff24 74%,#f8faff60 100%),url('assets/hero-tech-background.webp');
+    background-position:68% center;
+  }
+  .product-stage::before{background-position:72% center;opacity:.50}
+  .contact-section::before{background-position:68% center;opacity:.28}
+}
