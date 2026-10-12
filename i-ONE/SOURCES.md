@@ -16,9 +16,9 @@
 | OmniEsol | 재무·회계 | omni-fcm.jpg | https://www.omniesol.com/link/erp.html · https://www.omniesol.com/img/erp_1.jpg |
 | OmniEsol | 인사·급여 | omni-hrm.jpg | 동일 제품 페이지 · https://www.omniesol.com/img/erp_2.jpg |
 | OmniEsol | 영업·공급망 | omni-scm.jpg | 동일 제품 페이지 · https://www.omniesol.com/img/erp_3.jpg |
-| Amaranth10 | 일정관리 | a10-schedule.webp | https://www.duzon119.co.kr/product/amaranth10/brand.asp · https://www.duzon119.co.kr/images/sub/brand01__img01.png |
-| Amaranth10 | 회계 | a10-accounting.png | https://www.duzon119.co.kr/product/amaranth10/overview.asp · https://www.duzon119.co.kr/images/sub/overview01__img01.png |
-| Amaranth10 | 전자결재 | a10-approval.png | https://www.duzon119.co.kr/product/amaranth10/brand.asp · https://www.duzon119.co.kr/images/sub/brand01__img04.png |
+| Amaranth10 | 일정관리 | a10-full-53.png (1038×669) | 일반기업 공개 제안서 p.53, 좌우가 온전한 단일 화면 |
+| Amaranth10 | 회계 | a10-full-92.png (1042×671) | 일반기업 공개 제안서 p.92, 자료수집 및 자동전표처리 화면 |
+| Amaranth10 | 전자결재 | a10-full-51.png (1314×861) | 일반기업 공개 제안서 p.51, 전자결재 HOME 전체 화면 |
 | WEHAGO | 협업·지식공유 | wehago-note.png (1354×840) | https://www.wehago.com/landing/ko/cooperation/ · https://static.wehago.com/html/landing/img/v2/screenshot_co_09_new.png |
 | WEHAGO | Smart A 10 | wehago-tax.png (1700×1001) | https://www.wehago.com/landing/ko/business/ · https://static.wehago.com/html/landing/img/v2/screenshot_ba_07.png |
 | WEHAGO | 모바일 | wehago-mobile-hires.png (1355×904) | https://www.wehago.com/landing/ko/home/ · https://static.wehago.com/html/landing/img/v2/bg_mobile.png |
@@ -34,6 +34,10 @@
 
 비영리 제안서 제공 페이지: https://www.douzone.site/document (더존지니어스 공개 자료실, 제조사 직접 호스팅은 아님).
 
+일반기업 제안서: https://www.douzone.site/_files/ugd/366828_7cbc39e6858a444e9c60282258f81e3d.pdf
+
+Amaranth10의 기존 홈페이지 합성 이미지는 화면 일부가 이미지 자체에서 잘려 있어, 일반기업 제안서에 포함된 전체 예시 화면으로 교체했습니다. PDF 내장 원본 이미지를 재압축 없이 PNG로 추출했습니다.
+
 제안서 PDF: https://www.douzone.site/_files/ugd/366828_d5408775539d4a189cb4a2465292d21d.pdf
 
 IFRS18 기능 확인에 함께 참고한 더존 보도자료: https://en.douzone.com/media/media_room_read.jsp?id=3201
@@ -42,9 +46,14 @@ WEHAGO 모바일 이미지는 실제 제품 UI가 포함된 공식 소개용 합
 
 ## 선명도
 
-장식용 메인·제품 배경 2개는 2026-10-12 기본 Imagegen으로 신규 제작했습니다. 실제 UI 자료와 분리해 사용하며 [배경 파일·최종 프롬프트 기록](assets/BACKGROUND-PROMPTS.md)을 제공합니다.
+장식용 배경은 기본 Imagegen으로 제작했습니다. 네이비 제품 패턴은 사용하지 않고 밝은 블루·시안 패턴으로 교체했습니다. 실제 UI 자료와 분리해 사용하며 [배경 파일·최종 프롬프트 기록](assets/BACKGROUND-PROMPTS.md)을 제공합니다.
 
 기능 UI는 원본 픽셀과 무손실 PNG/WebP를 유지합니다. JPEG로 제공된 OmniEsol 이미지는 원본 파일을 그대로 보존합니다. 실제 화면을 AI로 재구성하거나 글자를 바꾸는 업스케일은 적용하지 않았습니다. 원본 크기가 작으면 강제로 확대하지 않으며, 데스크톱 갤러리와 확대 창 모두 원본 해상도를 넘는 표시를 제한합니다. 18개 화면의 실제 픽셀 크기는 `data.json`에 기록합니다.
+
+## 컬러·체크리스트 참고
+
+- 더존 공식 CSS https://www.douzone.com/html/css/common.css , https://www.douzone.com/html/css/layout.css 등에서 블루 `#1471EF`, 시안 `#00AAF0`, 중립 텍스트 `#272A33` 확인. 아이원 공식 CSS에는 밝은 블루 `#0799F0` 계열도 사용됩니다. 색상 사용 사실을 참고했으며 디자인 코드 전체를 복제하지 않았습니다.
+- 사용자가 지정한 기존 AX/DX 체크리스트 https://axdx-test.vercel.app/ — 첫 화면의 10개 질문·약 1분 안내를 확인하고 링크만 연결했습니다. 별도 설문이나 응답 저장 기능을 구현하지 않았습니다.
 
 ## 라이브러리
 

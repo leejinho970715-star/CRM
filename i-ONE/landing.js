@@ -7,24 +7,28 @@
   let active = 'omniesol', motion = null, opener = null;
   if (hasGsap) gsap.registerPlugin(ScrollTrigger);
   const topOffset = () => document.querySelector('.site-header').offsetHeight + document.querySelector('.solution-tabs-shell').offsetHeight;
-  function jumpTo(element) { element.scrollIntoView({behavior: reduced.matches ? 'instant' : 'smooth', block: 'start'}); }
+  function jumpTo(element) { element.scrollIntoView({behavior:'instant',block:'start'}); }
   function setupMotion(panel) {
     if (motion) { motion.revert(); motion = null; }
+    panels.forEach(p=>p.querySelector('.product-intro').classList.remove('motion-enabled'));
     if (!hasGsap || reduced.matches) return;
     motion = gsap.matchMedia();
     motion.add({desktop:'(min-width:861px)',mobile:'(max-width:860px)',motion:'(prefers-reduced-motion:no-preference)'}, context => {
       if (!context.conditions.motion) return;
       const stage = panel.querySelector('[data-motion-stage]');
+      const intro = stage.parentElement;
+      intro.classList.add('motion-enabled');
       const asset = stage.querySelector('.stage-asset');
       const copy = stage.querySelector('.stage-copy');
       const progress = stage.querySelector('.stage-progress span');
       const desktop = context.conditions.desktop;
-      const timeline = gsap.timeline({scrollTrigger:{id:'product-intro',trigger:stage,start:()=>`top ${topOffset()}`,end:()=>`+=${Math.max(450,innerHeight*(desktop?1.1:.7))}`,pin:true,scrub:.35,anticipatePin:1,invalidateOnRefresh:true}});
+      const timeline = gsap.timeline({scrollTrigger:{id:'product-intro',trigger:intro,start:()=>`top ${topOffset()}`,end:()=>`+=${intro.offsetHeight-stage.offsetHeight}`,scrub:.25,invalidateOnRefresh:true}});
       timeline.fromTo(asset,{scale:.22,x:desktop?-150:0,y:desktop?35:12,rotation:-13},{scale:1,x:0,y:0,rotation:0,duration:.65,ease:'power2.out'},0)
         .fromTo(copy,{autoAlpha:0,y:22},{autoAlpha:1,y:0,duration:.25,ease:'power1.out'},.66)
         .fromTo(progress,{scaleX:0},{scaleX:1,duration:1.2,ease:'none'},0)
         .to({}, {duration:.35});
-      // No wheel interception: pin spacing keeps the following content after the reveal.
+      // Native sticky owns layout in both directions; GSAP only animates the art.
+      return ()=>intro.classList.remove('motion-enabled');
     });
     ScrollTrigger.refresh();
   }
@@ -38,8 +42,8 @@
     setupMotion(panel);
     if (navigate) {
       history.replaceState(null,'',`#${id}`);
-      const stage = panel.querySelector('[data-motion-stage]');
-      window.scrollTo({top:stage.getBoundingClientRect().top+scrollY-topOffset(),behavior:'instant'});
+      const intro = panel.querySelector('.product-intro');
+      window.scrollTo({top:intro.getBoundingClientRect().top+scrollY-topOffset(),behavior:'instant'});
     }
     if (focus) tabs.find(t=>t.dataset.product===id).focus({preventScroll:true});
     // Keep the selected mobile tab in the strip without moving the page vertically.
